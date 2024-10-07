@@ -1,4 +1,4 @@
-# PathGraph
+# (Java FX) PathGraph
 
 PathGraph is an adapted version of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) library, developed to implement new user-experience features in a stable user-friendly interface.
 
