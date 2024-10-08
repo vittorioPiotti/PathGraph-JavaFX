@@ -1,15 +1,7 @@
 # (Java FX) PathGraph
 
 
-<details>
-<summary>
-  <strong>⭐ My recently starred repos </strong>
-</summary>
 
-PathGraph fork based on SmartGraph is an adapted library to work with path graphs that uses nodes, edges and associated costs.
-Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
-
-</details>
   
 PathGraph fork based on SmartGraph is an adapted library to work with path graphs that uses nodes, edges and associated costs.
 Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
@@ -90,12 +82,24 @@ gc.setup();
      3.5. `rotateEdge`
      3.6. `splitEdge`
      3.7. `changeCost`
-     
-#### 3.1. New Node
+
+
+
+<details>
+<summary>
+  <strong> 3.1. New Node</strong>
+</summary>
 
 ```java
 boolean flag = gc.newNode("A");
 ```
+</details>
+
+
+
+#### 3.1. New Node
+
+
 
 #### 3.2. New Edge
 
