@@ -112,12 +112,27 @@ boolean flag = gc.renameNode("A", "K");
 
 </details>
 
+
+
+<details>
+  
+<summary>
+  <strong> 3.3. Delete Node</strong>
+</summary>
+
+
+```java
+boolean flag = gc.deleteNode("A");
+```
+
+</details>
+
 #### On Edge
 
 <details>
   
 <summary>
-  <strong> 3.2. New Edge</strong>
+  <strong> 3.4. New Edge</strong>
 </summary>
 
 
@@ -146,7 +161,7 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); //
 
 <details>
 <summary>
-  <strong> 3.4. Delete Edge</strong>
+  <strong> 3.5. Delete Edge</strong>
 </summary>
 
 
@@ -161,7 +176,7 @@ boolean flag = gc.deleteEdge("A", "Z");
 <details>
   
 <summary>
-  <strong> 3.5. Rotate Edge</strong>
+  <strong> 3.6. Rotate Edge</strong>
 </summary>
 
 
@@ -183,7 +198,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // R
 <details>
   
 <summary>
-  <strong> 3.6. Split Edge</strong>
+  <strong> 3.7. Split Edge</strong>
 </summary>
 
 
@@ -199,7 +214,7 @@ boolean flag = gc.splitEdge("Z", "C");
 <details>
   
 <summary>
-  <strong> 3.7. Change Cost</strong>
+  <strong> 3.8. Change Cost</strong>
 </summary>
 
 
@@ -213,7 +228,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 <details>
   
 <summary>
-  <strong> 3.8. Take Screenshot</strong>
+  <strong> 3.9. Take Screenshot</strong>
 </summary>
 
 ```java
