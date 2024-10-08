@@ -198,8 +198,6 @@ boolean flag = gc.changeCost("Z", "C", 200);
   <strong> 3.8. Take Screenshot</strong>
 </summary>
 
-#### Methods
-
 ```java
 (CompletableFuture<Integer>) gc.takeScreenshot(); // with animation
 ```
@@ -208,13 +206,16 @@ boolean flag = gc.changeCost("Z", "C", 200);
 (CompletableFuture<Integer>) gc.takeScreenshot(false); // set if is animated
 ```
 
-#### Usage
+> [!NOTE]  
+> Handle asynchronous operation
+>
+> ```java
+> gc.downloadPNG().thenAccept(status -> {
+>     // Use status to check operation
+> );
+> ```
 
-```java
-gc.downloadPNG().thenAccept(status -> {
-  // Use status to check operation
-});
-```
+
 
    
 </details>
