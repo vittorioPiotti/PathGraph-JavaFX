@@ -205,24 +205,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 ```java
 (CompletableFuture<Integer>) gc.takeScreenshot(false); // set if is animated
 ```
-> [!NOTE]  
-> Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
->
-> ```java
-> gc.setAllCallbacks(
->     Runnable closeContextMenu,
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
->     Consumer<MouseEvent> onClickBackground,
->     Consumer<Double> onChangeZoom,
->     Runnable doAdjustPosition
-> );
-> ```
-> > It can be done in any time and in any case
 
-
-
-> [!NOTE]  
 > Handle asynchronous operation
 >
 > ```java
