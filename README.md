@@ -210,7 +210,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 >
 > ```java
 > gc.takeScreenshot().thenAccept(status -> {
->     // Use status to check operation
+>     int flag = (int) status;// Use status to check operation
 > );
 > ```
 
