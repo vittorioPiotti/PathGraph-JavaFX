@@ -90,13 +90,9 @@ boolean flag = gc.newNode("A")
 
 ```java
 boolean flag = gc.newEdge("A", "Z", 23); // Default not bidirectional direction
-```
 
-```java
 boolean flag = gc.newEdge("A", "Z", 23, true); // Default direction (can be bidirectional)
-```
 
-```java
 boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); // Custom direction
 ```
      
