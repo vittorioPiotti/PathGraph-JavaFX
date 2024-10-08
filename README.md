@@ -1,17 +1,16 @@
 # (Java FX) PathGraph
 
+<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/preview906.png" alt="Icona" width="100%"/>
 
 
+---
   
 PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) is an adapted library to work with path graphs that uses nodes, edges and associated costs.
 Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
 
-<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/preview906.png" alt="Icona" width="100%"/>
 
-
----
 Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
 
 ## GET STARTED
