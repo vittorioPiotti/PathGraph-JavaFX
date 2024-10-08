@@ -6,8 +6,6 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 ## GET STARTED
 
-### 1. Logic
-
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
 
 
@@ -33,7 +31,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 > Adding new bidirectional edge to nodes with one bidirectional edge implies the automatic adjustment of both edges to redirect them at the preferred direction to make them in opposite direction from each other
 
 
-### 2 Create Object
+### 1 Create Object
 
 ```java
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); // To apply UI features
