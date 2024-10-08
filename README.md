@@ -59,7 +59,7 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 ### 2. Setup
 
  * Setup is required to enable graph creation features
- * To call only after called (Stage) primaryStage.show()
+ * To call only after called `(Stage) primaryStage.show()`
    
 ```java
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); 
@@ -67,7 +67,7 @@ SmartGraph gc = new SmartGraphUI(primaryStage, scene);
 
 ### 3. Make
 
- * Construction operations are available **only** after calling gc.setup()
+ * Construction operations are available **only** after calling `gc.setup()`
  * Every method is a function boolean type and return the status of the operation
    
 ```java
