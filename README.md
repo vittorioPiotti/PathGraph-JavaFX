@@ -117,6 +117,7 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); //
 ```java
 boolean flag = gc.renameNode("A", "K");
 ```
+
 </details>
 
 
@@ -130,6 +131,7 @@ boolean flag = gc.renameNode("A", "K");
 ```java
 boolean flag = gc.deleteEdge("A", "Z");
 ```
+
 </details>
 
 
@@ -147,6 +149,7 @@ boolean flag = gc.rotateEdge("Z", "C"); // Default rotation
 ```java
 boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // Rotation with specific direction
 ```
+
 </details>
 
 
@@ -161,6 +164,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // R
 ```java
 boolean flag = gc.splitEdge("Z", "C");
 ```
+
 </details>
 
 
