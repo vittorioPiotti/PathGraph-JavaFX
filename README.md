@@ -12,22 +12,21 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 #### Edges can be directed:
 
-    ```java
+
+Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
+
+#### Edges can be directed:
+  - ```java
     SmartGraphEdgeBase.DIRECTION_FIRST
     ```
-    
     : Edge in the natural direction (with an arrow).
-    
-   ```java
+  - ```java
     SmartGraphEdgeBase.DIRECTION_SECOND
     ```
-
     : Edge in the opposite direction (with an arrow).
-
-  ```java
+  - ```java
     SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL
     ```
-
     : Edge without direction (no arrow).
 
 
