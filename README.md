@@ -125,14 +125,14 @@ boolean flag = gc.renameNode("A", "K");
 boolean flag = gc.newEdge("A", "Z", 23); // Default not bidirectional direction
 ```
 
-_or_
+
 
 
 ```java
 boolean flag = gc.newEdge("A", "Z", 23, true); // Default direction (can be bidirectional)
 ```
 
-_or_
+
 
 ```java
 boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); // Custom direction
@@ -169,7 +169,7 @@ boolean flag = gc.deleteEdge("A", "Z");
 boolean flag = gc.rotateEdge("Z", "C"); // Default rotation
 ```
 
-_or_
+
 
 ```java
 boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // Rotation with specific direction
@@ -219,7 +219,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 ```java
 (CompletableFuture<Integer>) gc.takeScreenshot(); // with animation
 ```
-_or_
+
 ```java
 (CompletableFuture<Integer>) gc.takeScreenshot(false); // set if is animated
 ```
