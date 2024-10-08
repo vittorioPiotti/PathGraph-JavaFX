@@ -184,6 +184,11 @@ boolean flag = gc.changeCost("Z", "C", 200);
   <strong> 3.8. Take Screenshot</strong>
 </summary>
 
+```java
+gc.downloadPNG().thenAccept(status -> { // Animation in active
+  // Use status to check operation
+});
+```
 
 ```java
 boolean isAnimated = false; // use to set animation during download
