@@ -73,18 +73,6 @@ gc.setup();
  * Construction operations are available **only** after calling `gc.setup()`
  * Every method is a function boolean type and return the status of the operation
 
-#### Methods
-
-     3.1. `newNode`
-     3.2. `newEdge`
-     3.3. `renameNode`
-     3.4. `deleteEdge`
-     3.5. `rotateEdge`
-     3.6. `splitEdge`
-     3.7. `changeCost`
-
-
-
 <details>
 <summary>
   <strong> 3.1. New Node</strong>
