@@ -17,15 +17,15 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
     ```java
-    SmartGraphEdgeBase.DIRECTION_FIRST // Edge in the natural direction (with an arrow).
+    SmartGraphEdgeBase.DIRECTION_FIRST; // Edge in the natural direction (with an arrow).
     ```
 
     ```java
-    SmartGraphEdgeBase.DIRECTION_SECOND // Edge in the opposite direction (with an arrow).
+    SmartGraphEdgeBase.DIRECTION_SECOND; // Edge in the opposite direction (with an arrow).
     ```
 
     ```java
-    SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL // Edge without direction (no arrow).
+    SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL; // Edge without direction (no arrow).
     ```
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
@@ -34,6 +34,31 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 ### 2 Create Object
+
+```java
+SmartGraph gc = new SmartGraphUI(primaryStage, scene); // To apply UI features
+```
+
+```java
+SmartGraph gc = new SmartGraph() // To apply Custom UI features
+```
+> [!NOTE]  
+> Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
+>
+> ```java
+> gc.setAllCallbacks(
+>     Runnable closeContextMenu,
+>     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+>     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+>     Consumer<MouseEvent> onClickBackground,
+>     Consumer<Double> onChangeZoom,
+>     Runnable doAdjustPosition
+> );
+> ```
+
+
+
+    
    *    - WITH UI Features:
      *          SmartGraph gc = new SmartGraphUI(primaryStage, scene); (SmartGraphUI extends SmartGraph)
      *
