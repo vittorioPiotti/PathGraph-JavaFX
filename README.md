@@ -77,6 +77,7 @@ gc.setup();
  * Every method is a function type and return the status of the operation
 
 <details>
+  
 <summary>
   <strong> 3.1. New Node</strong>
 </summary>
@@ -91,6 +92,7 @@ boolean flag = gc.newNode("A");
 
 
 <details>
+  
 <summary>
   <strong> 3.2. New Edge</strong>
 </summary>
@@ -112,6 +114,7 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); //
 
 
 <details>
+  
 <summary>
   <strong> 3.3. Rename Node</strong>
 </summary>
@@ -140,6 +143,7 @@ boolean flag = gc.deleteEdge("A", "Z");
 
 
 <details>
+  
 <summary>
   <strong> 3.5. Rotate Edge</strong>
 </summary>
@@ -159,6 +163,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // R
 
 
 <details>
+  
 <summary>
   <strong> 3.6. Split Edge</strong>
 </summary>
@@ -174,6 +179,7 @@ boolean flag = gc.splitEdge("Z", "C");
 
 
 <details>
+  
 <summary>
   <strong> 3.7. Change Cost</strong>
 </summary>
@@ -187,6 +193,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 
 
 <details>
+  
 <summary>
   <strong> 3.8. Take Screenshot</strong>
 </summary>
