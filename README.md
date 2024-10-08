@@ -184,13 +184,23 @@ boolean flag = gc.changeCost("Z", "C", 200);
   <strong> 3.8. Take Screenshot</strong>
 </summary>
 
+**Methods**
+
 ```java
 gc.takeScreenshot(); // with animation
 ```
 
 ```java
-gc.takeScreenshot(false); // set if is with animation
+gc.takeScreenshot(false); // set if is animated
 ```
+
+**Usage**
+```java
+gc.downloadPNG().thenAccept(status -> { // Animation in active
+  // Use status to check operation
+});
+```
+
    
 </details>
 
