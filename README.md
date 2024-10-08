@@ -40,6 +40,9 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); // To apply UI features (extends SmartGraph)
 ```
 
+_or_
+
+
 ```java
 SmartGraph gc = new SmartGraph() // To apply Custom UI features
 ```
