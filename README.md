@@ -186,8 +186,8 @@ boolean flag = gc.changeCost("Z", "C", 200);
 
 
 ```java
-
-downloadPNG(true).thenAccept(status -> { // isAnimated = param; 
+boolean isAnimated = false; // use to set animation during download
+downloadPNG( isAnimated ).thenAccept(status -> { 
   // Use status to check operation
 });
 ```
