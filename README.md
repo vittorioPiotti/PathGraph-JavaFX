@@ -7,6 +7,13 @@ PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart
 Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
+
+<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/preview906.png" alt="Icona" width="100%"/>
+
+
+---
+Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
+
 ## GET STARTED
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
@@ -221,9 +228,4 @@ boolean flag = gc.changeCost("Z", "C", 200);
 
 
 
----
-<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/preview906.png" alt="Icona" width="100%"/>
 
-
-
-Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
