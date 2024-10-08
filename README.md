@@ -74,7 +74,7 @@ gc.setup();
 ### 3. Make
 
  * Operations are available **only** after calling `gc.setup()`
- * Every method is a function boolean type and return the status of the operation
+ * Every method is a function type and return the status of the operation
 
 <details>
 <summary>
@@ -174,6 +174,22 @@ boolean flag = gc.splitEdge("Z", "C");
 
 ```java
 boolean flag = gc.changeCost("Z", "C", 200);
+```
+   
+</details>
+
+
+<details>
+<summary>
+  <strong> 3.8. Take Screenshot</strong>
+</summary>
+
+
+```java
+
+downloadPNG(true).thenAccept(status -> { // isAnimated = param; 
+  // Use status to check operation
+});
 ```
    
 </details>
