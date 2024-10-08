@@ -31,7 +31,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 > Adding new bidirectional edge to nodes with one bidirectional edge implies the automatic adjustment of both edges to redirect them at the preferred direction to make them in opposite direction from each other
 
 
-### 1 Create Object
+### 1. Create Object
 
 ```java
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); // To apply UI features
@@ -56,8 +56,14 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 > > It can be done in any time
 
 
+### 2. Setup
 
-    
+
+```java
+SmartGraph gc = new SmartGraphUI(primaryStage, scene); //To call only after calling (Stage) primaryStage.show()
+```
+> Setup is required to enable graph creation features.
+
    *    - WITH UI Features:
      *          SmartGraph gc = new SmartGraphUI(primaryStage, scene); (SmartGraphUI extends SmartGraph)
      *
