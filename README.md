@@ -15,19 +15,18 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Not provided loops creation
 * Edges can be directed:
 
-```java
-SmartGraphEdgeBase.DIRECTION_FIRST //Edge in the natural direction (with an arrow).
-```
 
-    
-        
-```java
-SmartGraphEdgeBase.DIRECTION_SECOND //Edge in the opposite direction (with an arrow)
-```
-        
-```java
-SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL //Edge without direction (no arrow).
-```
+    ```java
+    SmartGraphEdgeBase.DIRECTION_FIRST // Edge in the natural direction (with an arrow).
+    ```
+
+    ```java
+    SmartGraphEdgeBase.DIRECTION_SECOND // Edge in the opposite direction (with an arrow).
+    ```
+
+    ```java
+    SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL // Edge without direction (no arrow).
+    ```
 
 
 
