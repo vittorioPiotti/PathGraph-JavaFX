@@ -34,7 +34,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 ### 1. Create Object
 
 ```java
-SmartGraph gc = new SmartGraphUI(primaryStage, scene); // To apply UI features
+SmartGraph gc = new SmartGraphUI(primaryStage, scene); // To apply UI features (extends SmartGraph)
 ```
 
 ```java
@@ -54,6 +54,8 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 > );
 > ```
 > > It can be done in any time
+
+Ability to add the component (SmartGraph) in any container providing to full responsive experience
 
 
 ### 2. Setup
