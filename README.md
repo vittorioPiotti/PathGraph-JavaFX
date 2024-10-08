@@ -59,7 +59,7 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 >     Runnable doAdjustPosition
 > );
 > ```
-> > It can be done in any time
+> > It can be done in any time and in any case
 
 
 ### 2. Setup
