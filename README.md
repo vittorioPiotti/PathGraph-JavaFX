@@ -28,6 +28,26 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
     SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL // Edge without direction (no arrow).
     ```
 
+### 2 Create Object
+   *    - WITH UI Features:
+     *          SmartGraph gc = new SmartGraphUI(primaryStage, scene); (SmartGraphUI extends SmartGraph)
+     *
+     *    - WITHOUT UI Features:
+     *          SmartGraph gc = new SmartGraph();
+     *
+     *      Note: If using WITHOUT UI features (new SmartGraph()), you need to manually configure the callbacks.
+     *      To activate callbacks at any time, use:
+     *          gc.setAllCallbacks(
+     *              Runnable closeContextMenu,
+     *              BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+     *              BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+     *              Consumer<MouseEvent> onClickBackground,
+     *              Consumer<Double> onChangeZoom,
+     *              Runnable doAdjustPosition
+     *          );
+     *
+     *      - Ability to add the component (SmartGraph) in any container providing to full responsive experience
+     *
 
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
