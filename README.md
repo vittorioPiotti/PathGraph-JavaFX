@@ -3,7 +3,7 @@
 
 
   
-PathGraph fork based on SmartGraph is an adapted library to work with path graphs that uses nodes, edges and associated costs.
+PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) is an adapted library to work with path graphs that uses nodes, edges and associated costs.
 Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
@@ -179,34 +179,6 @@ boolean flag = gc.changeCost("Z", "C", 200);
 </details>
 
 
-   
-```java
-SmartGraph gc = new SmartGraphUI(primaryStage, scene); 
-
-   *    - WITH UI Features:
-     *          SmartGraph gc = new SmartGraphUI(primaryStage, scene); (SmartGraphUI extends SmartGraph)
-     *
-     *    - WITHOUT UI Features:
-     *          SmartGraph gc = new SmartGraph();
-     *
-     *      Note: If using WITHOUT UI features (new SmartGraph()), you need to manually configure the callbacks.
-     *      To activate callbacks at any time, use:
-     *          gc.setAllCallbacks(
-     *              Runnable closeContextMenu,
-     *              BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
-     *              BiConsumer<MouseEvent, Vertex<V>> onClickNode,
-     *              Consumer<MouseEvent> onClickBackground,
-     *              Consumer<Double> onChangeZoom,
-     *              Runnable doAdjustPosition
-     *          );
-     *
-     *      - Ability to add the component (SmartGraph) in any container providing to full responsive experience
-     *
-
-
-
-
-PathGraph is an adapted version of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) library, developed to implement new user-experience features in a stable user-friendly interface.
 
 ---
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/preview906.png" alt="Icona" width="100%"/>
