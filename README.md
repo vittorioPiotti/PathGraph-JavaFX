@@ -73,7 +73,7 @@ gc.setup();
 
 ### 3. Make
 
- * Construction operations are available **only** after calling `gc.setup()`
+ * Operations are available **only** after calling `gc.setup()`
  * Every method is a function boolean type and return the status of the operation
 
 <details>
