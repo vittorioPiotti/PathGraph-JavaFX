@@ -81,9 +81,12 @@ gc.setup();
   <strong> 3.1. New Node</strong>
 </summary>
 
+
 ```java
 boolean flag = gc.newNode("A");
 ```
+
+
 </details>
 
 
