@@ -6,7 +6,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 ## GET STARTED
 
-### 1. Path Graphs Logic
+### 1. Logic
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
 
