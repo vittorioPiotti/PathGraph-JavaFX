@@ -187,11 +187,11 @@ boolean flag = gc.changeCost("Z", "C", 200);
 #### Methods
 
 ```java
-gc.takeScreenshot(); // with animation
+(CompletableFuture<Integer>) gc.takeScreenshot(); // with animation
 ```
 
 ```java
-gc.takeScreenshot(false); // set if is animated
+(CompletableFuture<Integer>) gc.takeScreenshot(false); // set if is animated
 ```
 
 #### Usage
