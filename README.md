@@ -82,6 +82,8 @@ gc.setup();
  * Operations are available **only** after calling `gc.setup()`
  * Every method is a function type and return the status of the operation
 
+#### On Node
+
 <details>
   
 <summary>
@@ -96,6 +98,21 @@ boolean flag = gc.newNode("A");
 
 </details>
 
+
+<details>
+  
+<summary>
+  <strong> 3.3. Rename Node</strong>
+</summary>
+
+
+```java
+boolean flag = gc.renameNode("A", "K");
+```
+
+</details>
+
+#### On Edge
 
 <details>
   
@@ -119,18 +136,6 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); //
 </details>
 
 
-<details>
-  
-<summary>
-  <strong> 3.3. Rename Node</strong>
-</summary>
-
-
-```java
-boolean flag = gc.renameNode("A", "K");
-```
-
-</details>
 
 
 
