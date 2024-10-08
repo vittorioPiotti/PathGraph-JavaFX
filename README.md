@@ -69,6 +69,38 @@ gc.setup();
 
  * Construction operations are available **only** after calling `gc.setup()`
  * Every method is a function boolean type and return the status of the operation
+
+#### Methods
+
+     3.1. `newNode`
+     3.2. `newEdge`
+     3.3. `renameNode`
+     3.4. `deleteEdge`
+     3.5. `rotateEdge`
+     3.6. `splitEdge`
+     3.7. `changeCost`
+     
+#### 3.1. NewNode
+
+```java
+boolean flag = gc.newNode("A")
+```
+
+#### 3.2. NewEdge
+
+```java
+boolean flag = gc.newEdge("A", "Z", 23); // Default not bidirectional direction
+```
+
+```java
+boolean flag = gc.newEdge("A", "Z", 23, true); // Default direction (can be bidirectional)
+```
+
+```java
+boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); // Custom direction
+```
+     
+     
    
 ```java
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); 
