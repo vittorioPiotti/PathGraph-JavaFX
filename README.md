@@ -10,6 +10,9 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
 
+
+* Not provided over limits of two edges with same direction
+* Not provided loops creation
 * Edges can be directed:
 
 ```java
@@ -26,8 +29,6 @@ SmartGraphEdgeBase.DIRECTION_SECOND //Edge in the opposite direction (with an ar
 SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL //Edge without direction (no arrow).
 ```
 
-* Not provided over limits of two edges with same direction
-* Not provided loops creation
 
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
