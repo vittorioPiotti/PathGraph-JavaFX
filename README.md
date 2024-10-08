@@ -209,7 +209,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > Handle asynchronous operation
 >
 > ```java
-> gc.downloadPNG().thenAccept(status -> {
+> gc.takeScreenshot().thenAccept(status -> {
 >     // Use status to check operation
 > );
 > ```
