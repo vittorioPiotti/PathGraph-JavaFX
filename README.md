@@ -185,21 +185,20 @@ boolean flag = gc.changeCost("Z", "C", 200);
 </summary>
 
 ```java
-gc.downloadPNG().thenAccept(status -> { // Animation in active
-  // Use status to check operation
-});
+gc.takeScreenshot(); // with animation
 ```
 
 ```java
-boolean isAnimated = false; // use to set animation during download
-gc.downloadPNG( isAnimated ).thenAccept(status -> { 
-  // Use status to check operation
-});
+gc.takeScreenshot(false); // set if is with animation
 ```
    
 </details>
 
-
+```java
+gc.downloadPNG().thenAccept(status -> { // Animation in active
+  // Use status to check operation
+});
+```
 
 ---
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/preview906.png" alt="Icona" width="100%"/>
