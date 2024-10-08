@@ -28,6 +28,11 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
     SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL // Edge without direction (no arrow).
     ```
 
+> Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
+
+> Adding new bidirectional edge to nodes with one bidirectional edge implies the automatic adjustment of both edges to redirect them at the preferred direction to make them in opposite direction from each other
+
+
 ### 2 Create Object
    *    - WITH UI Features:
      *          SmartGraph gc = new SmartGraphUI(primaryStage, scene); (SmartGraphUI extends SmartGraph)
@@ -49,10 +54,6 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
      *      - Ability to add the component (SmartGraph) in any container providing to full responsive experience
      *
 
-
-> Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
-
-> Adding new bidirectional edge to nodes with one bidirectional edge implies the automatic adjustment of both edges to redirect them at the preferred direction to make them in opposite direction from each other
 
 
 
