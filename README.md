@@ -80,23 +80,60 @@ gc.setup();
      3.6. `splitEdge`
      3.7. `changeCost`
      
-#### 3.1. NewNode
+#### 3.1. New Node
 
 ```java
-boolean flag = gc.newNode("A")
+boolean flag = gc.newNode("A");
 ```
 
-#### 3.2. NewEdge
+#### 3.2. New Edge
 
 ```java
 boolean flag = gc.newEdge("A", "Z", 23); // Default not bidirectional direction
+```
 
+```java
 boolean flag = gc.newEdge("A", "Z", 23, true); // Default direction (can be bidirectional)
+```
 
+```java
 boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); // Custom direction
 ```
-     
-     
+
+#### 3.3. Rename Node
+
+```java
+boolean flag = gc.renameNode("A", "K");
+```
+
+#### 3.4. Delete Edge
+
+```java
+boolean flag = gc.deleteEdge("A", "Z");
+```
+
+#### 3.5. Rotate Edge 
+
+```java
+boolean flag = gc.rotateEdge("Z", "C"); // Default rotation
+```
+
+```java
+boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // Rotation with specific direction
+```
+
+#### 3.6. Split Edge
+
+```java
+boolean flag = gc.splitEdge("Z", "C");
+```
+
+
+#### 3.7. Change Cost
+
+```java
+boolean flag = gc.changeCost("Z", "C", 200);
+```
    
 ```java
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); 
