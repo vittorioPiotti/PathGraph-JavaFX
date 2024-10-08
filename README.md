@@ -8,10 +8,22 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 ### 1. Path Graphs Logic
 
- * Provided to represent path graphs through nodes, edges and associated costs with this logic:
- * Edges can be directed:
-    * ```java SmartGraphEdgeBase.DIRECTION_FIRST```
-    * 
+Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
+
+- **Edges can be directed:**
+  - ```java
+    SmartGraphEdgeBase.DIRECTION_FIRST
+    ```
+    : Edge in the natural direction (with an arrow).
+  - ```java
+    SmartGraphEdgeBase.DIRECTION_SECOND
+    ```
+    : Edge in the opposite direction (with an arrow).
+  - ```java
+    SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL
+    ```
+    : Edge without direction (no arrow).
+
 
 PathGraph is an adapted version of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) library, developed to implement new user-experience features in a stable user-friendly interface.
 
