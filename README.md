@@ -197,7 +197,7 @@ gc.takeScreenshot(false); // set if is animated
 #### Usage
 
 ```java
-gc.downloadPNG().thenAccept(status -> { // Animation in active
+gc.downloadPNG().thenAccept(status -> {
   // Use status to check operation
 });
 ```
@@ -205,11 +205,7 @@ gc.downloadPNG().thenAccept(status -> { // Animation in active
    
 </details>
 
-```java
-gc.downloadPNG().thenAccept(status -> { // Animation in active
-  // Use status to check operation
-});
-```
+
 
 ---
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/preview906.png" alt="Icona" width="100%"/>
