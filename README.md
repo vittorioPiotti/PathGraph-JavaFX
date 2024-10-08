@@ -62,7 +62,7 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
  * To call only after called `(Stage) primaryStage.show()`
    
 ```java
-SmartGraph gc = new SmartGraphUI(primaryStage, scene); 
+gc.setup();
 ```
 
 ### 3. Make
