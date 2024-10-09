@@ -231,18 +231,25 @@ PathGraph pg = new PathGraph()
 >
 > ```java
 > pg.setAllCallbacks(
+> 
 >     /* to possibly close an open `ContextMenu` */
 >     Runnable closeContextMenu,
+> 
 >     /* action to perform on arrow edge event   */              
 >     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+> 
 >     /* action to perform on node event         */
 >     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+> 
 >     /* action to perform on click background   */
 >     Consumer<MouseEvent> onClickBackground,
+> 
 >     /* action to perform on scroll background  */            
 >     Consumer<Double> onChangeZoom,
+> 
 >     /* action to perform on drag background    */        
->     Runnable doAdjustPosition                          
+>     Runnable doAdjustPosition
+> 
 > );
 > ```
 > > It can be done in any time and in any case
