@@ -9,6 +9,13 @@ PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart
 Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
+## Index
+
+ 1. About
+ 2. Get Started
+ 3. Basic Usage
+ 4. Advanced Usage
+ 5. Licenses
 
 
 ## About
@@ -26,12 +33,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
-## Index
 
- 1. Get Started
- 2. Basic Usage
- 3. Advanced Usage
- 4. Licenses
 
 Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
 
