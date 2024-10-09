@@ -24,15 +24,15 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
     ```java
-    SmartGraphEdgeBase.DIRECTION_FIRST; // Edge in the natural direction (with an arrow).
+    SmartGraphEdgeBase.DIRECTION_FIRST;           // Edge in the natural direction (with an arrow).
     ```
 
     ```java
-    SmartGraphEdgeBase.DIRECTION_SECOND; // Edge in the opposite direction (with an arrow).
+    SmartGraphEdgeBase.DIRECTION_SECOND;          // Edge in the opposite direction (with an arrow).
     ```
 
     ```java
-    SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL; // Edge without direction (no arrow).
+    SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;   // Edge without direction (no arrow).
     ```
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
@@ -57,12 +57,12 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 >
 > ```java
 > gc.setAllCallbacks(
->     Runnable closeContextMenu,  // to possibly close an open `ContextMenu`
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow, // action to perform on arrow edge event
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode, // action to perform on node event
->     Consumer<MouseEvent> onClickBackground, // action to perform on click background
->     Consumer<Double> onChangeZoom, // action to perform on scroll background
->     Runnable doAdjustPosition // action to perform on drag background
+>     Runnable closeContextMenu,                         // to possibly close an open `ContextMenu`
+>     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,   // action to perform on arrow edge event
+>     BiConsumer<MouseEvent, Vertex<V>> onClickNode,     // action to perform on node event
+>     Consumer<MouseEvent> onClickBackground,            // action to perform on click background
+>     Consumer<Double> onChangeZoom,                     // action to perform on scroll background
+>     Runnable doAdjustPosition                          // action to perform on drag background
 > );
 > ```
 > > It can be done in any time and in any case
