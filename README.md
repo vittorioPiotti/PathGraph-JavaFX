@@ -166,6 +166,22 @@ boolean flag = gc.newEdge("A", "Z", 23, true); /* Default direction (can be bidi
 boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction */
 ```
 
+> The direction can be
+>
+> ```java
+> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow). */
+> ```
+> 
+> ```java
+> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow). */
+> ```
+>
+> ```java
+> (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in the opposite direction (with an arrow). */
+> ```
+
+
+
 &nbsp;
 
 </details>
@@ -208,6 +224,22 @@ boolean flag = gc.rotateEdge("Z", "C"); /* Default rotation */
 ```java
 boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* Rotation with specific direction */
 ```
+
+
+> The direction can be
+>
+> ```java
+> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow). */
+> ```
+> 
+> ```java
+> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow). */
+> ```
+>
+> ```java
+> (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in the opposite direction (with an arrow). */
+> ```
+
 
 &nbsp;
 
@@ -278,7 +310,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > );
 > ```
 
-> The status can be
+> The response status can be
 >
 > ```java
 > (int) UtilitiesCapture.INTERRUPT;     /* (0) process interrupted */
@@ -316,7 +348,7 @@ int flag = gc.downloadJSON();             /* floating file chooser */
 int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser    */
 ```
 
-> The status can be
+> The return status can be
 >
 > ```java
 > (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
@@ -355,7 +387,7 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser */
 ```
 
 
-> The status can be
+> The return status can be
 >
 > ```java
 > (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
