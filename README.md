@@ -93,6 +93,8 @@ gc.setup();
   <strong> 3.1. New Node</strong>
 </summary>
 
+&nbsp;
+
 
 ```java
 boolean flag = gc.newNode("A");
@@ -108,6 +110,7 @@ boolean flag = gc.newNode("A");
   <strong> 3.3. Rename Node</strong>
 </summary>
 
+&nbsp;
 
 ```java
 boolean flag = gc.renameNode("A", "K");
@@ -123,6 +126,7 @@ boolean flag = gc.renameNode("A", "K");
   <strong> 3.3. Delete Node</strong>
 </summary>
 
+&nbsp;
 
 ```java
 boolean flag = gc.deleteNode("A");
@@ -138,6 +142,7 @@ boolean flag = gc.deleteNode("A");
   <strong> 3.4. New Edge</strong>
 </summary>
 
+&nbsp;
 
 ```java
 boolean flag = gc.newEdge("A", "Z", 23); // Default not bidirectional direction
@@ -167,6 +172,7 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); //
   <strong> 3.5. Delete Edge</strong>
 </summary>
 
+&nbsp;
 
 ```java
 boolean flag = gc.deleteEdge("A", "Z");
@@ -182,6 +188,7 @@ boolean flag = gc.deleteEdge("A", "Z");
   <strong> 3.6. Rotate Edge</strong>
 </summary>
 
+&nbsp;
 
 ```java
 boolean flag = gc.rotateEdge("Z", "C"); // Default rotation
@@ -204,6 +211,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // R
   <strong> 3.7. Split Edge</strong>
 </summary>
 
+&nbsp;
 
 ```java
 boolean flag = gc.splitEdge("Z", "C");
@@ -220,6 +228,7 @@ boolean flag = gc.splitEdge("Z", "C");
   <strong> 3.8. Change Cost</strong>
 </summary>
 
+&nbsp;
 
 ```java
 boolean flag = gc.changeCost("Z", "C", 200);
@@ -235,6 +244,8 @@ boolean flag = gc.changeCost("Z", "C", 200);
 <summary>
   <strong> 3.9. Take Screenshot</strong>
 </summary>
+
+&nbsp;
 
 ```java
 (CompletableFuture<Integer>) gc.takeScreenshot(); // with animation
@@ -276,6 +287,8 @@ boolean flag = gc.changeCost("Z", "C", 200);
 <summary>
   <strong> 3.10. Download JSON</strong>
 </summary>
+
+&nbsp;
 
 ```java
 int flag = gc.downloadJSON();       // floating file chooser
