@@ -159,7 +159,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 <details>
   
 <summary>
-  <strong> Requirements</strong>
+  <strong> 1. Requirements</strong>
 </summary>
 
 &nbsp;
@@ -176,7 +176,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 <details>
   
 <summary>
-  <strong> Import</strong>
+  <strong> 2. Import</strong>
 </summary>
 
 &nbsp;
@@ -194,7 +194,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 <details>
   
 <summary>
-  <strong> Prepare</strong>
+  <strong> 3. Prepare</strong>
 </summary>
 
 &nbsp;
@@ -238,7 +238,7 @@ SmartGraph gc = new SmartGraph()                                       /* To app
 <details>
   
 <summary>
-  <strong> Setup</strong>
+  <strong> 4. Setup</strong>
 </summary>
 
 &nbsp;
@@ -260,7 +260,7 @@ gc.setup();
 <details>
   
 <summary>
-  <strong> Ready</strong>
+  <strong> 5. Ready</strong>
 </summary>
 
 &nbsp;
