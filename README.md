@@ -243,12 +243,14 @@ SmartGraph gc = new SmartGraph()                                       /* To app
 
 &nbsp;
 
- * Setup is required to enable graph creation features
- * To call only after called `(Stage) primaryStage.show()`
    
 ```java
 gc.setup();
 ```
+
+> Setup is required to enable graph creation features
+
+> To call only after called `(Stage) primaryStage.show()`
 
 &nbsp;
 
