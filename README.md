@@ -93,21 +93,14 @@ gc.setup();
 > Operations are available **only** after calling `gc.setup()`
 
 
-## USAGE
-
-> [!IMPORTANT]  
-> Operations are available **only** after calling `gc.setup()`
-
-
-
-### Basic Usage
+## Basic Usage
 
 
  * Every method is a function type and return the status of the operation
  * Each method automatically update the graph
    
 
-#### Node
+### Node
 
 <details>
   
@@ -162,7 +155,7 @@ boolean flag = gc.deleteNode("A");
 </details>
 
 
-#### Edge
+### Edge
 
 <details>
   
@@ -312,7 +305,7 @@ boolean flag = gc.setCost("Z", "C", 200);
 
 
 
-#### Graph
+### Graph
 
 <details>
   
@@ -436,13 +429,13 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 
 
 
-### Advanced Usage
+## Advanced Usage
 
 
 
 
 
-#### Node Utilities
+### Node 
 
 <details>
   
@@ -480,7 +473,7 @@ boolean flag = gc.checkNode("A");              /* Check node validity */
 
 
 
-#### Edge Utilities
+### Edge 
 
 <details>
   
