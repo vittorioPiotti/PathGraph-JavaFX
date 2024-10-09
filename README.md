@@ -87,7 +87,7 @@ SmartGraph gc = new SmartGraph()                                       /* To app
 gc.setup();
 ```
 
-### 5. Start
+### 5. Ready
 
  > [!IMPORTANT]  
 > Operations are available **only** after calling `gc.setup()`
