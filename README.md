@@ -52,7 +52,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 ### 3. Prepare 
 
 ```java
-SmartGraph gc = new SmartGraphUI(primaryStage, scene); /* To apply UI features (extends SmartGraph) */
+SmartGraph gc = new SmartGraphUI((Stage) primaryStage, (Scene) scene); /* To apply UI features (extends SmartGraph) */
 ```
 
 _or_
