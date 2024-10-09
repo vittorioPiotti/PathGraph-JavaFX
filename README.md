@@ -371,14 +371,14 @@ boolean flag = gc.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBas
 <details>
   
 <summary>
-  <strong> 5.1. Check Start</strong>
+  <strong> 5.1. Is Start</strong>
 </summary>
 
 &nbsp;
 
 
 ```java
-boolean flag = gc.checkStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check validity of end start                             */
+boolean flag = gc.isStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check validity of end start                             */
 ```
 
 &nbsp;
@@ -389,14 +389,14 @@ boolean flag = gc.checkStart( (char) 'Z', (char) 'C', (char) 'G');              
 <details>
   
 <summary>
-  <strong> 5.1. Check End</strong>
+  <strong> 5.1. Is End</strong>
 </summary>
 
 &nbsp;
 
 
 ```java
-boolean flag = gc.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check validity of end node in edge                      */
+boolean flag = gc.isEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check validity of end node in edge                      */
 ```
 
 &nbsp;
@@ -406,14 +406,14 @@ boolean flag = gc.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                
 <details>
   
 <summary>
-  <strong> 5.1. Check Cost</strong>
+  <strong> 5.1. Is Cost</strong>
 </summary>
 
 &nbsp;
 
 
 ```java
-boolean flag = gc.checkCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check validity of end node in edge                        */
+boolean flag = gc.isCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check validity of end node in edge                        */
 ```
 
 &nbsp;
