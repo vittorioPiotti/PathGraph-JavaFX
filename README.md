@@ -87,60 +87,20 @@ SmartGraph gc = new SmartGraph()                                       /* To app
 gc.setup();
 ```
 
-### 5. Make
+### 5. Start
 
  * Operations are available **only** after calling `gc.setup()`
+
+## USAGE
+
+Operations are available **only** after calling `gc.setup()`
+
+### Basic Usage
+
+
  * Every method is a function type and return the status of the operation
  * Each method automatically update the graph
-
-
-<details>
-  <summary><strong>Node</strong></summary>
-  &nbsp;
-  <details>
-    <summary><strong>Base Usage</strong></summary>
-    &nbsp;
-    <details>
-      <summary><strong>New Node</strong></summary>
-      &nbsp;
-      <pre><code>boolean flag = gc.newNode("A");</code></pre>
-      &nbsp;
-    </details>
-    <details>
-      <summary><strong>Rename Node</strong></summary>
-      &nbsp;
-      <pre><code>boolean flag = gc.renameNode("A", "K");</code></pre>
-      &nbsp;
-    </details>
-    <details>
-      <summary><strong>Delete Node</strong></summary>
-      &nbsp;
-      <pre><code>boolean flag = gc.deleteNode("A");</code></pre>
-      &nbsp;
-    </details>
-    &nbsp;
-  </details>
-  <details>
-    <summary><strong>Advanced Usage</strong></summary>
-    &nbsp;
-    <details>
-      <summary><strong>Is Node</strong></summary>
-      &nbsp;
-      <pre><code>boolean flag = gc.isNode("A"); /* Check node corrispondance */</code></pre>
-      &nbsp;
-    </details>
-    <details>
-      <summary><strong>Check Node</strong></summary>
-      &nbsp;
-      <pre><code>boolean flag = gc.checkNode("A"); /* Check node validity */</code></pre>
-      &nbsp;
-    </details>
-    &nbsp;
-  </details>
-  > ---
-  &nbsp;
-</details>
-
+   
 
 #### Node
 
@@ -471,7 +431,7 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 
 
 
-### 6. Utilities
+### Advanced Usage
 
 
 
