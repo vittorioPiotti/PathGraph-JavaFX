@@ -24,34 +24,6 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
-## Updates
-
-
-### Methods refactoring 
-
-|Node|Edge|Graph|
-|-|-|-|
-|new node|new edge|screenshot|
-|delete node|delete edge|display path found|
-|rename node|rename edge|upload graph|
-||rotate edge|download graph|
-||fork edge||
-
- * Now method parameters are generic and independent of internal classes.
- * The logic has been made more high-level so as to more easily manipulate the components of the graph
- * Graph management requires as parameters only the labels of the nodes involved in the method
-
-### Callbacks System
-
-| |Hover|Click|Drag|Scroll|
-|-|-|-|-|-|
-|**Node**|Yes|Yes|Yes | |
-|**Edge**|Yes|Yes| | |
-|**Background**| |Yes|Yes|Yes|
-
-**Empty callbacks** disable graph interactions so set actions in your components to manage the graph _(e.g. button to create new edge)_
-
-
 
 
 ## Index
