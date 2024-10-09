@@ -94,7 +94,7 @@ gc.setup();
  * Each method automatically update the graph
 
 
-#### Node
+#### 5.1.1 Node
 
 <details>
   
@@ -149,7 +149,7 @@ boolean flag = gc.deleteNode("A");
 </details>
 
 
-#### Node Utilities
+#### 5.1.2. Node Utilities
 
 <details>
   
@@ -185,7 +185,7 @@ boolean flag = gc.checkNode("A");              /* Check node validity */
 
 </details>
 
-#### Edge
+#### 5.2.1. Edge
 
 <details>
   
@@ -331,7 +331,7 @@ boolean flag = gc.setCost("Z", "C", 200);
 
 
 
-#### Edge Utilities
+#### 5.2.2. Edge Utilities
 
 <details>
   
@@ -570,7 +570,7 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 
 
 
-#### Graph
+#### 5.3.1 Graph
 
 <details>
   
