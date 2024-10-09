@@ -62,6 +62,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 &nbsp;
 
 
+
 Provided to represent path s through nodes, edges, and associated costs with the following logic:
 
 * Nodes can be only characters with uppercase alphabet letters to maxium 26 nodes
@@ -69,23 +70,19 @@ Provided to represent path s through nodes, edges, and associated costs with the
 * Not provided loops creation
 * Edges can be directed:
 
-    ```java
-    (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;  
-    ```
-
-    > (0) Edge without direction (no arrow).
-
+     - (0) Edge without direction (no arrow)
+      ```java
+      (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;  
+      ```
+    - (1) Edge in the natural direction (with an arrow).
     ```java
     (int) SmartEdgeBase.DIRECTION_FIRST;             
     ```
-
-    > (1) Edge in the natural direction (with an arrow).
-
+    - (2) Edge in the opposite direction (with an arrow)
     ```java
     (int) SmartEdgeBase.DIRECTION_SECOND;           
     ```
     
-    > (2) Edge in the opposite direction (with an arrow)
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
 
