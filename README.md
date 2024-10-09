@@ -72,21 +72,24 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-    Edge without direction:
+    
   
     ```java
+    /* Edge without direction */
     int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
     ```
 
-    Edge in the natural direction:
+   
     
     ```java
+    */  Edge in the natural direction */
     int direction = SmartEdgeBase.DIRECTION_FIRST;
     ```
     
-    Edge in the opposite direction: 
+     
     
     ```java
+    */  Edge in the opposite direction */
     int direction = SmartEdgeBase.DIRECTION_SECOND;
     ```
 
