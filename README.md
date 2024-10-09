@@ -61,6 +61,14 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
     ```
 
 
+ 1. [Requirements](#requirements)
+ 2. [Import](#import)
+ 3. [Prepare](#prepare)
+ 4. [Setup](#setup)
+ 5. [Ready](#ready)
+
+
+
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
 
