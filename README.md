@@ -23,7 +23,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Edges can be directed:
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;      // (0) Edge without direction (no arrow).
+    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     // (0) Edge without direction (no arrow).
     ```
 
     ```java
@@ -281,16 +281,17 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > The status can be
 >
 > ```java
-> (int) UtilitiesCapture.INTERRUPT = 0;
+> (int) UtilitiesCapture.INTERRUPT;     // (0) process interrupted
 > ```
 > 
 > ```java
-> (int) UtilitiesCapture.SUCCESS = 1;
+> (int) UtilitiesCapture.SUCCESS;       // (1) process successfull 
 > ```
 >
 > ```java
-> (int) UtilitiesCapture.ERROR = 2;
+> (int) UtilitiesCapture.ERROR;        // (2) process error
 > ```
+
 
 
 &nbsp;
@@ -318,16 +319,17 @@ int flag = gc.downloadJSON((Scene)scene); // fixed file chooser
 > The status can be
 >
 > ```java
-> (int) UtilitiesParser.INTERRUPT = 0;
+> (int) UtilitiesParser.INTERRUPT;     // (0) process interrupted
 > ```
 > 
 > ```java
-> (int) UtilitiesParser.SUCCESS = 1;
+> (int) UtilitiesParser.SUCCESS;       // (1) process successfull 
 > ```
 >
 > ```java
-> (int) UtilitiesParser.ERROR = 2;
+> (int) UtilitiesParser.ERROR;        // (2) process error
 > ```
+
 
 
 &nbsp;
@@ -356,15 +358,15 @@ int flag = gc.uploadJSON((Scene)scene); // fixed file chooser
 > The status can be
 >
 > ```java
-> (int) UtilitiesParser.INTERRUPT = 0;
+> (int) UtilitiesParser.INTERRUPT;     // (0) process interrupted
 > ```
 > 
 > ```java
-> (int) UtilitiesParser.SUCCESS = 1;
+> (int) UtilitiesParser.SUCCESS;       // (1) process successfull 
 > ```
 >
 > ```java
-> (int) UtilitiesParser.ERROR = 2;
+> (int) UtilitiesParser.ERROR;        // (2) process error
 > ```
 
 &nbsp;
