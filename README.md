@@ -59,7 +59,7 @@ _or_
 
 
 ```java
-SmartGraph gc = new SmartGraph()                       /* To apply Custom UI features               */
+SmartGraph gc = new SmartGraph()                                       /* To apply Custom UI features               */
 ```
 > [!NOTE]  
 > Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
