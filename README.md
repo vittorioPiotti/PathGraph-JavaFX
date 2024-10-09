@@ -17,7 +17,7 @@ Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
 
-
+* Nodes can be only characters with uppercase alphabet letters to maxium 26 nodes
 * Not provided over limits of two edges with same direction
 * Not provided loops creation
 * Edges can be directed:
