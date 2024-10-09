@@ -100,6 +100,7 @@ gc.setup();
 boolean flag = gc.newNode("A");
 ```
 
+&nbsp;
 
 </details>
 
@@ -116,6 +117,8 @@ boolean flag = gc.newNode("A");
 boolean flag = gc.renameNode("A", "K");
 ```
 
+&nbsp;
+
 </details>
 
 
@@ -131,6 +134,8 @@ boolean flag = gc.renameNode("A", "K");
 ```java
 boolean flag = gc.deleteNode("A");
 ```
+
+&nbsp;
 
 </details>
 
@@ -161,6 +166,8 @@ boolean flag = gc.newEdge("A", "Z", 23, true); // Default direction (can be bidi
 boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); // Custom direction
 ```
 
+&nbsp;
+
 </details>
 
 
@@ -177,6 +184,8 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); //
 ```java
 boolean flag = gc.deleteEdge("A", "Z");
 ```
+
+&nbsp;
 
 </details>
 
@@ -200,6 +209,8 @@ boolean flag = gc.rotateEdge("Z", "C"); // Default rotation
 boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // Rotation with specific direction
 ```
 
+&nbsp;
+
 </details>
 
 
@@ -217,6 +228,8 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // R
 boolean flag = gc.splitEdge("Z", "C");
 ```
 
+&nbsp;
+
 </details>
 
 
@@ -233,6 +246,8 @@ boolean flag = gc.splitEdge("Z", "C");
 ```java
 boolean flag = gc.changeCost("Z", "C", 200);
 ```
+
+&nbsp;
    
 </details>
 
@@ -277,7 +292,9 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > (int) UtilitiesCapture.ERROR = 2;
 > ```
 
-   
+
+&nbsp;
+  
 </details>
 
 
@@ -350,7 +367,7 @@ int flag = gc.uploadJSON((Scene)scene); // fixed file chooser
 > (int) UtilitiesParser.ERROR = 2;
 > ```
 
-
+&nbsp;
    
 </details>
 
