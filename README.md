@@ -316,7 +316,7 @@ boolean flag = gc.isEdge((char) 'Z', (char) 'C' );                              
 <details>
   
 <summary>
-  <strong> 5.1. Is Double Edge</strong>
+  <strong> 5.1. Is Double</strong>
 </summary>
 
 &nbsp;
@@ -334,7 +334,7 @@ boolean flag = gc.isDouble( (char) 'Z', (char) 'C' );                           
 <details>
   
 <summary>
-  <strong> 5.1. Is Arrowed Edge</strong>
+  <strong> 5.1. Is Arrowed</strong>
 </summary>
 
 &nbsp;
