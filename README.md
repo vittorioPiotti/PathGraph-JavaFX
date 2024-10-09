@@ -211,13 +211,16 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-To apply UI features (extends PathGraph)
+To apply UI features 
 
 ```java
 PathGraph pg = new PathGraphUI((Stage) primaryStage, (Scene) scene); 
 ```
 
-apply Custom UI features           
+_or_
+
+
+To apply custom UI features          
 
 
 ```java
