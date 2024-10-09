@@ -78,13 +78,13 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
         int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
         ```
 
-    - Edge in the natural direction _(state = 1 -> with arrow)_
+    - Edge in the natural direction _(state = 1 -> arrowed)_
     
         ```java
         int direction = SmartEdgeBase.DIRECTION_FIRST;
         ```
     
-    - Edge in the opposite direction _(state = 2 -> with arrow)_
+    - Edge in the opposite direction _(state = 2 -> arrowed)_
     
         ```java
         int direction = SmartEdgeBase.DIRECTION_SECOND;
