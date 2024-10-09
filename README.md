@@ -115,7 +115,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 > Empty callbacks to disable interactions on graph
 
-> Ability to custom actions of the events choicing also click type
+> Ability to custom callbacks, also click type
 
 
 
