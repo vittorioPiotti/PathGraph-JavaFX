@@ -924,7 +924,7 @@ boolean flag = pg.checkCost( (char) 'Z', (char) 'C', (int) 12);                 
 
 
 ```java
-Char res = pg.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set edge start                                            */
+boolean flag = pg.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set edge start                                            */
 ```
 
 &nbsp;
