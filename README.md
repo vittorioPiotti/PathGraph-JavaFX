@@ -321,15 +321,15 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > The response status can be
 >
 > ```java
-> (int) UtilitiesCapture.INTERRUPT;     /* (0) process interrupted */
+> (int) UtilitiesCapture.INTERRUPT;       /* (0) process interrupted */
 > ```
 > 
 > ```java
-> (int) UtilitiesCapture.SUCCESS;       /* (1) process successfull */
+> (int) UtilitiesCapture.SUCCESS;         /* (1) process successfull */
 > ```
 >
 > ```java
-> (int) UtilitiesCapture.ERROR;         /* (2) process error       */
+> (int) UtilitiesCapture.ERROR;           /* (2) process error       */
 > ```
 
 
