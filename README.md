@@ -11,6 +11,27 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 
 
+## About
+
+
+#### Why PathGraph
+
+If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated weights, which offers a user-friendly interface to represent, manage, and interact with path graphs, then PathGraph is the right solution for you.
+
+#### Fork Based Project
+
+This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to improve the user-experience in a user-firendly interface.
+
+
+
+
+## Index
+
+ 1. Get Started
+ 2. Basic Usage
+ 3. Advanced Usage
+ 4. Licenses
+
 Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
 
 ## Get Started
@@ -708,5 +729,20 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 </details>
 
 
+## Licenses
 
+| Component          | Version         | Copyright                                      | License                                                                                            |
+|---------------------|------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [PathGraph](https://github.com/vittorioPiotti/JavaFXPathGraph) | Not released    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt) |
+| [JavaFXSmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph)        | [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)           | 2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/)                          | [MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt)       |
+| Bootstrap          | v4.0.0    | 2011-2018 The Bootstrap Authors   | [MIT ](https://github.com/twbs/bootstrap/blob/master/LICENSE) |
+
+
+
+> [!NOTE]
+> SVG icons from **Bootstrap**
+
+---
+
+I hope you find PathGraph useful and look forward to seeing the projects you create with it! 💫
 
