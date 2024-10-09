@@ -70,19 +70,22 @@ Provided to represent path s through nodes, edges, and associated costs with the
 * Not provided loops creation
 * Edges can be directed:
 
-     - (0) Edge without direction (no arrow)
-      ```java
-      (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;  
-      ```
-    - (1) Edge in the natural direction (with an arrow).
+
+    - (0) Edge without direction (no arrow)
     ```java
-    (int) SmartEdgeBase.DIRECTION_FIRST;             
+    (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
     ```
-    - (2) Edge in the opposite direction (with an arrow)
+
+- (1) Edge in the natural direction (with an arrow)
     ```java
-    (int) SmartEdgeBase.DIRECTION_SECOND;           
+    (int) SmartEdgeBase.DIRECTION_FIRST;
     ```
-    
+
+- (2) Edge in the opposite direction (with an arrow)
+    ```java
+    (int) SmartEdgeBase.DIRECTION_SECOND;
+    ```
+
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
 
