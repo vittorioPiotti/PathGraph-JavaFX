@@ -218,7 +218,11 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 ```java
 /* To apply default UI features */
-PathGraph pg = new PathGraphUI((Stage) primaryStage, (Scene) scene); 
+PathGraph pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+   (Scene) scene
+); 
 ```
 
 
