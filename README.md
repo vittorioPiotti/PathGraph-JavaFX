@@ -279,8 +279,9 @@ gc.setup();
 ## Basic Usage
 
 
- * Every method is a function type and return the status of the operation
- * Each method automatically update the graph
+> Every method is a function type and return the status of the operation
+
+> Each method automatically update the graph
    
 
 ### Node
