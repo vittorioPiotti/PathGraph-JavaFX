@@ -102,7 +102,13 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-### Graph Interactions
+<details>
+  
+<summary>
+  <strong> Graph Interactions</strong>
+</summary>
+
+&nbsp;
 
 The user make **Douple Click** or **Right Click** on one of this components of the graph to do:
 | Background| Node | Edge |
@@ -117,6 +123,30 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 > Ability to create and use custom callbacks of the graph interactions 
 
+
+
+&nbsp;
+
+</details>
+
+<details>
+
+
+<details>
+  
+<summary>
+  <strong> UI Interactions</strong>
+</summary>
+
+&nbsp;
+
+
+
+&nbsp;
+
+</details>
+
+<details>
 
 
 
