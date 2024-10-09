@@ -292,6 +292,17 @@ boolean flag = gc.changeCost("Z", "C", 200);
    
 </details>
 
+Char res = gc.getDirection( (char) 'Z', (char) 'C' );                                                     /* get edge direction                        */
+Char res = gc.getStart( (char) 'Z', (char) 'C' );                                                         /* get start node in edge                    */
+Char res = gc.getEnd( (char) 'Z', (char) 'C' );                                                           /* get end node in edge                      */
+Boolean flag = gc.isValidDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check validity of edge direction          */
+Boolean flag = gc.isValidDirection((int) SmartGraphEdgeBase.DIRECTION_FIRST );                            /* Check validity of direction value         */
+Boolean flag = gc.isValidStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check validity of start node in edge      */
+Boolean flag = gc.isValidEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check validity of end node in edge        */
+Char res = gc.setDirection( (char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );           /* Set edge direction                        */
+Char res = gc.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set start node in edge                    */
+Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                                              /* Set end node in edge                      */
+
 
 
 #### Graph
