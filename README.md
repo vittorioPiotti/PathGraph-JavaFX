@@ -13,7 +13,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
 
-## GET STARTED
+## Get Started
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
 
