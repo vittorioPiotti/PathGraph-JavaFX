@@ -45,7 +45,7 @@ If you need a ready-to-use library for user-side representing path graphs in whi
 
 &nbsp;
 
-This library is a fork based on the source code of the [Smart](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. Path is therefore the adaptation of Smart to improve the user-experience in a user-firendly interface.
+This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. Path is therefore the adaptation of Smart to improve the user-experience in a user-firendly interface.
 
 &nbsp;
 
