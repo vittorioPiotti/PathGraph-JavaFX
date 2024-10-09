@@ -76,21 +76,21 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
   
     ```java
     /* Edge without direction */
-    int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
+    (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
     ```
 
    
     
     ```java
     */  Edge in the natural direction */
-    int direction = SmartEdgeBase.DIRECTION_FIRST;
+    (int) SmartEdgeBase.DIRECTION_FIRST;
     ```
     
      
     
     ```java
     */  Edge in the opposite direction */
-    int direction = SmartEdgeBase.DIRECTION_SECOND;
+    (int) SmartEdgeBase.DIRECTION_SECOND;
     ```
 
 
@@ -464,17 +464,17 @@ boolean flag = (
 >
 > ```java
 > /* Edge without direction */
-> int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
+> (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
 > ```
 > 
 > ```java
 > */  Edge in the natural direction */
-> int direction = SmartEdgeBase.DIRECTION_FIRST;
+> (int) SmartEdgeBase.DIRECTION_FIRST;
 > ```
 > 
 > ```java
 > */  Edge in the opposite direction */
-> int direction = SmartEdgeBase.DIRECTION_SECOND;
+> (int) SmartEdgeBase.DIRECTION_SECOND;
 
 &nbsp;
 
