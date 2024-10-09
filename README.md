@@ -89,11 +89,16 @@ gc.setup();
 
 ### 5. Start
 
- * Operations are available **only** after calling `gc.setup()`
+ > [!IMPORTANT]  
+> Operations are available **only** after calling `gc.setup()`
+
 
 ## USAGE
 
-Operations are available **only** after calling `gc.setup()`
+> [!IMPORTANT]  
+> Operations are available **only** after calling `gc.setup()`
+
+
 
 ### Basic Usage
 
