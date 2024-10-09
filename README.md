@@ -94,136 +94,51 @@ gc.setup();
  * Each method automatically update the graph
 
 
-
-
 <details>
-  
-<summary>
-  <strong> Node </strong>
-</summary>
-
-&nbsp;
-
-
-
-<details>
-
-<summary>
-<strong> Base Usage </strong>
-</summary>
-
-&nbsp;
-
-<details>
-
-<summary>
-<strong> New Node</strong>
-</summary>
-
-&nbsp;
-
-
-```java
-boolean flag = gc.newNode("A");
-```
-
-&nbsp;
-
-</details>
-
-
-<details>
-
-<summary>
-<strong> Rename Node</strong>
-</summary>
-
-&nbsp;
-
-```java
-boolean flag = gc.renameNode("A", "K");
-```
-
-&nbsp;
-
-</details>
-
-
-
-<details>
-
-<summary>
-<strong> Delete Node</strong>
-</summary>
-
-&nbsp;
-
-```java
-boolean flag = gc.deleteNode("A");
-```
-
-&nbsp;
-
-</details>
-
-
-&nbsp;
-
-</details>
-
-<details>
-
-<summary>
-<strong> Advanced Usage </strong>
-</summary>
-
-&nbsp;
-
-
-<details>
-
-<summary>
-<strong> Is Node</strong>
-</summary>
-
-&nbsp;
-
-
-```java
-boolean flag = gc.isNode("A");                 /* Check node corrispondance */
-```
-
-&nbsp;
-
-</details>
-
-
-<details>
-
-<summary>
-<strong> Check Node</strong>
-</summary>
-
-&nbsp;
-
-```java
-boolean flag = gc.checkNode("A");              /* Check node validity */
-```
-
-&nbsp;
-
-</details>
-
-
-&nbsp;
-
-</details>
-
-
-> ---
-
-&nbsp;
-
+  <summary><strong>Node</strong></summary>
+  &nbsp;
+  <details>
+    <summary><strong>Base Usage</strong></summary>
+    &nbsp;
+    <details>
+      <summary><strong>New Node</strong></summary>
+      &nbsp;
+      <pre><code>boolean flag = gc.newNode("A");</code></pre>
+      &nbsp;
+    </details>
+    <details>
+      <summary><strong>Rename Node</strong></summary>
+      &nbsp;
+      <pre><code>boolean flag = gc.renameNode("A", "K");</code></pre>
+      &nbsp;
+    </details>
+    <details>
+      <summary><strong>Delete Node</strong></summary>
+      &nbsp;
+      <pre><code>boolean flag = gc.deleteNode("A");</code></pre>
+      &nbsp;
+    </details>
+    &nbsp;
+  </details>
+  <details>
+    <summary><strong>Advanced Usage</strong></summary>
+    &nbsp;
+    <details>
+      <summary><strong>Is Node</strong></summary>
+      &nbsp;
+      <pre><code>boolean flag = gc.isNode("A"); /* Check node corrispondance */</code></pre>
+      &nbsp;
+    </details>
+    <details>
+      <summary><strong>Check Node</strong></summary>
+      &nbsp;
+      <pre><code>boolean flag = gc.checkNode("A"); /* Check node validity */</code></pre>
+      &nbsp;
+    </details>
+    &nbsp;
+  </details>
+  > ---
+  &nbsp;
 </details>
 
 
