@@ -23,7 +23,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Edges can be directed:
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL = 0;   // Edge without direction (no arrow).
+    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL; /*= 0;*/   // Edge without direction (no arrow).
     ```
 
     ```java
