@@ -49,7 +49,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 _Working on to upload library on maven dipencencies to available the library distribution_
    
-### 2. Prepare 
+### 3. Prepare 
 
 ```java
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); /* To apply UI features (extends SmartGraph) */
@@ -77,7 +77,7 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 > > It can be done in any time and in any case
 
 
-### 3. Setup
+### 4. Setup
 
  * Setup is required to enable graph creation features
  * To call only after called `(Stage) primaryStage.show()`
@@ -86,7 +86,7 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 gc.setup();
 ```
 
-### 4. Make
+### 5. Make
 
  * Operations are available **only** after calling `gc.setup()`
  * Every method is a function type and return the status of the operation
@@ -98,7 +98,7 @@ gc.setup();
 <details>
   
 <summary>
-  <strong> 4.1. New Node</strong>
+  <strong> 5.1. New Node</strong>
 </summary>
 
 &nbsp;
@@ -116,7 +116,7 @@ boolean flag = gc.newNode("A");
 <details>
   
 <summary>
-  <strong> 4.4. Rename Node</strong>
+  <strong> 5.2. Rename Node</strong>
 </summary>
 
 &nbsp;
@@ -134,7 +134,7 @@ boolean flag = gc.renameNode("A", "K");
 <details>
   
 <summary>
-  <strong> 4.4. Delete Node</strong>
+  <strong> 5.3. Delete Node</strong>
 </summary>
 
 &nbsp;
@@ -152,7 +152,7 @@ boolean flag = gc.deleteNode("A");
 <details>
   
 <summary>
-  <strong> 4.4. New Edge</strong>
+  <strong> 5.4. New Edge</strong>
 </summary>
 
 &nbsp;
@@ -200,7 +200,7 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /*
 
 <details>
 <summary>
-  <strong> 4.5. Delete Edge</strong>
+  <strong> 5.5. Delete Edge</strong>
 </summary>
 
 &nbsp;
@@ -218,7 +218,7 @@ boolean flag = gc.deleteEdge("A", "Z");
 <details>
   
 <summary>
-  <strong> 4.6. Rotate Edge</strong>
+  <strong> 5.6. Rotate Edge</strong>
 </summary>
 
 &nbsp;
@@ -259,7 +259,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* R
 <details>
   
 <summary>
-  <strong> 4.7. Split Edge</strong>
+  <strong> 5.7. Split Edge</strong>
 </summary>
 
 &nbsp;
@@ -278,7 +278,7 @@ boolean flag = gc.splitEdge("Z", "C");
 <details>
   
 <summary>
-  <strong> 4.8. Change Cost</strong>
+  <strong> 5.8. Change Cost</strong>
 </summary>
 
 &nbsp;
@@ -297,7 +297,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 <details>
   
 <summary>
-  <strong> 4.9. Take Screenshot</strong>
+  <strong> 5.9. Take Screenshot</strong>
 </summary>
 
 &nbsp;
@@ -343,7 +343,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 <details>
   
 <summary>
-  <strong> 4.10. Download JSON</strong>
+  <strong> 5.10. Download JSON</strong>
 </summary>
 
 &nbsp;
@@ -381,7 +381,7 @@ int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser    */
 <details>
   
 <summary>
-  <strong> 4.11. Upload JSON</strong>
+  <strong> 5.11. Upload JSON</strong>
 </summary>
 
 &nbsp;
