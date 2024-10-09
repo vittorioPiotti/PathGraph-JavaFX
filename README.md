@@ -255,16 +255,17 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > The status can be
 >
 > ```java
+> (int) UtilitiesCapture.INTERRUPT = 0;
+> ```
+> 
+> ```java
 > (int) UtilitiesCapture.SUCCESS = 1;
 > ```
 >
-> > ```java
+> ```java
 > (int) UtilitiesCapture.ERROR = 2;
 > ```
->
-> ```java
-> (int) UtilitiesCapture.INTERRUPT = 0;
-> ```
+
    
 </details>
 
