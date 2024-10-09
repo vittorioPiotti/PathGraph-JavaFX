@@ -289,7 +289,7 @@ int flag = gc.downloadJSON((Scene)scene); // fixed file chooser
 > (int) UtilitiesParser.SUCCESS = 1;
 > ```
 >
-> > ```java
+> ```java
 > (int) UtilitiesParser.ERROR = 2;
 > ```
 >
@@ -324,7 +324,7 @@ int flag = gc.uploadJSON((Scene)scene); // fixed file chooser
 > (int) UtilitiesParser.SUCCESS = 1;
 > ```
 >
-> > ```java
+> ```java
 > (int) UtilitiesParser.ERROR = 2;
 > ```
 >
