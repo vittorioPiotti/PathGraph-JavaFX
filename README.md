@@ -148,6 +148,30 @@ boolean flag = gc.deleteNode("A");
 
 </details>
 
+
+#### Node Utilities
+
+<details>
+  
+<summary>
+  <strong> 5.1. Is Node</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isNode("A");                 /* Check node corrispondance */
+```
+
+```java
+boolean flag = gc.checkNode("A");              /* Check node validy */
+```
+
+&nbsp;
+
+</details>
+
 #### Edge
 
 <details>
