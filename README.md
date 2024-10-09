@@ -158,26 +158,26 @@ boolean flag = gc.deleteNode("A");
 &nbsp;
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23); /* Default not bidirectional direction */
+boolean flag = gc.newEdge("A", "Z", 23);                                     /* Default not bidirectional direction      */
 ```
 
 
 
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23, true); /* Default direction (can be bidirectional) */
+boolean flag = gc.newEdge("A", "Z", 23, true);                               /* Default direction (can be bidirectional)  */
 ```
 
 
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction */
+boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction                         */
 ```
 
 > The direction can be
 >
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow). */
+> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).             */
 > ```
 > 
 > ```java
@@ -237,7 +237,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* R
 > The direction can be
 >
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow). */
+> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).             */
 > ```
 > 
 > ```java
@@ -303,11 +303,11 @@ boolean flag = gc.changeCost("Z", "C", 200);
 &nbsp;
 
 ```java
-(CompletableFuture<Integer>) gc.takeScreenshot(); /* with animation */
+(CompletableFuture<Integer>) gc.takeScreenshot();         /* with animation */
 ```
 
 ```java
-(CompletableFuture<Integer>) gc.takeScreenshot(false); /* set if is animated */
+(CompletableFuture<Integer>) gc.takeScreenshot(false);    /* set if is animated */
 ```
 
 > Handle asynchronous operation
@@ -349,11 +349,11 @@ boolean flag = gc.changeCost("Z", "C", 200);
 &nbsp;
 
 ```java
-int flag = gc.downloadJSON();             /* floating file chooser */
+int flag = gc.downloadJSON();             /* floating file chooser   */
 ```
 
 ```java
-int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser    */
+int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser      */
 ```
 
 > The return status can be
@@ -387,11 +387,11 @@ int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser    */
 &nbsp;
 
 ```java
-int flag = gc.uploadJSON();               /* floating file chooser */
+int flag = gc.uploadJSON();               /* floating file chooser  */
 ```
 
 ```java
-int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser */
+int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser     */
 ```
 
 
