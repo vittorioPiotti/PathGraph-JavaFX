@@ -30,27 +30,8 @@ If you need a ready-to-use library for user-side representing path graphs in whi
 
 This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to improve the user-experience in a user-firendly interface.
 
+#### How work
 
-
-## User Experience
-
-
-
-
-
-
-## Get Started
-
-
- 1. [To Know](#to-know)
- 2. [Requirements](#requirements)
- 3. [Import](#import)
- 4. [Prepare](#prepare)
- 5. [Setup](#setup)
- 6. [Ready](#ready)
-
-
-### 1. To Know
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
 
@@ -74,6 +55,27 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
 
 > Adding new bidirectional edge to nodes with one bidirectional edge implies the automatic adjustment of both edges to redirect them at the preferred direction to make them in opposite direction from each other
+
+
+
+## User Experience
+
+
+
+
+
+
+## Get Started
+
+
+ 1. [Requirements](#requirements)
+ 2. [Import](#import)
+ 3. [Prepare](#prepare)
+ 4. [Setup](#setup)
+ 5. [Ready](#ready)
+
+
+
 
 ### 1. Requirements
 
