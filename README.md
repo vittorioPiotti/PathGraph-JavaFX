@@ -222,6 +222,7 @@ PathGraph pg = (
   new PathGraphUI(
     (Stage) primaryStage,
     (Scene) scene
+  )
 ); 
 ```
 
@@ -332,12 +333,12 @@ pg.setup();
 
 
 ```java
-(boolean) (
+boolean flag = (
   pg.newNode(
-    /* new node name */
-    "A"
-  );
-)
+    /* name of the new node */
+    (char) 'A'
+  )
+);
 ```
 
 &nbsp;
@@ -354,7 +355,12 @@ pg.setup();
 &nbsp;
 
 ```java
-boolean flag = pg.renameNode("A", "K");
+boolean flag = (
+  pg.renameNode(
+    /* new node name */
+    (char)'A'
+  )
+);
 ```
 
 &nbsp;
@@ -372,7 +378,12 @@ boolean flag = pg.renameNode("A", "K");
 &nbsp;
 
 ```java
-boolean flag = pg.deleteNode("A");
+boolean flag = (
+  pg.deleteNode(
+    /* name of the node to remove */
+    (char) 'A'
+  )
+);
 ```
 
 &nbsp;
@@ -391,21 +402,61 @@ boolean flag = pg.deleteNode("A");
 &nbsp;
 
 ```java
-boolean flag = pg.newEdge("A", "Z", 23);                                     /* Default not bidirectional direction      */
+/* Default direction without bidirectional */
+boolean flag = (
+  pg.newEdge(
+    /* start node name */
+    (char) 'A',
+    /* end node name */
+    (char) 'B',
+    /* edge cost */
+    (int) 23,
+  )
+);
 ```
 
 
 ```java
-boolean flag = pg.newEdge("A", "Z", 23, true);                               /* Default direction (can be bidirectional)  */
+/* Default direction with bidirectionality */
+boolean flag = (
+  pg.newEdge(
+    /* start node name */
+    (char) 'A',
+    /* end node name */
+    (char) 'B',
+    /* edge cost */
+    (int) 23,
+    /* edge with arrow */
+    (boolean) true,
+  )
+);
 ```
 
 
 ```java
-boolean flag = pg.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction                         */
+/* Custom direction */                        
+boolean flag = (
+  pg.newEdge(
+    /* start node name */
+    (char) 'A',
+    /* end node name */
+    (char) 'B',
+    /* edge cost */
+    (int) 23,
+    /* edge direction */
+    (int) SmartGraphEdgeBase.DIRECTION_SECOND,
+  )
+);
 ```
 
 ```java
-boolean flag = pg.newEdge((PseudoEdge) e);                                    /* Default direction (can be bidirectional)  */        
+/* Using support structure  */        
+boolean flag = (
+  pg.newEdge(
+    /* support structure with edge data */
+    (PseudoEdge) e
+  )
+)                                  
 ```
 
 
