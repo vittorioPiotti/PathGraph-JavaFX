@@ -22,15 +22,44 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 ## About
 
 
-#### Why PathGraph
+<details>
+  
+<summary>
+  <strong> Why PathGraph</strong>
+</summary>
+
+&nbsp;
 
 If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated weights, which offers a user-friendly interface to represent, manage, and interact with path graphs, then PathGraph is the right solution for you.
 
-#### Fork Based Project
+&nbsp;
+
+</details>
+
+<details>
+
+
+<summary>
+  <strong> Fork Based Project</strong>
+</summary>
+
+&nbsp;
 
 This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to improve the user-experience in a user-firendly interface.
 
-#### How work
+&nbsp;
+
+</details>
+
+
+<details>
+
+
+<summary>
+  <strong> How Work </strong>
+</summary>
+
+&nbsp;
 
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
@@ -55,6 +84,17 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
 
 > Adding new bidirectional edge to nodes with one bidirectional edge implies the automatic adjustment of both edges to redirect them at the preferred direction to make them in opposite direction from each other
+
+
+
+&nbsp;
+
+</details>
+
+
+
+
+
 
 
 
