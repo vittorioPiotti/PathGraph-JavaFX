@@ -453,7 +453,7 @@ boolean flag = (
 /* Using support structure  */        
 boolean flag = (
   pg.newEdge(
-    /* support structure with edge data */
+    /* support structure with new edge data */
     (PseudoEdge) e
   )
 )                                  
