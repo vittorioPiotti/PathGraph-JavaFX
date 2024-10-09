@@ -11,12 +11,12 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 ## Index
 
- 1. [About]()
- 2. [User Experience]()
- 3. [Get Started]()
- 4. [Basic Usage]()
- 5. [Advanced Usage]()
- 6. [Licenses]()
+ 1. [About](#about)
+ 2. [User Experience](#user-experience)
+ 3. [Get Started](#get-started)
+ 4. [Basic Usage](#basic-usage)
+ 5. [Advanced Usage](#advanced-usage)
+ 6. [Licenses](#licenses)
 
 
 ## About
@@ -32,11 +32,12 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
+## User Experience
 
 
 
 
-Working on [PathGraph](https://github.com/vittorioPiotti/PathGraph-ForkBased)
+
 
 ## Get Started
 
