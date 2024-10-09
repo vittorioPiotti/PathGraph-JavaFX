@@ -99,7 +99,7 @@ gc.setup();
 <details>
   
 <summary>
-  <strong> 5.1. New Node</strong>
+  <strong> 5.1.1.1. New Node</strong>
 </summary>
 
 &nbsp;
@@ -117,7 +117,7 @@ boolean flag = gc.newNode("A");
 <details>
   
 <summary>
-  <strong> 5.2. Rename Node</strong>
+  <strong> 5.1.1.2. Rename Node</strong>
 </summary>
 
 &nbsp;
@@ -135,7 +135,7 @@ boolean flag = gc.renameNode("A", "K");
 <details>
   
 <summary>
-  <strong> 5.3. Delete Node</strong>
+  <strong> 5.1.1.3. Delete Node</strong>
 </summary>
 
 &nbsp;
@@ -154,7 +154,7 @@ boolean flag = gc.deleteNode("A");
 <details>
   
 <summary>
-  <strong> 5.1. Is Node</strong>
+  <strong> 5.1.2.1. Is Node</strong>
 </summary>
 
 &nbsp;
@@ -172,7 +172,7 @@ boolean flag = gc.isNode("A");                 /* Check node corrispondance */
 <details>
   
 <summary>
-  <strong> 5.1. Check Node</strong>
+  <strong> 5.1.2.2. Check Node</strong>
 </summary>
 
 &nbsp;
@@ -190,7 +190,7 @@ boolean flag = gc.checkNode("A");              /* Check node validity */
 <details>
   
 <summary>
-  <strong> 5.4. New Edge</strong>
+  <strong> 5.2.1.1. New Edge</strong>
 </summary>
 
 &nbsp;
@@ -238,7 +238,7 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /*
 
 <details>
 <summary>
-  <strong> 5.5. Delete Edge</strong>
+  <strong> 5.2.1.2. Delete Edge</strong>
 </summary>
 
 &nbsp;
@@ -256,7 +256,7 @@ boolean flag = gc.deleteEdge("A", "Z");
 <details>
   
 <summary>
-  <strong> 5.6. Rotate Edge</strong>
+  <strong> 5.2.1.3. Rotate Edge</strong>
 </summary>
 
 &nbsp;
@@ -297,7 +297,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* R
 <details>
   
 <summary>
-  <strong> 5.7. Split Edge</strong>
+  <strong> 5.2.1.4. Split Edge</strong>
 </summary>
 
 &nbsp;
@@ -316,7 +316,7 @@ boolean flag = gc.splitEdge("Z", "C");
 <details>
   
 <summary>
-  <strong> 5.8. Set Cost</strong>
+  <strong> 5.2.1.5. Set Cost</strong>
 </summary>
 
 &nbsp;
@@ -336,7 +336,7 @@ boolean flag = gc.setCost("Z", "C", 200);
 <details>
   
 <summary>
-  <strong> 5.1. Is Edge</strong>
+  <strong> 5.2.2.1. Is Edge</strong>
 </summary>
 
 &nbsp;
@@ -353,7 +353,7 @@ boolean flag = gc.isEdge((char) 'Z', (char) 'C' );                              
 <details>
   
 <summary>
-  <strong> 5.1. Is Double</strong>
+  <strong> 5.2.2.2. Is Double</strong>
 </summary>
 
 &nbsp;
@@ -371,7 +371,7 @@ boolean flag = gc.isDouble( (char) 'Z', (char) 'C' );                           
 <details>
   
 <summary>
-  <strong> 5.1. Is Arrowed</strong>
+  <strong> 5.2.2.3. Is Arrowed</strong>
 </summary>
 
 &nbsp;
@@ -388,7 +388,7 @@ boolean flag = gc.isArrowed( (char) 'Z', (char) 'C' );                          
 <details>
   
 <summary>
-  <strong> 5.1. Is Direction</strong>
+  <strong> 5.2.2.4 Is Direction</strong>
 </summary>
 
 &nbsp;
@@ -406,7 +406,7 @@ boolean flag = gc.isDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.D
 <details>
   
 <summary>
-  <strong> 5.1. Is Start</strong>
+  <strong> 5.2.2.5. Is Start</strong>
 </summary>
 
 &nbsp;
@@ -424,7 +424,7 @@ boolean flag = gc.isStart( (char) 'Z', (char) 'C', (char) 'G');                 
 <details>
   
 <summary>
-  <strong> 5.1. Is End</strong>
+  <strong> 5.2.2.6. Is End</strong>
 </summary>
 
 &nbsp;
@@ -441,7 +441,7 @@ boolean flag = gc.isEnd( (char) 'Z', (char) 'C', (char) 'G');                   
 <details>
   
 <summary>
-  <strong> 5.1. Is Cost</strong>
+  <strong> 5.2.2.7. Is Cost</strong>
 </summary>
 
 &nbsp;
@@ -461,7 +461,7 @@ boolean flag = gc.isCost( (char) 'Z', (char) 'C', (int) 12);                    
 <details>
   
 <summary>
-  <strong> 5.1. Check Direction</strong>
+  <strong> 5.2.2.8. Check Direction</strong>
 </summary>
 
 &nbsp;
@@ -479,7 +479,7 @@ boolean flag = gc.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBas
 <details>
   
 <summary>
-  <strong> 5.1. Check Start</strong>
+  <strong> 5.2.2.9. Check Start</strong>
 </summary>
 
 &nbsp;
@@ -497,7 +497,7 @@ boolean flag = gc.checkStart( (char) 'Z', (char) 'C', (char) 'G');              
 <details>
   
 <summary>
-  <strong> 5.1. Check End</strong>
+  <strong> 5.2.2.10. Check End</strong>
 </summary>
 
 &nbsp;
@@ -514,7 +514,7 @@ boolean flag = gc.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                
 <details>
   
 <summary>
-  <strong> 5.1. Check Cost</strong>
+  <strong> 5.2.2.11. Check Cost</strong>
 </summary>
 
 &nbsp;
@@ -532,7 +532,7 @@ boolean flag = gc.checkCost( (char) 'Z', (char) 'C', (int) 12);                 
 <details>
   
 <summary>
-  <strong> 5.1. Set Start</strong>
+  <strong> 5.2.2.12. Set Start</strong>
 </summary>
 
 &nbsp;
@@ -551,7 +551,7 @@ Char res = gc.setStart( (char) 'Z', (char) 'C', (char) 'G' );                   
 <details>
   
 <summary>
-  <strong> 5.1. Set End</strong>
+  <strong> 5.2.2.13. Set End</strong>
 </summary>
 
 &nbsp;
@@ -575,7 +575,7 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 <details>
   
 <summary>
-  <strong> 5.9. Take Screenshot</strong>
+  <strong> 5.3.1.1. Take Screenshot</strong>
 </summary>
 
 &nbsp;
@@ -621,7 +621,7 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 <details>
   
 <summary>
-  <strong> 5.10. Download JSON</strong>
+  <strong> 5.3.1.2. Download JSON</strong>
 </summary>
 
 &nbsp;
@@ -659,7 +659,7 @@ int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser      */
 <details>
   
 <summary>
-  <strong> 5.11. Upload JSON</strong>
+  <strong> 5.3.1.3. Upload JSON</strong>
 </summary>
 
 &nbsp;
