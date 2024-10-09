@@ -798,7 +798,5 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 > [!NOTE]
 > SVG icons from **Bootstrap**
 
----
 
-I hope you find PathGraph useful and look forward to seeing the projects you create with it! 💫
 
