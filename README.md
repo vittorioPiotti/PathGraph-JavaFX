@@ -463,18 +463,18 @@ boolean flag = (
 > The direction can be
 >
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).              */
+> /* Edge without direction */
+> int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
 > ```
 > 
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow).  */
+> */  Edge in the natural direction */
+> int direction = SmartEdgeBase.DIRECTION_FIRST;
 > ```
->
+> 
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in the opposite direction (with an arrow). */
-> ```
-
-
+> */  Edge in the opposite direction */
+> int direction = SmartEdgeBase.DIRECTION_SECOND;
 
 &nbsp;
 
