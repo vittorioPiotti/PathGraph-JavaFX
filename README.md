@@ -312,6 +312,8 @@ int flag = gc.downloadJSON((Scene)scene); // fixed file chooser
   <strong> 3.11. Upload JSON</strong>
 </summary>
 
+**&nbsp;**
+
 ```java
 int flag = gc.uploadJSON();       // floating file chooser
 ```
