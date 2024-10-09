@@ -348,6 +348,77 @@ boolean flag = gc.isArrowed( (char) 'Z', (char) 'C' );                          
 
 </details>
 
+<details>
+  
+<summary>
+  <strong> 5.1. Is Direction</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check validity of edge direction                        */
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Is Start</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check validity of end start                             */
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Is End</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check validity of end node in edge                      */
+```
+
+&nbsp;
+
+</details>
+
+<details>
+  
+<summary>
+  <strong> 5.1. Is Cost</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check validity of end node in edge                        */
+```
+
+&nbsp;
+
+</details>
+
+
 
 
 <details>
