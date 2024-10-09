@@ -706,7 +706,7 @@ boolean flag = pg.checkNode("A");              /* Check node validity */
 
 
 ```java
-PseudoNode pn = pg.getNode("A");                 /* Get corrispondent node */
+PseudoNode n = pg.getNode("A");                 /* Get corrispondent node */
 ```
 
 &nbsp;
@@ -962,7 +962,7 @@ Char res = pg.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 
 
 ```java
-PseudoEdge pe = pg.getEdge("A","Z");                 /* Get corrispondent edge */
+PseudoEdge e = pg.getEdge("A","Z");                 /* Get corrispondent edge */
 ```
 
 &nbsp;
