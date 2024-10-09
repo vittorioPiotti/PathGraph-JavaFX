@@ -30,7 +30,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 &nbsp;
 
-If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated weights, which offers a user-friendly interface to represent, manage, and interact with path graphs, then PathGraph is the right solution for you.
+If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated weights, which offers a user-friendly interface to represent, manage, and interact with path graphs, then Path is the right solution for you.
 
 &nbsp;
 
@@ -45,7 +45,7 @@ If you need a ready-to-use library for user-side representing path graphs in whi
 
 &nbsp;
 
-This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to improve the user-experience in a user-firendly interface.
+This library is a fork based on the source code of the [Smart](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. Path is therefore the adaptation of Smart to improve the user-experience in a user-firendly interface.
 
 &nbsp;
 
@@ -62,7 +62,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 &nbsp;
 
 
-Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
+Provided to represent path s through nodes, edges, and associated costs with the following logic:
 
 * Nodes can be only characters with uppercase alphabet letters to maxium 26 nodes
 * Not provided over limits of two edges with same direction between two same nodes
@@ -70,15 +70,15 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Edges can be directed:
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).             */
+    (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).             */
     ```
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow). */
+    (int) SmartEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow). */
     ```
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in the opposite direction (with an arrow). */
+    (int) SmartEdgeBase.DIRECTION_SECOND;            /* (2) Edge in the opposite direction (with an arrow). */
     ```
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
@@ -105,15 +105,15 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 <details>
   
 <summary>
-  <strong> Graph Interactions</strong>
+  <strong>  Interactions</strong>
 </summary>
 
 &nbsp;
 
-The user make **Douple Click** or **Right Click** on one of this components of the graph to do:
+The user make **Douple Click** or **Right Click** on one of this components of the  to do:
 | Background| Node | Edge |
 | ------------ | ------------ | ------------ |
-| <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
+| <img src="https://github.com/vittorioPiotti/Path-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/Path-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
 | New Node | New Edge | Delete Edge |
 |  | Delete Node | Direct Edge |
 |  |  | Split Edge |
@@ -493,9 +493,7 @@ boolean flag = gc.setCost("Z", "C", 200);
 
 ### Graph
 
-> Each method automatically update the graph
 
-> Operations are available **only** after calling `gc.setup()`
 
 <details>
   
@@ -622,7 +620,9 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 ## Advanced Usage
 
 
+> Each method automatically update the graph
 
+> Operations are available **only** after calling `gc.setup()`
 
 
 ### Node 
