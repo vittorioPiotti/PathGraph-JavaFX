@@ -22,6 +22,9 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Not provided loops creation
 * Edges can be directed:
 
+    ```java
+    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL = 0;   // Edge without direction (no arrow).
+    ```
 
     ```java
     (int) SmartGraphEdgeBase.DIRECTION_FIRST = 1;           // Edge in the natural direction (with an arrow).
@@ -31,9 +34,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
     (int) SmartGraphEdgeBase.DIRECTION_SECOND = 2;          // Edge in the opposite direction (with an arrow).
     ```
 
-    ```java
-    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL = 0;   // Edge without direction (no arrow).
-    ```
+
 
 > Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
 
@@ -286,16 +287,17 @@ int flag = gc.downloadJSON((Scene)scene); // fixed file chooser
 > The status can be
 >
 > ```java
+> (int) UtilitiesParser.INTERRUPT = 0;
+> ```
+> 
+> ```java
 > (int) UtilitiesParser.SUCCESS = 1;
 > ```
 >
 > ```java
 > (int) UtilitiesParser.ERROR = 2;
 > ```
->
-> ```java
-> (int) UtilitiesParser.INTERRUPT = 0;
-> ```
+
 
 
    
@@ -321,16 +323,17 @@ int flag = gc.uploadJSON((Scene)scene); // fixed file chooser
 > The status can be
 >
 > ```java
+> (int) UtilitiesParser.INTERRUPT = 0;
+> ```
+> 
+> ```java
 > (int) UtilitiesParser.SUCCESS = 1;
 > ```
 >
 > ```java
 > (int) UtilitiesParser.ERROR = 2;
 > ```
->
-> ```java
-> (int) UtilitiesParser.INTERRUPT = 0;
-> ```
+
 
    
 </details>
