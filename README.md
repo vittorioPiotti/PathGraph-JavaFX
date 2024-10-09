@@ -106,72 +106,72 @@ gc.setup();
 
 
 
-    <details>
+<details>
 
-    <summary>
-    <strong> Base Usage </strong>
-    </summary>
+<summary>
+<strong> Base Usage </strong>
+</summary>
 
-    &nbsp;
-  
-    <details>
+&nbsp;
 
-    <summary>
-    <strong> New Node</strong>
-    </summary>
-    
-    &nbsp;
-    
-    
-    ```java
-    boolean flag = gc.newNode("A");
-    ```
-    
-    &nbsp;
-    
-    </details>
-    
-    
-    <details>
-    
-    <summary>
-    <strong> Rename Node</strong>
-    </summary>
-    
-    &nbsp;
-    
-    ```java
-    boolean flag = gc.renameNode("A", "K");
-    ```
-    
-    &nbsp;
-    
-    </details>
-    
-    
-    
-    <details>
-    
-    <summary>
-    <strong> Delete Node</strong>
-    </summary>
-    
-    &nbsp;
-    
-    ```java
-    boolean flag = gc.deleteNode("A");
-    ```
-    
-    &nbsp;
-    
-    </details>
-    
-    
-    &nbsp;
-    
-    </details>
-    
-    <details>
+<details>
+
+<summary>
+<strong> New Node</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.newNode("A");
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+
+<summary>
+<strong> Rename Node</strong>
+</summary>
+
+&nbsp;
+
+```java
+boolean flag = gc.renameNode("A", "K");
+```
+
+&nbsp;
+
+</details>
+
+
+
+<details>
+
+<summary>
+<strong> Delete Node</strong>
+</summary>
+
+&nbsp;
+
+```java
+boolean flag = gc.deleteNode("A");
+```
+
+&nbsp;
+
+</details>
+
+
+&nbsp;
+
+</details>
+
+<details>
 
 <summary>
 <strong> Advanced Usage </strong>
