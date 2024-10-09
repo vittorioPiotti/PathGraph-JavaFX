@@ -74,21 +74,21 @@ Provided to represent path s through nodes, edges, and associated costs with the
 
     - (0) Edge without direction (no arrow):
   
-    ```java
-    int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
-    ```
+        ```java
+        int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
+        ```
 
-- (1) Edge in the natural direction (with an arrow):
-
-    ```java
-    int direction = SmartEdgeBase.DIRECTION_FIRST;
-    ```
-
-- (2) Edge in the opposite direction (with an arrow):
-
-    ```java
-    int direction = SmartEdgeBase.DIRECTION_SECOND;
-    ```
+    - (1) Edge in the natural direction (with an arrow):
+    
+        ```java
+        int direction = SmartEdgeBase.DIRECTION_FIRST;
+        ```
+    
+    - (2) Edge in the opposite direction (with an arrow):
+    
+        ```java
+        int direction = SmartEdgeBase.DIRECTION_SECOND;
+        ```
 
 
 
