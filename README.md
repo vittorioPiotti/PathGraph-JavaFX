@@ -387,26 +387,26 @@ int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser      */
 &nbsp;
 
 ```java
-int flag = gc.uploadJSON();               /* floating file chooser  */
+int flag = gc.uploadJSON();               /* floating file chooser   */
 ```
 
 ```java
-int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser     */
+int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 ```
 
 
 > The return status can be
 >
 > ```java
-> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
+> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted  */
 > ```
 > 
 > ```java
-> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull */
+> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull  */
 > ```
 >
 > ```java
-> (int) UtilitiesParser.ERROR;            /* (2) process error       */
+> (int) UtilitiesParser.ERROR;            /* (2) process error        */
 > ```
 
 
