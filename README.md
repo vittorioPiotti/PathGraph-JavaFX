@@ -94,12 +94,14 @@ gc.setup();
  * Each method automatically update the graph
 
 
-#### 5.1.1 Node
+
+
+#### 5.1. Node
 
 <details>
   
 <summary>
-  <strong> 5.1.1.1. New Node</strong>
+  <strong> 5.1.1. New Node</strong>
 </summary>
 
 &nbsp;
@@ -117,7 +119,7 @@ boolean flag = gc.newNode("A");
 <details>
   
 <summary>
-  <strong> 5.1.1.2. Rename Node</strong>
+  <strong> 5.1.2. Rename Node</strong>
 </summary>
 
 &nbsp;
@@ -135,7 +137,7 @@ boolean flag = gc.renameNode("A", "K");
 <details>
   
 <summary>
-  <strong> 5.1.1.3. Delete Node</strong>
+  <strong> 5.1.3. Delete Node</strong>
 </summary>
 
 &nbsp;
@@ -154,7 +156,7 @@ boolean flag = gc.deleteNode("A");
 <details>
   
 <summary>
-  <strong> 5.1.2.1. Is Node</strong>
+  <strong> 5.1.2. Is Node</strong>
 </summary>
 
 &nbsp;
@@ -570,7 +572,7 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 
 
 
-#### 5.3.1 Graph
+#### 5.3.1. Graph
 
 <details>
   
