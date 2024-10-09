@@ -63,7 +63,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
-Provided to represent path s through nodes, edges, and associated costs with the following logic:
+Provided to represent graphs through nodes, edges, and associated costs with the following logic:
 
 * Nodes can be only characters with uppercase alphabet letters to maxium 26 nodes
 * Not provided over limits of two edges with same direction between two same nodes
