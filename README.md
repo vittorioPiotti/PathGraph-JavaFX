@@ -279,38 +279,186 @@ boolean flag = gc.splitEdge("Z", "C");
 <details>
   
 <summary>
-  <strong> 5.8. Change Cost</strong>
+  <strong> 5.8. Set Cost</strong>
 </summary>
 
 &nbsp;
 
 ```java
-boolean flag = gc.changeCost("Z", "C", 200);
+boolean flag = gc.setCost("Z", "C", 200);
 ```
 
 &nbsp;
    
 </details>
 
-Char res = gc.getDirection( (char) 'Z', (char) 'C' );                                                     /* get edge direction                        */
 
-Char res = gc.getStart( (char) 'Z', (char) 'C' );                                                         /* get start node in edge                    */
 
-Char res = gc.getEnd( (char) 'Z', (char) 'C' );                                                           /* get end node in edge                      */
+#### Edge Utilities
 
-Boolean flag = gc.isValidDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check validity of edge direction          */
+<details>
+  
+<summary>
+  <strong> 5.1. Is Edge</strong>
+</summary>
 
-Boolean flag = gc.isValidDirection((int) SmartGraphEdgeBase.DIRECTION_FIRST );                            /* Check validity of direction value         */
+&nbsp;
 
-Boolean flag = gc.isValidStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check validity of start node in edge      */
 
-Boolean flag = gc.isValidEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check validity of end node in edge        */
+```java
+boolean flag = gc.isEdge((char) 'Z', (char) 'C' );                                                       /* Check validity of edge existance                        */
+```
 
-Char res = gc.setDirection( (char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );           /* Set edge direction                        */
+&nbsp;
 
-Char res = gc.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set start node in edge                    */
+</details>
 
-Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                                              /* Set end node in edge                      */
+<details>
+  
+<summary>
+  <strong> 5.1. Is Double Edge</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isDouble( (char) 'Z', (char) 'C' );                                                     /* if true there are two edges between the same two nodes  */
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Is Arrowed Edge</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isArrowed( (char) 'Z', (char) 'C' );                                                    /* if  false edge is bidirectional                         */
+```
+
+&nbsp;
+
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Check Direction</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check validity of edge direction                        */
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Check Start</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.checkStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check validity of end start                             */
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Check End</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check validity of end node in edge                      */
+```
+
+&nbsp;
+
+</details>
+
+<details>
+  
+<summary>
+  <strong> 5.1. Check Cost</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.checkCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check validity of end node in edge                        */
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Set Start</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+Char res = gc.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set edge start                                            */
+```
+
+&nbsp;
+
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Set End</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                                              /* Set edge end                                              */
+```
+
+&nbsp;
+
+</details>
+
+
+
 
 
 
