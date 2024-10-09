@@ -81,7 +81,6 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 
  * Setup is required to enable graph creation features
  * To call only after called `(Stage) primaryStage.show()`
- * Each method automatically update the graph
    
 ```java
 gc.setup();
@@ -91,7 +90,7 @@ gc.setup();
 
  * Operations are available **only** after calling `gc.setup()`
  * Every method is a function type and return the status of the operation
-
+ * Each method automatically update the graph
 
 
 #### Node
