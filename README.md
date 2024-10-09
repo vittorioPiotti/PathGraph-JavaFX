@@ -227,16 +227,22 @@ To apply custom UI features:
 PathGraph pg = new PathGraph()                                           
 ```
 
-> Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
+> Manual callback configurations if using `PathGraph` instead of `PathGraphUI`
 >
 > ```java
 > pg.setAllCallbacks(
->     Runnable closeContextMenu,                         /* to possibly close an open `ContextMenu` */
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,   /* action to perform on arrow edge event   */
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode,     /* action to perform on node event         */
->     Consumer<MouseEvent> onClickBackground,            /* action to perform on click background   */
->     Consumer<Double> onChangeZoom,                     /* action to perform on scroll background  */
->     Runnable doAdjustPosition                          /* action to perform on drag background    */
+>     /* to possibly close an open `ContextMenu` */
+>     Runnable closeContextMenu,
+>     /* action to perform on arrow edge event   */              
+>     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+>     /* action to perform on node event         */
+>     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+>     /* action to perform on click background   */
+>     Consumer<MouseEvent> onClickBackground,
+>     /* action to perform on scroll background  */            
+>     Consumer<Double> onChangeZoom,
+>     /* action to perform on drag background    */        
+>     Runnable doAdjustPosition                          
 > );
 > ```
 > > It can be done in any time and in any case
