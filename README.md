@@ -12,10 +12,11 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 ## Index
 
  1. [About]()
- 2. [Get Started]()
- 3. [Basic Usage]()
- 4. [Advanced Usage]()
- 5. [Licenses]()
+ 2. [User Experience]()
+ 3. [Get Started]()
+ 4. [Basic Usage]()
+ 5. [Advanced Usage]()
+ 6. [Licenses]()
 
 
 ## About
