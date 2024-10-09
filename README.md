@@ -82,14 +82,14 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
    
     
     ```java
-    */ Edge in the natural direction */
+    */ Edge in natural direction */
     (int) SmartEdgeBase.DIRECTION_FIRST;
     ```
     
      
     
     ```java
-    */ Edge in the opposite direction */
+    */ Edge in opposite direction */
     (int) SmartEdgeBase.DIRECTION_SECOND;
     ```
 
@@ -468,12 +468,12 @@ boolean flag = (
 > ```
 > 
 > ```java
-> */ Edge in the natural direction */
+> */ Edge in natural direction */
 > (int) SmartEdgeBase.DIRECTION_FIRST;
 > ```
 > 
 > ```java
-> */ Edge in the opposite direction */
+> */ Edge in opposite direction */
 > (int) SmartEdgeBase.DIRECTION_SECOND;
 
 &nbsp;
@@ -535,11 +535,11 @@ boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST);     
 > ```
 > 
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow). */
+> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in natural direction (with an arrow). */
 > ```
 >
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in the opposite direction (with an arrow). */
+> (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in opposite direction (with an arrow). */
 > ```
 
 
