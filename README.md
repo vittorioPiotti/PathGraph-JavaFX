@@ -211,16 +211,17 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
+To apply UI features (extends PathGraph)
 
 ```java
-PathGraph pg = new PathGraphUI((Stage) primaryStage, (Scene) scene); /* To apply UI features (extends PathGraph) */
+PathGraph pg = new PathGraphUI((Stage) primaryStage, (Scene) scene); 
 ```
 
-_or_
+apply Custom UI features           
 
 
 ```java
-PathGraph pg = new PathGraph()                                       /* To apply Custom UI features               */
+PathGraph pg = new PathGraph()                                           
 ```
 
 > Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
