@@ -151,42 +151,6 @@ boolean flag = gc.deleteNode("A");
 </details>
 
 
-#### Node Utilities
-
-<details>
-  
-<summary>
-  <strong> Is Node</strong>
-</summary>
-
-&nbsp;
-
-
-```java
-boolean flag = gc.isNode("A");                 /* Check node corrispondance */
-```
-
-&nbsp;
-
-</details>
-
-
-<details>
-  
-<summary>
-  <strong> Check Node</strong>
-</summary>
-
-&nbsp;
-
-```java
-boolean flag = gc.checkNode("A");              /* Check node validity */
-```
-
-&nbsp;
-
-</details>
-
 #### Edge
 
 <details>
@@ -333,7 +297,179 @@ boolean flag = gc.setCost("Z", "C", 200);
 
 
 
-#### 5.2.2. Edge Utilities
+
+
+
+
+#### Graph
+
+<details>
+  
+<summary>
+  <strong> Take Screenshot</strong>
+</summary>
+
+&nbsp;
+
+```java
+(CompletableFuture<Integer>) gc.takeScreenshot();         /* with animation     */
+```
+
+```java
+(CompletableFuture<Integer>) gc.takeScreenshot(false);    /* set if is animated */
+```
+
+> Handle both asynchronous operations
+>
+> ```java
+> gc.takeScreenshot().thenAccept(status -> {
+>     int flag = (int) status; /* Use flag to check operation */
+> );
+> ```
+
+> The response status can be
+>
+> ```java
+> (int) UtilitiesCapture.INTERRUPT;       /* (0) process interrupted */
+> ```
+> 
+> ```java
+> (int) UtilitiesCapture.SUCCESS;         /* (1) process successfull */
+> ```
+>
+> ```java
+> (int) UtilitiesCapture.ERROR;           /* (2) process error       */
+> ```
+
+
+
+&nbsp;
+  
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong> Download JSON</strong>
+</summary>
+
+&nbsp;
+
+```java
+int flag = gc.downloadJSON();             /* floating file chooser   */
+```
+
+```java
+int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser      */
+```
+
+> The return status can be
+>
+> ```java
+> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
+> ```
+> 
+> ```java
+> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull */
+> ```
+>
+> ```java
+> (int) UtilitiesParser.ERROR;            /* (2) process error       */
+> ```
+
+
+
+&nbsp;
+   
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong>  Upload JSON</strong>
+</summary>
+
+&nbsp;
+
+```java
+int flag = gc.uploadJSON();               /* floating file chooser   */
+```
+
+```java
+int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
+```
+
+
+> The return status can be
+>
+> ```java
+> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted  */
+> ```
+> 
+> ```java
+> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull  */
+> ```
+>
+> ```java
+> (int) UtilitiesParser.ERROR;            /* (2) process error        */
+> ```
+
+
+&nbsp;
+   
+</details>
+
+
+
+### 6. Utilities
+
+
+
+
+
+#### Node Utilities
+
+<details>
+  
+<summary>
+  <strong> Is Node</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+boolean flag = gc.isNode("A");                 /* Check node corrispondance */
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> Check Node</strong>
+</summary>
+
+&nbsp;
+
+```java
+boolean flag = gc.checkNode("A");              /* Check node validity */
+```
+
+&nbsp;
+
+</details>
+
+
+
+#### Edge Utilities
 
 <details>
   
@@ -567,132 +703,6 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 
 </details>
 
-
-
-
-
-
-#### Graph
-
-<details>
-  
-<summary>
-  <strong> Take Screenshot</strong>
-</summary>
-
-&nbsp;
-
-```java
-(CompletableFuture<Integer>) gc.takeScreenshot();         /* with animation     */
-```
-
-```java
-(CompletableFuture<Integer>) gc.takeScreenshot(false);    /* set if is animated */
-```
-
-> Handle both asynchronous operations
->
-> ```java
-> gc.takeScreenshot().thenAccept(status -> {
->     int flag = (int) status; /* Use flag to check operation */
-> );
-> ```
-
-> The response status can be
->
-> ```java
-> (int) UtilitiesCapture.INTERRUPT;       /* (0) process interrupted */
-> ```
-> 
-> ```java
-> (int) UtilitiesCapture.SUCCESS;         /* (1) process successfull */
-> ```
->
-> ```java
-> (int) UtilitiesCapture.ERROR;           /* (2) process error       */
-> ```
-
-
-
-&nbsp;
-  
-</details>
-
-
-
-<details>
-  
-<summary>
-  <strong> Download JSON</strong>
-</summary>
-
-&nbsp;
-
-```java
-int flag = gc.downloadJSON();             /* floating file chooser   */
-```
-
-```java
-int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser      */
-```
-
-> The return status can be
->
-> ```java
-> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
-> ```
-> 
-> ```java
-> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull */
-> ```
->
-> ```java
-> (int) UtilitiesParser.ERROR;            /* (2) process error       */
-> ```
-
-
-
-&nbsp;
-   
-</details>
-
-
-
-<details>
-  
-<summary>
-  <strong>  Upload JSON</strong>
-</summary>
-
-&nbsp;
-
-```java
-int flag = gc.uploadJSON();               /* floating file chooser   */
-```
-
-```java
-int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
-```
-
-
-> The return status can be
->
-> ```java
-> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted  */
-> ```
-> 
-> ```java
-> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull  */
-> ```
->
-> ```java
-> (int) UtilitiesParser.ERROR;            /* (2) process error        */
-> ```
-
-
-&nbsp;
-   
-</details>
 
 
 
