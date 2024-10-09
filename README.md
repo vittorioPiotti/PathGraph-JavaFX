@@ -75,7 +75,8 @@ SmartGraph gc = new SmartGraph()                       /* To apply Custom UI fea
 > );
 > ```
 > > It can be done in any time and in any case
-
+>
+> > Configure empty callbacks to disable graph interactions
 
 ### 4. Setup
 
