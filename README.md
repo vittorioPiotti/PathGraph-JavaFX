@@ -164,6 +164,19 @@ boolean flag = gc.deleteNode("A");
 boolean flag = gc.isNode("A");                 /* Check node corrispondance */
 ```
 
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 5.1. Check Node</strong>
+</summary>
+
+&nbsp;
+
 ```java
 boolean flag = gc.checkNode("A");              /* Check node validy */
 ```
