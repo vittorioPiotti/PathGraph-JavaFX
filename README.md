@@ -201,14 +201,14 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 
 ```java
-SmartGraph gc = new SmartGraphUI((Stage) primaryStage, (Scene) scene); /* To apply UI features (extends SmartGraph) */
+PathGraph gc = new PathGraphUI((Stage) primaryStage, (Scene) scene); /* To apply UI features (extends PathGraph) */
 ```
 
 _or_
 
 
 ```java
-SmartGraph gc = new SmartGraph()                                       /* To apply Custom UI features               */
+PathGraph gc = new SmartGraph()                                       /* To apply Custom UI features               */
 ```
 
 > Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
