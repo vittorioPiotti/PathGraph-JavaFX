@@ -72,19 +72,19 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-    Edge without direction 
+    Edge without direction:
   
     ```java
     int direction = SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
     ```
 
-    Edge in the natural direction 
+    Edge in the natural direction:
     
     ```java
     int direction = SmartEdgeBase.DIRECTION_FIRST;
     ```
     
-    Edge in the opposite direction 
+    Edge in the opposite direction: 
     
     ```java
     int direction = SmartEdgeBase.DIRECTION_SECOND;
@@ -211,7 +211,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-To apply UI features 
+To apply default UI features: 
 
 ```java
 PathGraph pg = new PathGraphUI((Stage) primaryStage, (Scene) scene); 
@@ -220,7 +220,7 @@ PathGraph pg = new PathGraphUI((Stage) primaryStage, (Scene) scene);
 _or_
 
 
-To apply custom UI features          
+To apply custom UI features:          
 
 
 ```java
