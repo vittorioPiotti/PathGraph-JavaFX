@@ -82,6 +82,62 @@ gc.setup();
  * Operations are available **only** after calling `gc.setup()`
  * Every method is a function type and return the status of the operation
 
+
+
+
+<details>
+  
+<summary>
+  <strong> Node</strong>
+</summary>
+
+
+<details>
+  
+<summary>
+  <strong> 3.1. New Node</strong>
+</summary>
+
+
+```java
+boolean flag = gc.newNode("A");
+```
+
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> 3.3. Rename Node</strong>
+</summary>
+
+
+```java
+boolean flag = gc.renameNode("A", "K");
+```
+
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong> 3.3. Delete Node</strong>
+</summary>
+
+
+```java
+boolean flag = gc.deleteNode("A");
+```
+
+</details>
+
+</details>
+
+
 #### Node
 
 <details>
