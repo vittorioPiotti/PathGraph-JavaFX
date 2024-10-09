@@ -117,7 +117,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-### 1. Requirements
+### 1. Requirements {#requirements}
 
  * Java Version: `21.0.3` [(link)](https://www.oracle.com/java/technologies/downloads/#java21)
  * JavaFX Version: `22.0.2+4` [(link)](https://gluonhq.com/products/javafx/)
