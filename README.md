@@ -332,7 +332,12 @@ pg.setup();
 
 
 ```java
-boolean flag = pg.newNode("A");
+(boolean) (
+  pg.newNode(
+    /* new node name */
+    "A"
+  );
+)
 ```
 
 &nbsp;
