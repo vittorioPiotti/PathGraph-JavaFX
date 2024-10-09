@@ -312,7 +312,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 (CompletableFuture<Integer>) gc.takeScreenshot(false);    /* set if is animated */
 ```
 
-> Handle asynchronous operation
+> Handle both asynchronous operation
 >
 > ```java
 > gc.takeScreenshot().thenAccept(status -> {
