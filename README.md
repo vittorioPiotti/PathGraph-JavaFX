@@ -117,16 +117,16 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-### Requirements
+### 1. Requirements <div id="requirements"/>
 
  * Java Version: `21.0.3` [(link)](https://www.oracle.com/java/technologies/downloads/#java21)
  * JavaFX Version: `22.0.2+4` [(link)](https://gluonhq.com/products/javafx/)
 
-### Import
+### 2. Import
 
 _Working on to upload library on maven dipencencies to available the library distribution_
   
-### Prepare 
+### 3. Prepare 
 
 ```java
 SmartGraph gc = new SmartGraphUI((Stage) primaryStage, (Scene) scene); /* To apply UI features (extends SmartGraph) */
@@ -155,7 +155,7 @@ SmartGraph gc = new SmartGraph()                                       /* To app
 >
 > > Configure empty callbacks to disable graph interactions
 
-### Setup
+### 4. Setup
 
  * Setup is required to enable graph creation features
  * To call only after called `(Stage) primaryStage.show()`
@@ -164,7 +164,7 @@ SmartGraph gc = new SmartGraph()                                       /* To app
 gc.setup();
 ```
 
-### Ready
+### 5. Ready
 
  > [!IMPORTANT]  
 > Operations are available **only** after calling `gc.setup()`
