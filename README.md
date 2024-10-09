@@ -178,7 +178,7 @@ boolean flag = gc.isNode("A");                 /* Check node corrispondance */
 &nbsp;
 
 ```java
-boolean flag = gc.checkNode("A");              /* Check node validy */
+boolean flag = gc.checkNode("A");              /* Check node validity */
 ```
 
 &nbsp;
