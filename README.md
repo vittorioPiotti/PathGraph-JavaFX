@@ -210,7 +210,7 @@ _or_
 ```java
 SmartGraph gc = new SmartGraph()                                       /* To apply Custom UI features               */
 ```
-> [!NOTE]  
+
 > Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
 >
 > ```java
@@ -263,7 +263,6 @@ gc.setup();
 
 &nbsp;
 
-> [!IMPORTANT]  
 > Operations are available **only** after calling `gc.setup()`
 
 &nbsp;
