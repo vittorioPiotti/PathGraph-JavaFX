@@ -105,7 +105,7 @@ Provided to represent path s through nodes, edges, and associated costs with the
 <details>
   
 <summary>
-  <strong>  Interactions</strong>
+  <strong> Graph Interactions</strong>
 </summary>
 
 &nbsp;
