@@ -224,7 +224,7 @@ boolean flag = gc.deleteEdge("A", "Z");
 &nbsp;
 
 ```java
-boolean flag = gc.rotateEdge("Z", "C"); /* Default rotation */
+boolean flag = gc.rotateEdge("Z", "C");                                     /* Default rotation */
 ```
 
 
@@ -303,7 +303,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 &nbsp;
 
 ```java
-(CompletableFuture<Integer>) gc.takeScreenshot();         /* with animation */
+(CompletableFuture<Integer>) gc.takeScreenshot();         /* with animation     */
 ```
 
 ```java
