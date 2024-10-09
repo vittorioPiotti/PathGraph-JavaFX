@@ -104,7 +104,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 ### Graph Interactions
 
-The user make **Douple Click** on one of this components of the graph to do:
+The user make **Douple Click** or **Right Click** on one of this components of the graph to do:
 | Background| Node | Edge |
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
@@ -114,6 +114,8 @@ The user make **Douple Click** on one of this components of the graph to do:
 |  |  | Edit Edge |
 
 > Empty callbacks to disable interactions on graph
+
+> Ability to custom actions of the events choicing also click type
 
 
 
