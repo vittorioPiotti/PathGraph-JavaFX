@@ -221,7 +221,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 PathGraph pg = (
   new PathGraphUI(
     (Stage) primaryStage,
-   (Scene) scene
+    (Scene) scene
 ); 
 ```
 
