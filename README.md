@@ -250,7 +250,7 @@ gc.setup();
 
 > Setup is required to enable graph creation features
 
-> To call only after called `(Stage) primaryStage.show()`
+> To call **only after** called `(Stage) primaryStage.show()`
 
 &nbsp;
 
