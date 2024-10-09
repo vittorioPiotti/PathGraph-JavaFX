@@ -658,22 +658,7 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 
 ### Node 
 
-<details>
-  
-<summary>
-  <strong> Get Node</strong>
-</summary>
 
-&nbsp;
-
-
-```java
-PseudoNode pn = gc.getNode("A");                 /* Get corrispondent node */
-```
-
-&nbsp;
-
-</details>
 
 
 <details>
@@ -711,26 +696,26 @@ boolean flag = gc.checkNode("A");              /* Check node validity */
 </details>
 
 
-
-### Edge 
-
-
 <details>
   
 <summary>
-  <strong> Get Edge</strong>
+  <strong> Get Node</strong>
 </summary>
 
 &nbsp;
 
 
 ```java
-PseudoEdge pe = gc.getEdge("A","Z");                 /* Get corrispondent edge */
+PseudoNode pn = gc.getNode("A");                 /* Get corrispondent node */
 ```
 
 &nbsp;
 
 </details>
+
+### Edge 
+
+
 
 
 <details>
@@ -964,6 +949,26 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 &nbsp;
 
 </details>
+
+
+
+<details>
+  
+<summary>
+  <strong> Get Edge</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+PseudoEdge pe = gc.getEdge("A","Z");                 /* Get corrispondent edge */
+```
+
+&nbsp;
+
+</details>
+
 
 ### Graph
 
