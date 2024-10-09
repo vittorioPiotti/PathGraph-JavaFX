@@ -499,6 +499,33 @@ boolean flag = gc.setCost("Z", "C", 200);
 <details>
   
 <summary>
+  <strong>  Show Path</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+<details>
+  
+<summary>
+  <strong>  Clear Graph</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+
+<details>
+  
+<summary>
   <strong> Take Screenshot</strong>
 </summary>
 
@@ -899,6 +926,77 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 
 &nbsp;
 
+</details>
+
+### Graph
+
+<details>
+  
+<summary>
+  <strong>  Get Graph</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+<details>
+  
+<summary>
+  <strong>  Get Path</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+
+<details>
+  
+<summary>
+  <strong>  Get Nodes</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong>  Get Edges</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+
+<details>
+  
+<summary>
+  <strong>  Get Connections</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
 </details>
 
 
