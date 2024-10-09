@@ -23,7 +23,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Edges can be directed:
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow). */
+    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).             */
     ```
 
     ```java
@@ -177,11 +177,11 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /*
 > The direction can be
 >
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).             */
+> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).              */
 > ```
 > 
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow). */
+> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow).  */
 > ```
 >
 > ```java
@@ -329,7 +329,7 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > ```
 >
 > ```java
-> (int) UtilitiesCapture.ERROR;        /* (2) process error        */
+> (int) UtilitiesCapture.ERROR;         /* (2) process error       */
 > ```
 
 
