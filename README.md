@@ -108,11 +108,11 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 ## Get Started
 
 
- 1. [Requirements](#requirements)
- 2. [Import](#import)
- 3. [Prepare](#prepare)
- 4. [Setup](#setup)
- 5. [Ready](#ready)
+ 1. [Requirements](#1.-requirements)
+ 2. [Import](#2.-import)
+ 3. [Prepare](#3.-prepare)
+ 4. [Setup](#4.-setup)
+ 5. [Ready](#5.-ready)
 
 
 
