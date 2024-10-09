@@ -57,7 +57,7 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 >
 > ```java
 > gc.setAllCallbacks(
->     Runnable closeContextMenu,  // to possibly close a open `ContextMenu`
+>     Runnable closeContextMenu,  // to possibly close an open `ContextMenu`
 >     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow, // action to perform on arrow edge event
 >     BiConsumer<MouseEvent, Vertex<V>> onClickNode, // action to perform on node event
 >     Consumer<MouseEvent> onClickBackground, // action to perform on click background
