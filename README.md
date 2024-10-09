@@ -22,16 +22,16 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Not provided loops creation
 * Edges can be directed:
 
-    ```java
-    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     // (0) Edge without direction (no arrow).
+    ```java*/
+    (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow). */
     ```
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_FIRST;             // (1) Edge in the natural direction (with an arrow).
+    (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in the natural direction (with an arrow). */
     ```
 
     ```java
-    (int) SmartGraphEdgeBase.DIRECTION_SECOND;            // (2) Edge in the opposite direction (with an arrow).
+    (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in the opposite direction (with an arrow). */
     ```
 
 
@@ -44,7 +44,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 ### 1. Prepare 
 
 ```java
-SmartGraph gc = new SmartGraphUI(primaryStage, scene); // To apply UI features (extends SmartGraph)
+SmartGraph gc = new SmartGraphUI(primaryStage, scene); /* To apply UI features (extends SmartGraph) */
 ```
 
 _or_
@@ -58,12 +58,12 @@ SmartGraph gc = new SmartGraph() // To apply Custom UI features
 >
 > ```java
 > gc.setAllCallbacks(
->     Runnable closeContextMenu,                         // to possibly close an open `ContextMenu`
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,   // action to perform on arrow edge event
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode,     // action to perform on node event
->     Consumer<MouseEvent> onClickBackground,            // action to perform on click background
->     Consumer<Double> onChangeZoom,                     // action to perform on scroll background
->     Runnable doAdjustPosition                          // action to perform on drag background
+>     Runnable closeContextMenu,                         /* to possibly close an open `ContextMenu` */
+>     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,   /* action to perform on arrow edge event   */
+>     BiConsumer<MouseEvent, Vertex<V>> onClickNode,     /* action to perform on node event         */
+>     Consumer<MouseEvent> onClickBackground,            /* action to perform on click background   */
+>     Consumer<Double> onChangeZoom,                     /* action to perform on scroll background  */
+>     Runnable doAdjustPosition                          /* action to perform on drag background    */
 > );
 > ```
 > > It can be done in any time and in any case
@@ -150,20 +150,20 @@ boolean flag = gc.deleteNode("A");
 &nbsp;
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23); // Default not bidirectional direction
+boolean flag = gc.newEdge("A", "Z", 23); /* Default not bidirectional direction */
 ```
 
 
 
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23, true); // Default direction (can be bidirectional)
+boolean flag = gc.newEdge("A", "Z", 23, true); /* Default direction (can be bidirectional) */
 ```
 
 
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); // Custom direction
+boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction */
 ```
 
 &nbsp;
@@ -200,13 +200,13 @@ boolean flag = gc.deleteEdge("A", "Z");
 &nbsp;
 
 ```java
-boolean flag = gc.rotateEdge("Z", "C"); // Default rotation
+boolean flag = gc.rotateEdge("Z", "C"); /* Default rotation */
 ```
 
 
 
 ```java
-boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); // Rotation with specific direction
+boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* Rotation with specific direction */
 ```
 
 &nbsp;
@@ -263,33 +263,33 @@ boolean flag = gc.changeCost("Z", "C", 200);
 &nbsp;
 
 ```java
-(CompletableFuture<Integer>) gc.takeScreenshot(); // with animation
+(CompletableFuture<Integer>) gc.takeScreenshot(); /* with animation */
 ```
 
 ```java
-(CompletableFuture<Integer>) gc.takeScreenshot(false); // set if is animated
+(CompletableFuture<Integer>) gc.takeScreenshot(false); /* set if is animated */
 ```
 
 > Handle asynchronous operation
 >
 > ```java
 > gc.takeScreenshot().thenAccept(status -> {
->     int flag = (int) status; // Use flag to check operation
+>     int flag = (int) status; /* Use flag to check operation */
 > );
 > ```
 
 > The status can be
 >
 > ```java
-> (int) UtilitiesCapture.INTERRUPT;     // (0) process interrupted
+> (int) UtilitiesCapture.INTERRUPT;     /* (0) process interrupted */
 > ```
 > 
 > ```java
-> (int) UtilitiesCapture.SUCCESS;       // (1) process successfull 
+> (int) UtilitiesCapture.SUCCESS;       /* (1) process successfull */
 > ```
 >
 > ```java
-> (int) UtilitiesCapture.ERROR;        // (2) process error
+> (int) UtilitiesCapture.ERROR;        /* (2) process error        */
 > ```
 
 
@@ -309,25 +309,25 @@ boolean flag = gc.changeCost("Z", "C", 200);
 &nbsp;
 
 ```java
-int flag = gc.downloadJSON();       // floating file chooser
+int flag = gc.downloadJSON();             /* floating file chooser */
 ```
 
 ```java
-int flag = gc.downloadJSON((Scene)scene); // fixed file chooser
+int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser    */
 ```
 
 > The status can be
 >
 > ```java
-> (int) UtilitiesParser.INTERRUPT;     // (0) process interrupted
+> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
 > ```
 > 
 > ```java
-> (int) UtilitiesParser.SUCCESS;       // (1) process successfull 
+> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull */
 > ```
 >
 > ```java
-> (int) UtilitiesParser.ERROR;        // (2) process error
+> (int) UtilitiesParser.ERROR;            /* (2) process error       */
 > ```
 
 
@@ -347,27 +347,28 @@ int flag = gc.downloadJSON((Scene)scene); // fixed file chooser
 &nbsp;
 
 ```java
-int flag = gc.uploadJSON();       // floating file chooser
+int flag = gc.uploadJSON();               /* floating file chooser */
 ```
 
 ```java
-int flag = gc.uploadJSON((Scene)scene); // fixed file chooser
+int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser */
 ```
 
 
 > The status can be
 >
 > ```java
-> (int) UtilitiesParser.INTERRUPT;     // (0) process interrupted
+> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
 > ```
 > 
 > ```java
-> (int) UtilitiesParser.SUCCESS;       // (1) process successfull 
+> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull */
 > ```
 >
 > ```java
-> (int) UtilitiesParser.ERROR;        // (2) process error
+> (int) UtilitiesParser.ERROR;            /* (2) process error       */
 > ```
+
 
 &nbsp;
    
