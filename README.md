@@ -404,6 +404,10 @@ boolean flag = pg.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /*
 boolean flag = pg.deleteEdge("A", "Z");
 ```
 
+```java
+boolean flag = pg.deleteEdge((PseudoEdge) e);
+```
+
 &nbsp;
 
 </details>
@@ -419,13 +423,20 @@ boolean flag = pg.deleteEdge("A", "Z");
 &nbsp;
 
 ```java
-boolean flag = pg.rotateEdge("Z", "C");                                     /* Default rotation */
+boolean flag = pg.rotateEdge("Z", "C");                                                   /* Default rotation */
+```
+
+```java
+boolean flag = pg.rotateEdge((PseudoEdge) e);                                             /* Default rotation */
 ```
 
 
+```java
+boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST);                /* Rotation with specific direction */
+```
 
 ```java
-boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* Rotation with specific direction */
+boolean flag = pg.rotateEdge((PseudoEdge) e, (int) , SmartGraphEdgeBase.DIRECTION_FIRST);  /* Rotation with specific direction */
 ```
 
 
@@ -463,6 +474,11 @@ boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* R
 boolean flag = pg.splitEdge("Z", "C");
 ```
 
+
+```java
+boolean flag = pg.splitEdge((PseudoEdge) e);                                           
+```
+
 &nbsp;
 
 </details>
@@ -480,6 +496,10 @@ boolean flag = pg.splitEdge("Z", "C");
 
 ```java
 boolean flag = pg.setCost("Z", "C", 200);
+```
+
+```java
+boolean flag = pg.setCost((PseudoEdge) e, (int) 200);                                           
 ```
 
 &nbsp;
@@ -731,6 +751,10 @@ PseudoNode n = pg.getNode("A");                 /* Get corrispondent node */
 boolean flag = pg.isEdge((char) 'Z', (char) 'C' );                                                       /* Check validity of edge existance                        */
 ```
 
+```java
+boolean flag = pg.isEdge((PseudoEdge) e );                                                            
+```
+
 &nbsp;
 
 </details>
@@ -747,6 +771,11 @@ boolean flag = pg.isEdge((char) 'Z', (char) 'C' );                              
 ```java
 boolean flag = pg.isDouble( (char) 'Z', (char) 'C' );                                                     /* if true there are two edges between the same two nodes  */
 ```
+
+```java
+boolean flag = pg.isDouble((PseudoEdge) e );                                                      
+```
+
 
 &nbsp;
 
@@ -766,6 +795,11 @@ boolean flag = pg.isDouble( (char) 'Z', (char) 'C' );                           
 boolean flag = pg.isArrowed( (char) 'Z', (char) 'C' );                                                    /* if  false edge is bidirectional                         */
 ```
 
+```java
+boolean flag = pg.isArrowed((PseudoEdge) e );                                                          
+```
+
+
 &nbsp;
 
 </details>
@@ -781,6 +815,10 @@ boolean flag = pg.isArrowed( (char) 'Z', (char) 'C' );                          
 
 ```java
 boolean flag = pg.isDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check edge direction corrispondance  */
+```
+
+```java
+boolean flag = pg.isDirection((PseudoEdge) e, (int) SmartGraphEdgeBase.DIRECTION_FIRST  );                                                          
 ```
 
 &nbsp;
@@ -801,6 +839,10 @@ boolean flag = pg.isDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.D
 boolean flag = pg.isStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check edge start corrispondance  */
 ```
 
+```java
+boolean flag = pg.isStart((PseudoEdge) e, (char) 'G'  );                                                          
+```
+
 &nbsp;
 
 </details>
@@ -819,6 +861,10 @@ boolean flag = pg.isStart( (char) 'Z', (char) 'C', (char) 'G');                 
 boolean flag = pg.isEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check edge end corrispondance                      */
 ```
 
+```java
+boolean flag = pg.isEnd((PseudoEdge) e, (char) 'G'  );                                                          
+```
+
 &nbsp;
 
 </details>
@@ -834,6 +880,10 @@ boolean flag = pg.isEnd( (char) 'Z', (char) 'C', (char) 'G');                   
 
 ```java
 boolean flag = pg.isCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check edge cost corrispondance                       */
+```
+
+```java
+boolean flag = pg.isCost((PseudoEdge) e, (int) 12  );                                                          
 ```
 
 &nbsp;
@@ -856,6 +906,11 @@ boolean flag = pg.isCost( (char) 'Z', (char) 'C', (int) 12);                    
 boolean flag = pg.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check edge direction validity                     */
 ```
 
+```java
+boolean flag = pg.checkDirection((PseudoEdge) e, (int) SmartGraphEdgeBase.DIRECTION_FIRST );                                                          
+```
+
+
 &nbsp;
 
 </details>
@@ -872,6 +927,10 @@ boolean flag = pg.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBas
 
 ```java
 boolean flag = pg.checkStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check edge start validity                             */
+```
+
+```java
+boolean flag = pg.checkStart((PseudoEdge) e, (char) 'G' );                                                          
 ```
 
 &nbsp;
@@ -892,6 +951,11 @@ boolean flag = pg.checkStart( (char) 'Z', (char) 'C', (char) 'G');              
 boolean flag = pg.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check edge end validty                    */
 ```
 
+
+```java
+boolean flag = pg.checkEnd((PseudoEdge) e, (char) 'G' );                                                          
+```
+
 &nbsp;
 
 </details>
@@ -908,6 +972,13 @@ boolean flag = pg.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                
 ```java
 boolean flag = pg.checkCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check edge cost validity                              */
 ```
+
+
+
+```java
+boolean flag = pg.checkCost((PseudoEdge) e, (int) 12 );                                                          
+```
+
 
 &nbsp;
 
@@ -927,6 +998,11 @@ boolean flag = pg.checkCost( (char) 'Z', (char) 'C', (int) 12);                 
 boolean flag = pg.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set edge start                                            */
 ```
 
+```java
+boolean flag = pg.setStart((PseudoEdge) e, (char) 'G' );                                                          
+```
+
+
 &nbsp;
 
 </details>
@@ -945,6 +1021,11 @@ boolean flag = pg.setStart( (char) 'Z', (char) 'C', (char) 'G' );               
 ```java
 Char res = pg.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                                              /* Set edge end                                              */
 ```
+
+```java
+boolean flag = pg.setEnd((PseudoEdge) e, (char) 'G' );                                                          
+```
+
 
 &nbsp;
 
