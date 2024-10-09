@@ -248,7 +248,7 @@ SmartGraph gc = new SmartGraph()                                       /* To app
 gc.setup();
 ```
 
-> Setup is required to enable graph creation features
+> Setup is required **to enable the use** of library
 
 > To call **only after** called `(Stage) primaryStage.show()`
 
