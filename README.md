@@ -201,20 +201,20 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 
 ```java
-PathGraph gc = new PathGraphUI((Stage) primaryStage, (Scene) scene); /* To apply UI features (extends PathGraph) */
+PathGraph pg = new PathGraphUI((Stage) primaryStage, (Scene) scene); /* To apply UI features (extends PathGraph) */
 ```
 
 _or_
 
 
 ```java
-PathGraph gc = new PathGraph()                                       /* To apply Custom UI features               */
+PathGraph pg = new PathGraph()                                       /* To apply Custom UI features               */
 ```
 
 > Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
 >
 > ```java
-> gc.setAllCallbacks(
+> pg.setAllCallbacks(
 >     Runnable closeContextMenu,                         /* to possibly close an open `ContextMenu` */
 >     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,   /* action to perform on arrow edge event   */
 >     BiConsumer<MouseEvent, Vertex<V>> onClickNode,     /* action to perform on node event         */
@@ -245,7 +245,7 @@ PathGraph gc = new PathGraph()                                       /* To apply
 
    
 ```java
-gc.setup();
+pg.setup();
 ```
 
 > Setup is required **to enable the use** of library
@@ -265,7 +265,7 @@ gc.setup();
 
 &nbsp;
 
-> Operations are available **only** after calling `gc.setup()`
+> Operations are available **only** after calling `pg.setup()`
 
 &nbsp;
 
@@ -284,7 +284,7 @@ gc.setup();
 
 > Each method automatically update the graph
 
-> Operations are available **only** after calling `gc.setup()`
+> Operations are available **only** after calling `pg.setup()`
    
 
 ### Node
@@ -299,7 +299,7 @@ gc.setup();
 
 
 ```java
-boolean flag = gc.newNode("A");
+boolean flag = pg.newNode("A");
 ```
 
 &nbsp;
@@ -316,7 +316,7 @@ boolean flag = gc.newNode("A");
 &nbsp;
 
 ```java
-boolean flag = gc.renameNode("A", "K");
+boolean flag = pg.renameNode("A", "K");
 ```
 
 &nbsp;
@@ -334,7 +334,7 @@ boolean flag = gc.renameNode("A", "K");
 &nbsp;
 
 ```java
-boolean flag = gc.deleteNode("A");
+boolean flag = pg.deleteNode("A");
 ```
 
 &nbsp;
@@ -353,20 +353,20 @@ boolean flag = gc.deleteNode("A");
 &nbsp;
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23);                                     /* Default not bidirectional direction      */
+boolean flag = pg.newEdge("A", "Z", 23);                                     /* Default not bidirectional direction      */
 ```
 
 
 
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23, true);                               /* Default direction (can be bidirectional)  */
+boolean flag = pg.newEdge("A", "Z", 23, true);                               /* Default direction (can be bidirectional)  */
 ```
 
 
 
 ```java
-boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction                         */
+boolean flag = pg.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction                         */
 ```
 
 > The direction can be
@@ -401,7 +401,7 @@ boolean flag = gc.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /*
 &nbsp;
 
 ```java
-boolean flag = gc.deleteEdge("A", "Z");
+boolean flag = pg.deleteEdge("A", "Z");
 ```
 
 &nbsp;
@@ -419,13 +419,13 @@ boolean flag = gc.deleteEdge("A", "Z");
 &nbsp;
 
 ```java
-boolean flag = gc.rotateEdge("Z", "C");                                     /* Default rotation */
+boolean flag = pg.rotateEdge("Z", "C");                                     /* Default rotation */
 ```
 
 
 
 ```java
-boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* Rotation with specific direction */
+boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* Rotation with specific direction */
 ```
 
 
@@ -460,7 +460,7 @@ boolean flag = gc.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST); /* R
 &nbsp;
 
 ```java
-boolean flag = gc.splitEdge("Z", "C");
+boolean flag = pg.splitEdge("Z", "C");
 ```
 
 &nbsp;
@@ -479,7 +479,7 @@ boolean flag = gc.splitEdge("Z", "C");
 &nbsp;
 
 ```java
-boolean flag = gc.setCost("Z", "C", 200);
+boolean flag = pg.setCost("Z", "C", 200);
 ```
 
 &nbsp;
@@ -532,17 +532,17 @@ boolean flag = gc.setCost("Z", "C", 200);
 &nbsp;
 
 ```java
-(CompletableFuture<Integer>) gc.takeScreenshot();         /* with animation     */
+(CompletableFuture<Integer>) pg.takeScreenshot();         /* with animation     */
 ```
 
 ```java
-(CompletableFuture<Integer>) gc.takeScreenshot(false);    /* set if is animated */
+(CompletableFuture<Integer>) pg.takeScreenshot(false);    /* set if is animated */
 ```
 
 > Handle both asynchronous operations
 >
 > ```java
-> gc.takeScreenshot().thenAccept(status -> {
+> pg.takeScreenshot().thenAccept(status -> {
 >     int flag = (int) status; /* Use flag to check operation */
 > );
 > ```
@@ -578,11 +578,11 @@ boolean flag = gc.setCost("Z", "C", 200);
 &nbsp;
 
 ```java
-int flag = gc.downloadJSON();             /* floating file chooser   */
+int flag = pg.downloadJSON();             /* floating file chooser   */
 ```
 
 ```java
-int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser      */
+int flag = pg.downloadJSON((Scene)scene); /* fixed file chooser      */
 ```
 
 > The return status can be
@@ -616,11 +616,11 @@ int flag = gc.downloadJSON((Scene)scene); /* fixed file chooser      */
 &nbsp;
 
 ```java
-int flag = gc.uploadJSON();               /* floating file chooser   */
+int flag = pg.uploadJSON();               /* floating file chooser   */
 ```
 
 ```java
-int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
+int flag = pg.uploadJSON((Scene)scene);   /* fixed file chooser      */
 ```
 
 
@@ -653,7 +653,7 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 
 > Each method automatically update the graph
 
-> Operations are available **only** after calling `gc.setup()`
+> Operations are available **only** after calling `pg.setup()`
 
 
 ### Node 
@@ -671,7 +671,7 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 
 
 ```java
-boolean flag = gc.isNode("A");                 /* Check node corrispondance */
+boolean flag = pg.isNode("A");                 /* Check node corrispondance */
 ```
 
 &nbsp;
@@ -688,7 +688,7 @@ boolean flag = gc.isNode("A");                 /* Check node corrispondance */
 &nbsp;
 
 ```java
-boolean flag = gc.checkNode("A");              /* Check node validity */
+boolean flag = pg.checkNode("A");              /* Check node validity */
 ```
 
 &nbsp;
@@ -706,7 +706,7 @@ boolean flag = gc.checkNode("A");              /* Check node validity */
 
 
 ```java
-PseudoNode pn = gc.getNode("A");                 /* Get corrispondent node */
+PseudoNode pn = pg.getNode("A");                 /* Get corrispondent node */
 ```
 
 &nbsp;
@@ -728,7 +728,7 @@ PseudoNode pn = gc.getNode("A");                 /* Get corrispondent node */
 
 
 ```java
-boolean flag = gc.isEdge((char) 'Z', (char) 'C' );                                                       /* Check validity of edge existance                        */
+boolean flag = pg.isEdge((char) 'Z', (char) 'C' );                                                       /* Check validity of edge existance                        */
 ```
 
 &nbsp;
@@ -745,7 +745,7 @@ boolean flag = gc.isEdge((char) 'Z', (char) 'C' );                              
 
 
 ```java
-boolean flag = gc.isDouble( (char) 'Z', (char) 'C' );                                                     /* if true there are two edges between the same two nodes  */
+boolean flag = pg.isDouble( (char) 'Z', (char) 'C' );                                                     /* if true there are two edges between the same two nodes  */
 ```
 
 &nbsp;
@@ -763,7 +763,7 @@ boolean flag = gc.isDouble( (char) 'Z', (char) 'C' );                           
 
 
 ```java
-boolean flag = gc.isArrowed( (char) 'Z', (char) 'C' );                                                    /* if  false edge is bidirectional                         */
+boolean flag = pg.isArrowed( (char) 'Z', (char) 'C' );                                                    /* if  false edge is bidirectional                         */
 ```
 
 &nbsp;
@@ -780,7 +780,7 @@ boolean flag = gc.isArrowed( (char) 'Z', (char) 'C' );                          
 
 
 ```java
-boolean flag = gc.isDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check edge direction corrispondance  */
+boolean flag = pg.isDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check edge direction corrispondance  */
 ```
 
 &nbsp;
@@ -798,7 +798,7 @@ boolean flag = gc.isDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.D
 
 
 ```java
-boolean flag = gc.isStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check edge start corrispondance  */
+boolean flag = pg.isStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check edge start corrispondance  */
 ```
 
 &nbsp;
@@ -816,7 +816,7 @@ boolean flag = gc.isStart( (char) 'Z', (char) 'C', (char) 'G');                 
 
 
 ```java
-boolean flag = gc.isEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check edge end corrispondance                      */
+boolean flag = pg.isEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check edge end corrispondance                      */
 ```
 
 &nbsp;
@@ -833,7 +833,7 @@ boolean flag = gc.isEnd( (char) 'Z', (char) 'C', (char) 'G');                   
 
 
 ```java
-boolean flag = gc.isCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check edge cost corrispondance                       */
+boolean flag = pg.isCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check edge cost corrispondance                       */
 ```
 
 &nbsp;
@@ -853,7 +853,7 @@ boolean flag = gc.isCost( (char) 'Z', (char) 'C', (int) 12);                    
 
 
 ```java
-boolean flag = gc.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check edge direction validity                     */
+boolean flag = pg.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBase.DIRECTION_FIRST );    /* Check edge direction validity                     */
 ```
 
 &nbsp;
@@ -871,7 +871,7 @@ boolean flag = gc.checkDirection((char) 'Z', (char) 'C', (int) SmartGraphEdgeBas
 
 
 ```java
-boolean flag = gc.checkStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check edge start validity                             */
+boolean flag = pg.checkStart( (char) 'Z', (char) 'C', (char) 'G');                                      /* Check edge start validity                             */
 ```
 
 &nbsp;
@@ -889,7 +889,7 @@ boolean flag = gc.checkStart( (char) 'Z', (char) 'C', (char) 'G');              
 
 
 ```java
-boolean flag = gc.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check edge end validty                    */
+boolean flag = pg.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                                        /* Check edge end validty                    */
 ```
 
 &nbsp;
@@ -906,7 +906,7 @@ boolean flag = gc.checkEnd( (char) 'Z', (char) 'C', (char) 'G');                
 
 
 ```java
-boolean flag = gc.checkCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check edge cost validity                              */
+boolean flag = pg.checkCost( (char) 'Z', (char) 'C', (int) 12);                                        /* Check edge cost validity                              */
 ```
 
 &nbsp;
@@ -924,7 +924,7 @@ boolean flag = gc.checkCost( (char) 'Z', (char) 'C', (int) 12);                 
 
 
 ```java
-Char res = gc.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set edge start                                            */
+Char res = pg.setStart( (char) 'Z', (char) 'C', (char) 'G' );                                             /* Set edge start                                            */
 ```
 
 &nbsp;
@@ -943,7 +943,7 @@ Char res = gc.setStart( (char) 'Z', (char) 'C', (char) 'G' );                   
 
 
 ```java
-Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                                              /* Set edge end                                              */
+Char res = pg.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                                              /* Set edge end                                              */
 ```
 
 &nbsp;
@@ -962,7 +962,7 @@ Char res = gc.setEnd( (char) 'Z', (char) 'C', (char) 'H'  );                    
 
 
 ```java
-PseudoEdge pe = gc.getEdge("A","Z");                 /* Get corrispondent edge */
+PseudoEdge pe = pg.getEdge("A","Z");                 /* Get corrispondent edge */
 ```
 
 &nbsp;
