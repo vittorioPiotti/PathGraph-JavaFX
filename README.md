@@ -82,7 +82,7 @@ gc.setup();
  * Operations are available **only** after calling `gc.setup()`
  * Every method is a function type and return the status of the operation
 
-#### On Node
+#### Node
 
 <details>
   
@@ -127,7 +127,7 @@ boolean flag = gc.deleteNode("A");
 
 </details>
 
-#### On Edge
+#### Edge
 
 <details>
   
@@ -225,6 +225,8 @@ boolean flag = gc.changeCost("Z", "C", 200);
 </details>
 
 
+#### Other
+
 <details>
   
 <summary>
@@ -247,11 +249,29 @@ boolean flag = gc.changeCost("Z", "C", 200);
 > );
 > ```
 
+   
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong> 3.10. Download JSON</strong>
+</summary>
+
+```java
+int flag = gc.downloadJSON();       // floating file chooser
+```
+
+```java
+int flag = gc.downloadJSON((Scene)scene); // fixed file chooser
+```
+
 
 
    
 </details>
-
 
 
 
