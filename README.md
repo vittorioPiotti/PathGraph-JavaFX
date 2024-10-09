@@ -208,7 +208,7 @@ _or_
 
 
 ```java
-PathGraph gc = new SmartGraph()                                       /* To apply Custom UI features               */
+PathGraph gc = new PathGraph()                                       /* To apply Custom UI features               */
 ```
 
 > Manual callback configurations if using `SmartGraph` instead of `SmartGraphUI`
