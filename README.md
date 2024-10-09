@@ -282,6 +282,8 @@ gc.setup();
 > Every method is a function type and return the status of the operation
 
 > Each method automatically update the graph
+
+> Operations are available **only** after calling `gc.setup()`
    
 
 ### Node
@@ -490,6 +492,10 @@ boolean flag = gc.setCost("Z", "C", 200);
 
 
 ### Graph
+
+> Each method automatically update the graph
+
+> Operations are available **only** after calling `gc.setup()`
 
 <details>
   
