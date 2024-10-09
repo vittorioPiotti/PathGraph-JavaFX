@@ -292,7 +292,8 @@ boolean flag = gc.changeCost("Z", "C", 200);
 </details>
 
 
-#### Other
+
+#### Graph
 
 <details>
   
