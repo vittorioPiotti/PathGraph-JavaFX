@@ -278,6 +278,7 @@ gc.setup();
 
 ## Basic Usage
 
+High level features
 
 > Every method is a function type and return the status of the operation
 
@@ -618,6 +619,9 @@ int flag = gc.uploadJSON((Scene)scene);   /* fixed file chooser      */
 
 
 ## Advanced Usage
+
+
+Low level features
 
 
 > Each method automatically update the graph
