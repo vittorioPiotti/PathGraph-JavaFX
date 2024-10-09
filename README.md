@@ -155,13 +155,6 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 ## Get Started
 
 
- 1. [Requirements](#requirements)
- 2. [Import](#import)
- 3. [Prepare](#prepare)
- 4. [Setup](#setup)
- 5. [Ready](#ready)
-
-
 
 <details>
   
