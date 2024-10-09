@@ -357,17 +357,19 @@ boolean flag = pg.newEdge("A", "Z", 23);                                     /* 
 ```
 
 
-
-
 ```java
 boolean flag = pg.newEdge("A", "Z", 23, true);                               /* Default direction (can be bidirectional)  */
 ```
 
 
-
 ```java
 boolean flag = pg.newEdge("A", "Z", 23, SmartGraphEdgeBase.DIRECTION_SECOND); /* Custom direction                         */
 ```
+
+```java
+boolean flag = pg.newEdge((PseudoEdge) e);                                    /* Default direction (can be bidirectional)  */        
+```
+
 
 > The direction can be
 >
@@ -435,9 +437,6 @@ boolean flag = pg.rotateEdge((PseudoEdge) e);                                   
 boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST);                /* Rotation with specific direction */
 ```
 
-```java
-boolean flag = pg.rotateEdge((PseudoEdge) e, (int) , SmartGraphEdgeBase.DIRECTION_FIRST);  /* Rotation with specific direction */
-```
 
 
 > The direction can be
