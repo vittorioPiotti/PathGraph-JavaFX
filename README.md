@@ -46,8 +46,10 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
  * JavaFX Version: `22.0.2+4` [(link)](https://gluonhq.com/products/javafx/)
 
 ### 2. Import
+
+_Working on to upload library on maven dipencencies to available the library distribution_
    
-### 4. Prepare 
+### 2. Prepare 
 
 ```java
 SmartGraph gc = new SmartGraphUI(primaryStage, scene); /* To apply UI features (extends SmartGraph) */
