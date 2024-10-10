@@ -646,6 +646,36 @@ boolean flag = (
 <details>
   
 <summary>
+  <strong>  Get Path</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong>  Get Graph</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+
+
+<details>
+  
+<summary>
   <strong>  Clear Graph</strong>
 </summary>
 
