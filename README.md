@@ -670,8 +670,7 @@ boolean flag = (
    
 </details>
 
-<details>
-  
+
 
 <details>
   
