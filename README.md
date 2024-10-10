@@ -329,13 +329,15 @@ pg.setup();
 > Operations are available **only** after calling `pg.setup()` [(see)](#setup)
 
 
-> Every method is a function type and return the status of the operation
-
-> Each method automatically update the graph
 
    
 
 ### Node
+
+
+> Every method is a function type and return the status of the operation
+
+> Each method automatically update the graph
 
 <details>
   
@@ -415,6 +417,11 @@ boolean flag = (
 
 
 ### Edge
+
+
+> Every method is a function type and return the status of the operation
+
+> Each method automatically update the graph
 
 <details>
   
