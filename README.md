@@ -950,8 +950,6 @@ int flag = pg.uploadJSON((Scene)scene);
 > [!NOTE]
 > Features only avaible on `PathGraphUI` class type:
 > 
-> _Not is supported using `PathGraph` class type_
-> 
 > ```java
 > PathGraphUI pg = (
 >   new PathGraphUI(
@@ -960,6 +958,8 @@ int flag = pg.uploadJSON((Scene)scene);
 >   )
 > );
 > ```
+>
+> > Not is supported using `PathGraph` class type
 
 <details>
   
