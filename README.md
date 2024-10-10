@@ -941,7 +941,7 @@ int flag = pg.uploadJSON((Scene)scene);
 
 
 > [!NOTE]
-> Features only avaible on `PathGraphUI` type:
+> Features only avaible on `PathGraphUI` class type:
 > 
 > _Not is supported using `PathGraph` class type_
 > 
