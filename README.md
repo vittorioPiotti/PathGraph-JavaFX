@@ -325,15 +325,19 @@ pg.setup();
 
 ## 4. Usage <div id="usage"/>
 
- 4.1. [Node](#node)
- 4.2. [Edge](#edge)
- 4.3. [Graph](#graph)
- 4.4. [UI](#ui)
-
 
 
 > [!NOTE]
 > Operations are available **only** after calling `pg.setup()` [(see)](#setup)
+
+
+#### Index
+ 1. [Node](#node)
+ 2. [Edge](#edge)
+ 3. [Graph](#graph)
+ 4. [UI](#ui)
+
+
 
 
 
