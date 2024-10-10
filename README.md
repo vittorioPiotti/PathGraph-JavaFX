@@ -158,7 +158,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 | Advanced| Edge and Nodes | Graph |
 | ------------ | ------------ | ------------ |
-| <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
+| <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.fig" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
 | Upload | [New Node](#new-node)  |  Clear Graph |
 | Download| [Delete Node](#delete-node) |  Drag  |
 | Update| [Rename Node](#rename-node) |   Adjust Position  |
