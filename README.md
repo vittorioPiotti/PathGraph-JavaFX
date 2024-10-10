@@ -335,7 +335,7 @@ pg.setup();
 ```java
 boolean flag = (
   pg.newNode(
-    /* name of node to create */
+    /* node name to create */
     (char) 'A'
   )
 );
@@ -349,17 +349,17 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> Replace Node</strong>
+  <strong> Rename Node</strong>
 </summary>
 
 &nbsp;
 
 ```java
 boolean flag = (
-  pg.replaceNode(
-    /* name of node to replace */
+  pg.renameNode(
+    /* last node name */
     (char)'A',
-    /* name of node to create */
+    /* new node name */
     (char)'B'
   )
 );
@@ -479,9 +479,6 @@ boolean flag = (
 > (int) SmartEdgeBase.DIRECTION_SECOND;
 
 &nbsp;
-
-</details>
-
 
 
 
