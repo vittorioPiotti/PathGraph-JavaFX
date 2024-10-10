@@ -410,7 +410,7 @@ boolean flag = (
     /* end node name */
     (char) 'B',
     /* edge cost */
-    (int) 23,
+    (int) 23
   )
 );
 ```
@@ -427,7 +427,7 @@ boolean flag = (
     /* edge cost */
     (int) 23,
     /* edge with arrow */
-    (boolean) true,
+    (boolean) true
   )
 );
 ```
@@ -444,7 +444,7 @@ boolean flag = (
     /* edge cost */
     (int) 23,
     /* edge direction */
-    (int) SmartGraphEdgeBase.DIRECTION_SECOND,
+    (int) SmartGraphEdgeBase.DIRECTION_SECOND
   )
 );
 ```
