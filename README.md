@@ -630,21 +630,7 @@ boolean flag = (
 
 
 
-<details>
-  
-<summary>
-  <strong>  Show Path</strong>
-</summary>
 
-&nbsp;
-
-
-&nbsp;
-   
-</details>
-
-<details>
-  
 <summary>
   <strong>  Get Path</strong>
 </summary>
@@ -671,7 +657,21 @@ boolean flag = (
    
 </details>
 
+<details>
+  
+<summary>
+  <strong>  Show Path</strong>
+</summary>
 
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+<details>
+  
 
 <details>
   
