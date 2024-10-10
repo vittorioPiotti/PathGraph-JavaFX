@@ -1108,11 +1108,11 @@ pg.disableUI();
 
 &nbsp;
 
-**Copyright** 2024 Vittorio Piotti [`GitHub page`](https://github.com/vittorioPiotti) [`Personal page`](https://vittoriopiotti.altervista.org/) 
+**Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/) 
 
 **Version** Not released
 
-**License** [`GPL-3.0`](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
+**License** [GPL-3.0](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
 
 &nbsp;
 
@@ -1129,11 +1129,11 @@ pg.disableUI();
 &nbsp;
 
 
-**Copyright** 2019 - 2024 Bruno Silva [`GitHub page`](https://github.com/brunomnsilva) [`Personal page`](https://www.brunomnsilva.com/) 
+**Copyright** 2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/) 
 
-**Version** [`v2.0.0`](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)
+**Version** [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)
 
-**License** [`MIT`](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt)
+**License** [MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt)
 
 
 &nbsp;
@@ -1151,9 +1151,9 @@ pg.disableUI();
 
 **Copyright** 2011-2018 The Bootstrap Authors 
 
-**Version** `v4.0.0`
+**Version** v4.0.0
 
-**License** [`MIT`](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+**License** [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
 
 &nbsp;
