@@ -1094,6 +1094,52 @@ pg.disableUI();
 
 ## Licenses
 
+### PathGraph
+
+#### Copyright
+
+ 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)  
+
+#### Version
+
+Not released
+
+####
+
+[GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
+
+
+### SmartGraph
+
+#### Copyright
+
+2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/)  
+
+#### Version
+
+`[v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)`
+
+####
+
+[MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt) 
+
+
+### Bootstrap
+
+#### Copyright
+
+2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/)  
+
+#### Version
+
+`v4.0.0`
+
+####
+
+[MIT ](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+
+
 | Component          | Version         | Copyright                                      | License                                                                                            |
 |---------------------|------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | [PathGraph](https://github.com/vittorioPiotti/JavaFXPathGraph) | Not released    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt) |
