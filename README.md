@@ -130,7 +130,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
 | [New Node](#new-node) | [New Edge](#new-edge) | [Delete Edge](#delete-edge) |
-|  | [Delete Node](#delete-node) | [Direct Edge](#direct-edge) |
+|  | [Delete Node](#delete-node) | [Rotatte Edge](#rotate-edge) |
 |  |  | [Split Edge](#split-edge) |
 |  |  | [Set Cost](#set-cost) |
 
@@ -160,15 +160,16 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | Advanced| Edge and Nodes | Graph |
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
-| Upload | New Node |  Clear Graph |
-| Download| Delete Node |  Drag  |
-| | Rename Node |   Adjust Position  |
-| | New Edge |  Take Screenshot |
-| | Delete Edge  |  Zoom | 
-| | Direct Edge |   |
-| | Split Edge |  |
-| | Edit Edge |  |
-| | Show Path |  |
+| Upload | [New Node](#new-node)  |  Clear Graph |
+| Download| [Delete Node](#delete-node) |  Drag  |
+| | [Rename Node](#rename-node) |   Adjust Position  |
+| |[New Edge](#new-edge) |  Take Screenshot |
+| | [Delete Edge](#delete-edge)  |  Zoom | 
+| | [Rotate Edge](#rotate-edge) |   |
+| | [Set Cost](#set-cost) |  |
+| | [Split Edge](#split-edge) |  |
+| | [Show Path](#show-path)  |  |
+
 
 &nbsp;
 
@@ -715,7 +716,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong>  Show Path</strong>
+  <strong>  Show Path</strong> <div id="show-path"/>
 </summary>
 
 &nbsp;
