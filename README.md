@@ -586,9 +586,6 @@ boolean flag = (
 ```
 
 
-```java
-boolean flag = pg.splitEdge((PseudoEdge) e);                                           
-```
 
 &nbsp;
 
