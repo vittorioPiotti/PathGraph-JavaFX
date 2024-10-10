@@ -331,7 +331,8 @@ pg.setup();
 > Operations are available **only** after calling `pg.setup()` [(see)](#setup)
 
 
-#### Index
+### Usage Index
+
  1. [Node](#node)
  2. [Edge](#edge)
  3. [Graph](#graph)
