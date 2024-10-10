@@ -349,8 +349,10 @@ pg.setup();
 ```java
 boolean flag = (
   pg.newNode(
+
     /* node name to create */
     (char) 'A'
+
   )
 );
 ```
@@ -371,10 +373,13 @@ boolean flag = (
 ```java
 boolean flag = (
   pg.renameNode(
+
     /* last node name */
     (char)'A',
+
     /* new node name */
     (char)'B'
+
   )
 );
 ```
@@ -396,8 +401,10 @@ boolean flag = (
 ```java
 boolean flag = (
   pg.deleteNode(
+
     /* name of the node to remove */
     (char) 'A'
+
   )
 );
 ```
@@ -424,12 +431,16 @@ boolean flag = (
 /* Default direction without bidirectional */
 boolean flag = (
   pg.newEdge(
+
     /* start node name */
     (char) 'A',
+
     /* end node name */
     (char) 'B',
+
     /* edge cost */
     (int) 23
+
   )
 );
 ```
@@ -439,14 +450,19 @@ boolean flag = (
 /* Default direction with bidirectionality */
 boolean flag = (
   pg.newEdge(
+
     /* start node name */
     (char) 'A',
+
     /* end node name */
     (char) 'B',
+
     /* edge cost */
     (int) 23,
+
     /* edge with arrow */
     (boolean) true
+
   )
 );
 ```
@@ -456,14 +472,19 @@ boolean flag = (
 /* Custom direction */                        
 boolean flag = (
   pg.newEdge(
+
     /* start node name */
     (char) 'A',
+
     /* end node name */
     (char) 'B',
+
     /* edge cost */
     (int) 23,
+
     /* edge direction */
     (int) SmartGraphEdgeBase.DIRECTION_SECOND
+
   )
 );
 ```
@@ -502,10 +523,14 @@ boolean flag = (
 ```java
 boolean flag = (
   pg.deleteEdge(
+
     /* start node */
+
     (char) 'A',
+
     /* end node */
     (char) 'Z'
+
   )
 );
 ```
@@ -530,10 +555,13 @@ boolean flag = (
 /* Default rotation */
 boolean flag = (
   pg.rotateEdge(
+
     /* start node */
     (char) 'Z',
+
     /* end node */
     (char) 'C'
+
   )
 );                                                   
 ```
@@ -543,12 +571,16 @@ boolean flag = (
 /* Rotation with specific direction */
 boolean flag = (
   pg.rotateEdge(
+
     /* start node */
     (char) 'Z',
+
     /* end node */
     (char) 'C',
+
     /* edge direction */
     (int) SmartGraphEdgeBase.DIRECTION_FIRST
+
   )
 );     
 ```
@@ -592,10 +624,13 @@ boolean flag = (
 ```java
 boolean flag = (
   pg.splitEdge(
+
     /* start node */
     (char) 'Z',
+
     /* end node */
     (char) 'C'
+
   )
 );   
 ```
@@ -620,12 +655,16 @@ boolean flag = (
 ```java
 boolean flag = (
   pg.splitEdge(
+
     /* start node */
     (char) 'Z',
+
     /* end node */
     (char) 'C',
+
     /* edge cost */
     (int) 200
+
   )
 );  
 ```
@@ -776,8 +815,10 @@ CompletableFuture<Integer> future = (
 >
 > ```java
 > pg.takeScreenshot().thenAccept(status -> {
+> 
 >   /* Use flag to check operation */
->   int flag = (int) status; 
+>   int flag = (int) status;
+> 
 > );
 > ```
 
@@ -893,6 +934,99 @@ int flag = pg.uploadJSON((Scene)scene);
 
 &nbsp;
    
+</details>
+
+
+### UI
+
+<details>
+  
+<summary>
+  <strong> Set UI <div id="set-ui"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+gc.setUI(
+
+  /* is enabled top-left menu */
+  true,
+
+  /* is enabled bot-left menu */
+  true,
+
+  /* is enabled bot-mid menu */
+  true,
+
+  /* is enabled right-mid menu */
+  true,
+
+  /* is enabled top-right menu */
+  true,
+
+  /* is hide UI */
+  false
+
+);
+```
+
+&nbsp;
+
+</details>
+
+<details>
+  
+<summary>
+  <strong> Show UI <div id="show-ui"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+gc.showUI();
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> Hide UI <div id="hide-ui"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+gc.hideUI();
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> Toggle UI <div id="toggle-ui"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+gc.toggleUI();
+```
+
+&nbsp;
+
 </details>
 
 
