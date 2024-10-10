@@ -164,8 +164,8 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | Delete Node | DownloadJSON  | Drag  |
 | Rename Node |  | Adjust Position  |
 | New Edge | | Take Screenshot |
-| Delete Edge  | Edit Edge |
-| Direct Edge | | Zoom |
+| Delete Edge  | | Zoom | 
+| Direct Edge | |  |
 | Split Edge | | |
 | Edit Edge | | |
 | Show Path | | |
