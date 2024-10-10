@@ -161,7 +161,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
 | Upload | [New Node](#new-node)  |  Clear Graph |
 | Download| [Delete Node](#delete-node) |  Drag  |
-| Update| [Rename Node](#rename-node) |   Adjust Position  |
+| | [Rename Node](#rename-node) |   Adjust Position  |
 | |[New Edge](#new-edge) |  Take Screenshot |
 | | [Delete Edge](#delete-edge)  |  Zoom | 
 | | [Rotate Edge](#rotate-edge) |   |
