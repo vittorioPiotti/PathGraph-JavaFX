@@ -1117,7 +1117,7 @@ Not released
 
 #### Version
 
-`[v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)`
+[`v2.0.0`](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)
 
 ####
 
