@@ -939,6 +939,10 @@ int flag = pg.uploadJSON((Scene)scene);
 
 ### UI
 
+
+> [!NOTE]
+> Features only avaible on PathGraphUI type
+
 <details>
   
 <summary>
