@@ -405,7 +405,7 @@ boolean flag = (
 
 
 ```java
-/* Using support structure to quick creation  */        
+/* Using support structure to quick creation */        
 boolean flag = (
   pg.newEdge(
     /* support structure with new edge data */
