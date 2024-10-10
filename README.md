@@ -815,6 +815,8 @@ int flag = pg.downloadJSON();
 int flag = pg.downloadJSON((Scene) scene); 
 ```
 
+&nbsp;
+
 > The response status can be
 >
 > ```java
@@ -857,6 +859,7 @@ int flag = pg.uploadJSON();
 int flag = pg.uploadJSON((Scene)scene);  
 ```
 
+&nbsp;
 
 > The response status can be
 >
