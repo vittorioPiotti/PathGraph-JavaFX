@@ -335,7 +335,7 @@ pg.setup();
 ```java
 boolean flag = (
   pg.newNode(
-    /* name of the new node */
+    /* name of node to create */
     (char) 'A'
   )
 );
@@ -349,16 +349,18 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> Rename Node</strong>
+  <strong> Replace Node</strong>
 </summary>
 
 &nbsp;
 
 ```java
 boolean flag = (
-  pg.renameNode(
-    /* new node name */
-    (char)'A'
+  pg.replaceNode(
+    /* name of node to replace */
+    (char)'A',
+    /* name of node to create */
+    (char)'B'
   )
 );
 ```
