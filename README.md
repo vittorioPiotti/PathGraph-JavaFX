@@ -1095,6 +1095,11 @@ pg.disableUI();
 ## Licenses
 
 
+
+> [!NOTE]
+> SVG icons from **Bootstrap**
+
+
 <details>
   
 <summary>
@@ -1150,9 +1155,6 @@ pg.disableUI();
 
 
 
-
-> [!NOTE]
-> SVG icons from **Bootstrap**
 
 
 
