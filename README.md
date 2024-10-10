@@ -632,7 +632,7 @@ boolean flag = (
 <details>
 
 <summary>
-  <strong>  Get Path</strong>
+  <strong>  Get Nodes</strong>
 </summary>
 
 &nbsp;
@@ -642,6 +642,32 @@ boolean flag = (
    
 </details>
 
+
+<details>
+
+<summary>
+  <strong>  Get Edges</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+<details>
+
+<summary>
+  <strong>  Get Connections</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
 
 
 <details>
@@ -656,6 +682,23 @@ boolean flag = (
 &nbsp;
    
 </details>
+
+
+
+<details>
+
+<summary>
+  <strong>  Get Path</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+   
+</details>
+
+
 
 <details>
   
