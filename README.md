@@ -191,7 +191,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 <details>
   
 <summary>
-  <strong> 2. Import</strong>
+  <strong> 2. Dependencies</strong>
 </summary>
 
 &nbsp;
