@@ -364,10 +364,8 @@ pg.setup();
 ```java
 boolean flag = (
   pg.newNode(
-
     /* node name to create */
     (char) 'A'
-
   )
 );
 ```
@@ -416,10 +414,8 @@ boolean flag = (
 ```java
 boolean flag = (
   pg.deleteNode(
-
     /* name of the node to remove */
     (char) 'A'
-
   )
 );
 ```
@@ -545,7 +541,6 @@ boolean flag = (
   pg.deleteEdge(
 
     /* start node */
-
     (char) 'A',
 
     /* end node */
