@@ -112,7 +112,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-## User Experience
+## 2. User Experience <div id="user-experience"/>
 
 
 
@@ -161,7 +161,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
 | Upload | [New Node](#new-node)  |  Clear Graph |
 | Download| [Delete Node](#delete-node) |  Drag  |
-| | [Rename Node](#rename-node) |   Adjust Position  |
+| Update| [Rename Node](#rename-node) |   Adjust Position  |
 | |[New Edge](#new-edge) |  Take Screenshot |
 | | [Delete Edge](#delete-edge)  |  Zoom | 
 | | [Rotate Edge](#rotate-edge) |   |
@@ -179,7 +179,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 
 
-## Get Started
+## 3. Get Started <div id="get-started"/>
 
 
 
@@ -323,16 +323,21 @@ pg.setup();
 
 
 
-## Usage
+## 4. Usage <div id="usage"/>
 
 > [!NOTE]
 > Operations are available **only** after calling `pg.setup()` [(see)](#setup)
 
+## Index
 
+ 1. [Node](#node)
+ 2. [Edge](#edge)
+ 3. [Graph](#graph)
+ 4. [UI](#ui)
 
    
 
-### Node
+### 4.1. Node <div id="node"/>
 
 
 > Every method is a function type and return the status of the operation
@@ -416,7 +421,7 @@ boolean flag = (
 </details>
 
 
-### Edge
+### 4.2. Edge <div id="edge"/>
 
 
 > Every method is a function type and return the status of the operation
@@ -687,7 +692,7 @@ boolean flag = (
 
 
 
-### Graph
+### 4.3. Graph <div id="graph"/>
 
 
 <details>
@@ -944,7 +949,7 @@ int flag = pg.uploadJSON((Scene)scene);
 </details>
 
 
-### UI
+### 4.4. UI <div id="ui"/>
 
 
 > [!NOTE]
@@ -1092,7 +1097,7 @@ pg.disableUI();
 
 
 
-## Licenses
+## 5. Licenses <div id="licenses"/>
 
 
 
