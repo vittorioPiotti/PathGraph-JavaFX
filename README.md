@@ -245,6 +245,8 @@ PathGraph pg = (
 PathGraph pg = new PathGraph()                                           
 ```
 
+&nbsp;
+
 > Manual callback configurations if using `PathGraph` instead of `PathGraphUI`
 >
 > ```java
