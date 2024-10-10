@@ -1094,49 +1094,60 @@ pg.disableUI();
 
 ## Licenses
 
-### PathGraph
 
-#### Copyright
+<details>
+  
+<summary>
+  <strong> PathGraph</strong>
+</summary>
 
- 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)  
+&nbsp;
 
-#### Version
+|Copyright | Version | License |
+|-|-|-|
+| 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)  |Not released|[GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)|
 
-Not released
+&nbsp;
 
-#### License
-
-[GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
-
-
-### SmartGraph
-
-#### Copyright
-
-2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/)  
-
-#### Version
-
-[`v2.0.0`](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)
-
-#### License
-
-[MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt) 
+</details>
 
 
-### Bootstrap
 
-#### Copyright
+<details>
+  
+<summary>
+  <strong> SmartGrah</strong>
+</summary>
 
-2011-2018 The Bootstrap Authors 
+&nbsp;
 
-#### Version
+|Copyright | Version | License |
+|-|-|-|
+| 2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/)  |[`v2.0.0`](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)|
+[MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt) |
 
-`v4.0.0`
+&nbsp;
 
-#### License
+</details>
 
-[MIT ](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+<details>
+  
+<summary>
+  <strong> Bootstrap</strong>
+</summary>
+
+&nbsp;
+
+|Copyright | Version | License |
+|-|-|-|
+| 2011-2018 The Bootstrap Authors  |`v4.0.0`|[MIT ](https://github.com/twbs/bootstrap/blob/master/LICENSE) |
+
+&nbsp;
+
+</details>
+
+
 
 
 
