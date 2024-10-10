@@ -804,22 +804,7 @@ boolean flag = pg.checkNode("A");              /* Check node validity */
 </details>
 
 
-<details>
-  
-<summary>
-  <strong> Get Node</strong>
-</summary>
 
-&nbsp;
-
-
-```java
-PseudoNode n = pg.getNode("A");                 /* Get corrispondent node */
-```
-
-&nbsp;
-
-</details>
 
 ### Edge 
 
