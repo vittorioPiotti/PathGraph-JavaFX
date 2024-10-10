@@ -14,9 +14,8 @@ Ability of find and show the shortest path, make screenshots and upload or downl
  1. [About](#about)
  2. [User Experience](#user-experience)
  3. [Get Started](#get-started)
- 4. [Basic Usage](#basic-usage)
- 5. [Advanced Usage](#advanced-usage)
- 6. [Licenses](#licenses)
+ 4. [Usage](#usage)
+ 5. [Licenses](#licenses)
 
 
 ## About
