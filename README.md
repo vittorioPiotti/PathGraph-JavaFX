@@ -129,10 +129,10 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | Background| Node | Edge |
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
-| [New Node](#new-node) | New Edge | Delete Edge |
-|  | Delete Node | Direct Edge |
-|  |  | Split Edge |
-|  |  | Edit Edge |
+| [New Node](#new-node) | [New Edge](#new-edge) | [Delete Edge](#delete-edge) |
+|  | [Delete Node](#delete-node) | [Direct Edge](#direct-edge) |
+|  |  | [Split Edge](#split-edge) |
+|  |  | [Set Cost](#set-cost) |
 
 > Empty callbacks to disable interactions on graph
 
@@ -337,7 +337,7 @@ pg.setup();
 <details>
   
 <summary>
-  <strong> New Node<div id="new-node"/></strong>
+  <strong> New Node <div id="new-node"/> </strong>
 </summary>
 
 &nbsp;
@@ -360,7 +360,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> Rename Node</strong>
+  <strong> Rename Node <div id="rename-node"/></strong>
 </summary>
 
 &nbsp;
@@ -385,7 +385,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> Delete Node</strong>
+  <strong> Delete Node <div id="delete-node"/> </strong>
 </summary>
 
 &nbsp;
@@ -409,7 +409,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> New Edge</strong>
+  <strong> New Edge <div id="new-edge"/> </strong>
 </summary>
 
 &nbsp;
@@ -491,7 +491,7 @@ boolean flag = (
 
 <details>
 <summary>
-  <strong> Delete Edge</strong>
+  <strong> Delete Edge <div id="delete-edge"/> </strong>
 </summary>
 
 &nbsp;
@@ -518,7 +518,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> Rotate Edge</strong>
+  <strong> Rotate Edge <div id="rotate-edge"/> </strong>
 </summary>
 
 &nbsp;
@@ -581,7 +581,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> Split Edge</strong>
+  <strong> Split Edge <div id="split-edge"/> </strong>
 </summary>
 
 &nbsp;
@@ -609,7 +609,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong> Set Cost</strong>
+  <strong> Set Cost <div id="set-cost"/> </strong>
 </summary>
 
 &nbsp;
