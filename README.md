@@ -221,7 +221,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 <details>
   
 <summary>
-  <strong> 3. Prepare</strong>
+  <strong> 3. Prepare <div id="prepare"/></strong>
 </summary>
 
 &nbsp;
@@ -948,7 +948,7 @@ int flag = pg.uploadJSON((Scene)scene);
 
 
 > [!NOTE]
-> Features only avaible on `PathGraphUI` class type:
+> Features only avaible on `PathGraphUI` class type [(see)](#prepare)
 > 
 > ```java
 > PathGraphUI pg = (
