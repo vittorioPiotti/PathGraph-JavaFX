@@ -404,15 +404,7 @@ boolean flag = (
 &nbsp;
 
 
-```java
-/* Using support structure to quick creation */        
-boolean flag = (
-  pg.newEdge(
-    /* support structure with new edge data */
-    (PseudoEdge) e
-  )
-)                                  
-```
+
 
 ```java
 /* Default direction without bidirectional */
@@ -494,12 +486,17 @@ boolean flag = (
 &nbsp;
 
 ```java
-boolean flag = pg.deleteEdge("A", "Z");
+boolean flag = (
+  pg.deleteEdge(
+    /* start node */
+    (char) 'A',
+    /* end node */
+    (char) 'Z'
+  )
+);
 ```
 
-```java
-boolean flag = pg.deleteEdge((PseudoEdge) e);
-```
+
 
 &nbsp;
 
@@ -516,33 +513,48 @@ boolean flag = pg.deleteEdge((PseudoEdge) e);
 &nbsp;
 
 ```java
-boolean flag = pg.rotateEdge("Z", "C");                                                   /* Default rotation */
+/* Default rotation */
+boolean flag = (
+  pg.rotateEdge(
+    /* start node */
+    (char) 'Z',
+    /* end node */
+    (char) 'C'
+  )
+);                                                   
 ```
+
 
 ```java
-boolean flag = pg.rotateEdge((PseudoEdge) e);                                             /* Default rotation */
+/* Rotation with specific direction */
+boolean flag = (
+  pg.rotateEdge(
+    /* start node */
+    (char) 'Z',
+    /* end node */
+    (char) 'C',
+    /* edge direction */
+    (int) SmartGraphEdgeBase.DIRECTION_FIRST
+  )
+);     
 ```
-
-
-```java
-boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST);                /* Rotation with specific direction */
-```
-
 
 
 > The direction can be
 >
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_BIDIRECTIONAL;     /* (0) Edge without direction (no arrow).             */
+> /* Edge without direction */
+> (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
 > ```
 > 
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_FIRST;             /* (1) Edge in natural direction (with an arrow). */
+> */ Edge in natural direction */
+> (int) SmartEdgeBase.DIRECTION_FIRST;
 > ```
->
+> 
 > ```java
-> (int) SmartGraphEdgeBase.DIRECTION_SECOND;            /* (2) Edge in opposite direction (with an arrow). */
-> ```
+> */ Edge in opposite direction */
+> (int) SmartEdgeBase.DIRECTION_SECOND;
 
 
 &nbsp;
@@ -561,7 +573,14 @@ boolean flag = pg.rotateEdge("Z", "C", SmartGraphEdgeBase.DIRECTION_FIRST);     
 &nbsp;
 
 ```java
-boolean flag = pg.splitEdge("Z", "C");
+boolean flag = (
+  pg.splitEdge(
+    /* start node */
+    (char) 'Z',
+    /* end node */
+    (char) 'C'
+  )
+);   
 ```
 
 
@@ -585,12 +604,18 @@ boolean flag = pg.splitEdge((PseudoEdge) e);
 &nbsp;
 
 ```java
-boolean flag = pg.setCost("Z", "C", 200);
+boolean flag = (
+  pg.splitEdge(
+    /* start node */
+    (char) 'Z',
+    /* end node */
+    (char) 'C',
+    /* edge cost */
+    (int) 200
+  )
+);  
 ```
 
-```java
-boolean flag = pg.setCost((PseudoEdge) e, (int) 200);                                           
-```
 
 &nbsp;
    
@@ -642,33 +667,45 @@ boolean flag = pg.setCost((PseudoEdge) e, (int) 200);
 &nbsp;
 
 ```java
-(CompletableFuture<Integer>) pg.takeScreenshot();         /* with animation     */
+/* with animation */
+CompletableFuture<Integer> future = (
+  pg.takeScreenshot();
+);
 ```
 
 ```java
-(CompletableFuture<Integer>) pg.takeScreenshot(false);    /* set if is animated */
+/* set animation state */
+CompletableFuture<Integer> future = (
+  pg.takeScreenshot(
+    (boolean)false
+  )
+);
 ```
 
 > Handle both asynchronous operations
 >
 > ```java
 > pg.takeScreenshot().thenAccept(status -> {
->     int flag = (int) status; /* Use flag to check operation */
+>   /* Use flag to check operation */
+>   int flag = (int) status; 
 > );
 > ```
 
 > The response status can be
 >
 > ```java
-> (int) UtilitiesCapture.INTERRUPT;       /* (0) process interrupted */
+> /* process interrupted */
+> (int) UtilitiesCapture.INTERRUPT;       
 > ```
 > 
 > ```java
-> (int) UtilitiesCapture.SUCCESS;         /* (1) process successfull */
+> /* process succeeded */
+> (int) UtilitiesCapture.SUCCESS;
 > ```
 >
 > ```java
-> (int) UtilitiesCapture.ERROR;           /* (2) process error       */
+> /* process error */
+> (int) UtilitiesCapture.ERROR; 
 > ```
 
 
@@ -688,27 +725,31 @@ boolean flag = pg.setCost((PseudoEdge) e, (int) 200);
 &nbsp;
 
 ```java
-int flag = pg.downloadJSON();             /* floating file chooser   */
+/* floating file chooser */
+int flag = pg.downloadJSON();             
 ```
 
 ```java
-int flag = pg.downloadJSON((Scene)scene); /* fixed file chooser      */
+/* fixed file chooser */
+int flag = pg.downloadJSON((Scene) scene); 
 ```
 
-> The return status can be
+> The response status can be
 >
 > ```java
-> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted */
+> /* process interrupted */
+> (int) UtilitiesParser.INTERRUPT;       
 > ```
 > 
 > ```java
-> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull */
+> /* process succeeded */
+> (int) UtilitiesParser.SUCCESS;
 > ```
 >
 > ```java
-> (int) UtilitiesParser.ERROR;            /* (2) process error       */
+> /* process error */
+> (int) UtilitiesParser.ERROR; 
 > ```
-
 
 
 &nbsp;
@@ -726,26 +767,31 @@ int flag = pg.downloadJSON((Scene)scene); /* fixed file chooser      */
 &nbsp;
 
 ```java
-int flag = pg.uploadJSON();               /* floating file chooser   */
+/* floating file chooser */
+int flag = pg.uploadJSON();               
 ```
 
 ```java
-int flag = pg.uploadJSON((Scene)scene);   /* fixed file chooser      */
+/* fixed file chooser */
+int flag = pg.uploadJSON((Scene)scene);  
 ```
 
 
-> The return status can be
+> The response status can be
 >
 > ```java
-> (int) UtilitiesParser.INTERRUPT;        /* (0) process interrupted  */
+> /* process interrupted */
+> (int) UtilitiesParser.INTERRUPT;       
 > ```
 > 
 > ```java
-> (int) UtilitiesParser.SUCCESS;          /* (1) process successfull  */
+> /* process succeeded */
+> (int) UtilitiesParser.SUCCESS;
 > ```
 >
 > ```java
-> (int) UtilitiesParser.ERROR;            /* (2) process error        */
+> /* process error */
+> (int) UtilitiesParser.ERROR; 
 > ```
 
 
