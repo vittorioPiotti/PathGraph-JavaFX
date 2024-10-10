@@ -1108,24 +1108,13 @@ pg.disableUI();
 
 &nbsp;
 
-**Copyright**
+**Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) 
 
-2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) 
-
-
-
-**Version**
-
-Not released
+**Version** Not released
 
 
 
-**License**
-[GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
-
-|Copyright | Version | License |
-|-|-|-|
-| 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)  |Not released|[GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)|
+**License** [GPL-3.0 ](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
 
 &nbsp;
 
