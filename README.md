@@ -453,7 +453,7 @@ boolean flag = (
 );
 ```
 
-
+&nbsp;
 
 
 > The direction can be
@@ -537,6 +537,9 @@ boolean flag = (
   )
 );     
 ```
+
+
+&nbsp;
 
 
 > The direction can be
@@ -753,6 +756,10 @@ CompletableFuture<Integer> future = (
 );
 ```
 
+
+&nbsp;
+
+
 > Handle both asynchronous operations
 >
 > ```java
@@ -761,6 +768,9 @@ CompletableFuture<Integer> future = (
 >   int flag = (int) status; 
 > );
 > ```
+
+&nbsp;
+
 
 > The response status can be
 >
