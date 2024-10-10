@@ -1,6 +1,6 @@
 # (Java FX) PathGraph
 
-<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/socialpreview23.png" alt="Icona" width="100%"/>
+<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/socialpreview24.png" alt="Icona" width="100%"/>
 
 
 ---
