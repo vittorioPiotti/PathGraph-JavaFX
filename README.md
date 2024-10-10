@@ -716,7 +716,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong>  Show Path</strong> <div id="show-path"/>
+  <strong>  Show Path <div id="show-path"/> </strong> 
 </summary>
 
 &nbsp;
