@@ -1123,8 +1123,7 @@ pg.disableUI();
 
 |Copyright | Version | License |
 |-|-|-|
-| 2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/)  |[`v2.0.0`](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)|
-[MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt) |
+| 2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/)  |[`v2.0.0`](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)|[MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt) |
 
 &nbsp;
 
