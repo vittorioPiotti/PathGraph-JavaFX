@@ -130,7 +130,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
 | [New Node](#new-node) | [New Edge](#new-edge) | [Delete Edge](#delete-edge) |
-|  | [Delete Node](#delete-node) | [Rotatte Edge](#rotate-edge) |
+|  | [Delete Node](#delete-node) | [Rotate Edge](#rotate-edge) |
 |  |  | [Split Edge](#split-edge) |
 |  |  | [Set Cost](#set-cost) |
 
