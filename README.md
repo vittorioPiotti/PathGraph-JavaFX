@@ -1030,6 +1030,46 @@ gc.toggleUI();
 </details>
 
 
+
+
+<details>
+  
+<summary>
+  <strong> Enable UI <div id="toggle-ui"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+gc.enableUI();
+```
+
+&nbsp;
+
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong> Disable UI <div id="toggle-ui"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+gc.disableUI();
+```
+
+&nbsp;
+
+</details>
+
+
+
 ## Licenses
 
 | Component          | Version         | Copyright                                      | License                                                                                            |
