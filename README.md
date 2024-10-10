@@ -325,8 +325,6 @@ pg.setup();
 
 ## 4. Usage <div id="usage"/>
 
-> [!NOTE]
-> Operations are available **only** after calling `pg.setup()` [(see)](#setup)
 
 ## Index
 
@@ -335,7 +333,9 @@ pg.setup();
  3. [Graph](#graph)
  4. [UI](#ui)
 
-   
+> [!NOTE]
+> Operations are available **only** after calling `pg.setup()` [(see)](#setup)
+
 
 ### 4.1. Node <div id="node"/>
 
