@@ -287,7 +287,7 @@ PathGraph pg = new PathGraph()
 <details>
   
 <summary>
-  <strong> 4. Setup</strong>
+  <strong> 4. Setup <div id="setup"/></strong>
 </summary>
 
 &nbsp;
@@ -321,20 +321,19 @@ pg.setup();
 </details>
 
 
-> [!NOTE]
-> Operations are available **only** after calling `pg.setup()`
-
 
 
 
 ## Usage
+
+> [!NOTE]
+> Operations are available **only** after calling `pg.setup()` [(see)](#setup)
 
 
 > Every method is a function type and return the status of the operation
 
 > Each method automatically update the graph
 
-> Operations are available **only** after calling `pg.setup()`
    
 
 ### Node
