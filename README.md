@@ -403,6 +403,17 @@ boolean flag = (
 
 &nbsp;
 
+
+```java
+/* Using support structure to quick creation  */        
+boolean flag = (
+  pg.newEdge(
+    /* support structure with new edge data */
+    (PseudoEdge) e
+  )
+)                                  
+```
+
 ```java
 /* Default direction without bidirectional */
 boolean flag = (
@@ -451,15 +462,7 @@ boolean flag = (
 );
 ```
 
-```java
-/* Using support structure  */        
-boolean flag = (
-  pg.newEdge(
-    /* support structure with new edge data */
-    (PseudoEdge) e
-  )
-)                                  
-```
+
 
 
 > The direction can be
