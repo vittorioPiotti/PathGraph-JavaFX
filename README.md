@@ -941,7 +941,14 @@ int flag = pg.uploadJSON((Scene)scene);
 
 
 > [!NOTE]
-> Features only avaible on PathGraphUI type
+> Features only avaible on `PathGraphUI` type:
+> _Not is supported by estended `PathGraph`_
+> ```java
+> PathGraphUI pg = new PathGraphUI(
+>  primaryStage,
+>  scene
+> )
+> ```
 
 <details>
   
@@ -953,7 +960,7 @@ int flag = pg.uploadJSON((Scene)scene);
 
 
 ```java
-gc.setUI(
+pg.setUI(
 
   /* is enabled top-left menu */
   true,
@@ -990,7 +997,7 @@ gc.setUI(
 
 
 ```java
-gc.showUI();
+pg.showUI();
 ```
 
 &nbsp;
@@ -1008,7 +1015,7 @@ gc.showUI();
 
 
 ```java
-gc.hideUI();
+pg.hideUI();
 ```
 
 &nbsp;
@@ -1026,7 +1033,7 @@ gc.hideUI();
 
 
 ```java
-gc.toggleUI();
+pg.toggleUI();
 ```
 
 &nbsp;
@@ -1046,7 +1053,7 @@ gc.toggleUI();
 
 
 ```java
-gc.enableUI();
+pg.enableUI();
 ```
 
 &nbsp;
@@ -1065,7 +1072,7 @@ gc.enableUI();
 
 
 ```java
-gc.disableUI();
+pg.disableUI();
 ```
 
 &nbsp;
