@@ -321,6 +321,8 @@ pg.setup();
 </details>
 
 
+    > [!Info ]
+    > Operations are available **only** after calling `pg.setup()`
 
 
 
