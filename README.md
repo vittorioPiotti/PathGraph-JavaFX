@@ -942,7 +942,9 @@ int flag = pg.uploadJSON((Scene)scene);
 
 > [!NOTE]
 > Features only avaible on `PathGraphUI` type:
+> 
 > _Not is supported by estended `PathGraph`_
+> 
 > ```java
 > PathGraphUI pg = new PathGraphUI(
 >  primaryStage,
