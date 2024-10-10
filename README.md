@@ -129,7 +129,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 | Background| Node | Edge |
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickNode.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickEdge.gif" alt="Icona" width="100%"/>|
-| New Node | New Edge | Delete Edge |
+| [New Node](#new-node) | New Edge | Delete Edge |
 |  | Delete Node | Direct Edge |
 |  |  | Split Edge |
 |  |  | Edit Edge |
@@ -337,7 +337,7 @@ pg.setup();
 <details>
   
 <summary>
-  <strong> New Node</strong>
+  <strong> New Node<div id="new-node"/></strong>
 </summary>
 
 &nbsp;
