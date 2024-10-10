@@ -9,7 +9,7 @@ PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart
 Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
-## Index
+## Main Index
 
  1. [About](#about)
  2. [User Experience](#user-experience)
