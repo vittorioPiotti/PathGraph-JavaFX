@@ -946,10 +946,12 @@ int flag = pg.uploadJSON((Scene)scene);
 > _Not is supported using `PathGraph` class type_
 > 
 > ```java
-> PathGraphUI pg = new PathGraphUI(
->  primaryStage,
->  scene
-> )
+> PathGraphUI pg = (
+>   new PathGraphUI(
+>     primaryStage,
+>     scene
+>   )
+> );
 > ```
 
 <details>
