@@ -481,7 +481,7 @@ boolean flag = (
 &nbsp;
 
 
-
+</details>
 
 <details>
 <summary>
