@@ -228,7 +228,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-### Prepare
+### Configurations 
 
 <details>
   
@@ -237,6 +237,24 @@ _Working on to upload library on maven dipencencies to available the library dis
 </summary>
 
 &nbsp;
+
+```java
+PathGraph pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene
+  )
+); 
+```
+
+> **Graph with Defaul Settings** automatically configurated
+
+> **UI with Default Settings:** all components are enabled
+
+> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#pathgraph)
+
+> **UI settings Not Customizable**
+
 
 
 &nbsp;
@@ -251,64 +269,6 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-
-&nbsp;
-
-</details>
-
-
-<details>
-  
-<summary>
-  <strong>Advanced</strong>
-</summary>
-
-&nbsp;
-
-
-&nbsp;
-
-</details>
-
-
-
-### PathGraph 
-
-```java
-/* only graph without interactions */
-PathGraph pg = new PathGraph()                                           
-```
-
-
-> **Graph Settings _to configure on load_** calling `pg.setCallbacks()`
->
-> ```java
-> pg.setCallbacks(
-> 
->     /* to possibly close an open `ContextMenu` */
->     Runnable closeContextMenu,
-> 
->     /* action to perform on arrow edge event   */              
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
-> 
->     /* action to perform on node event         */
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
-> 
->     /* action to perform on click background   */
->     Consumer<MouseEvent> onClickBackground,
-> 
->     /* action to perform on scroll background  */            
->     Consumer<Double> onChangeZoom,
-> 
->     /* action to perform on drag background    */        
->     Runnable doAdjustPosition
-> 
-> );
-> ```
-
-
-
-### PathGraphUI
 
 ```java
 PathGraphUI pg = (
@@ -354,36 +314,60 @@ PathGraphUI pg = (
 
 
 
+&nbsp;
+
+</details>
 
 
+<details>
+  
+<summary>
+  <strong>Advanced</strong>
+</summary>
 
-### Hybrid
+&nbsp;
 
 ```java
-PathGraph pg = (
-  new PathGraphUI(
-    (Stage) primaryStage,
-    (Scene) scene
-  )
-); 
+/* only graph without interactions */
+PathGraph pg = new PathGraph()                                           
 ```
 
-> **Graph with Defaul Settings** automatically configurated
+> **Create your UI** using PtahGraph tools
 
-> **UI with Default Settings:** all components are enabled
-
-> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#pathgraph)
-
-> **UI settings Not Customizable**
-
-
-
+> **Confirue Graph Settings** calling `pg.setCallbacks()`
+>
+> ```java
+> pg.setCallbacks(
+> 
+>     /* to possibly close an open `ContextMenu` */
+>     Runnable closeContextMenu,
+> 
+>     /* action to perform on arrow edge event   */              
+>     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+> 
+>     /* action to perform on node event         */
+>     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+> 
+>     /* action to perform on click background   */
+>     Consumer<MouseEvent> onClickBackground,
+> 
+>     /* action to perform on scroll background  */            
+>     Consumer<Double> onChangeZoom,
+> 
+>     /* action to perform on drag background    */        
+>     Runnable doAdjustPosition
+> 
+> );
+> ```
 
 
 
 &nbsp;
 
 </details>
+
+
+
 
 
 
