@@ -254,7 +254,6 @@ PathGraphUI pg = (
 ); 
 ```
 
-
 > **Graph with Defaul Settings** automatically configurated
 
 > **UI with Default Settings:** all components are enabled
@@ -264,6 +263,46 @@ PathGraphUI pg = (
 > **UI Settings Customizable** calling `pg.setUI()`  [(see)](#setui)
 
 
+_or_
+
+&nbsp;
+
+```java
+/* Ready-To-Use configuration */
+PathGraphUI pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene,
+
+    /* is enabled top-left menu */
+    true,
+  
+    /* is enabled bot-left menu */
+    true,
+  
+    /* is enabled bot-mid menu */
+    true,
+  
+    /* is enabled right-mid menu */
+    true,
+  
+    /* is enabled top-right menu */
+    true,
+  
+    /* is hide UI */
+    false
+
+  )
+); 
+```
+
+> **Graph with Defaul Settings** automatically configurated
+
+> **UI with Custom Settings:** choice which components to show
+
+> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#setcallbacks)
+
+> **UI Settings Customizable** calling `pg.setUI()`  [(see)](#setui)
 
 
 
@@ -286,6 +325,21 @@ PathGraphUI pg = (
    
 ```java
 pg.setup();
+```
+
+&nbsp;
+
+_or_
+
+&nbsp;
+
+```java
+pg.setup().thenRun(() -> {
+
+  /* action to perform on first load */
+  /* put here components to add onload */
+
+});
 ```
 
 > Setup is required **to enable the use** of library
@@ -332,25 +386,28 @@ public class Main extends Application {
             primaryStage.show();
 
         /* 3. Create PathGraph object */
-            PathGraphUI pg = new PathGraphUI(primaryStage, scene);
+            PathGraphUI pg = new PathGraphUI(
+              primaryStage,
+              scene);
 
         /* 4. Add PathGraph in a container */
             root.setCenter(pg);
 
-        /* 5. Custom configurations PathGraph */
-            pg.setUI(false,false,false,false,false,true );
+        /* 5. Custom configurations PathGraph    */
             pg.enableListenersGraph(true);
             pg.enableListenersPane(true);
+            pg.setAutomaticLayout(true);
 
         /* 6. Setup PathGraph */
-            pg.setup();
+            pg.setup().thenRun(() -> {
 
         /* 7. Make Graphs with PathGraph */
-            pg.newNode("A");
-            pg.newNode("B");
-            pg.newNode("C");
-            pg.newEdge("A", "B", 1);
-            pg.newEdge("C", "A", 2, false);
+                pg.newNode("A");
+                pg.newNode("B");
+                pg.newNode("C");
+                pg.newEdge("A", "B", 1);
+                pg.newEdge("C", "A", 2, false);
+        });
 
     }
 
