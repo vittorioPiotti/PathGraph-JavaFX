@@ -384,11 +384,11 @@ public class Main extends Application {
             pg.setup().thenRun(() -> {
 
         /* 7. Make Graphs with PathGraph */
-                pg.newNode("A");
-                pg.newNode("B");
-                pg.newNode("C");
-                pg.newEdge("A", "B", 1);
-                pg.newEdge("C", "A", 2, false);
+                pg.newNode('A');
+                pg.newNode('B');
+                pg.newNode('C');
+                pg.newEdge('A', 'B', 1);
+                pg.newEdge('C', 'A', 2, false);
 
             });
 
@@ -453,7 +453,7 @@ public class Main extends Application {
 boolean flag = (
   pg.newNode(
     /* node name to create */
-    (char) "A"
+    (char) 'A'
   )
 );
 ```
@@ -476,10 +476,10 @@ boolean flag = (
   pg.renameNode(
 
     /* last node name */
-    (char) "A",
+    (char) 'A',
 
     /* new node name */
-    (char) "B"
+    (char) 'B'
 
   )
 );
@@ -503,7 +503,7 @@ boolean flag = (
 boolean flag = (
   pg.deleteNode(
     /* name of the node to remove */
-    (char) "A"
+    (char) 'A'
   )
 );
 ```
@@ -537,10 +537,10 @@ boolean flag = (
   pg.newEdge(
 
     /* start node name */
-    (char) "A",
+    (char) 'A',
 
     /* end node name */
-    (char) "B",
+    (char) 'B',
 
     /* edge cost */
     (int) 23
@@ -556,10 +556,10 @@ boolean flag = (
   pg.newEdge(
 
     /* start node name */
-    (char) "A",
+    (char) 'A',
 
     /* end node name */
-    (char) "B",
+    (char) 'B',
 
     /* edge cost */
     (int) 23,
@@ -578,10 +578,10 @@ boolean flag = (
   pg.newEdge(
 
     /* start node name */
-    (char) "A",
+    (char) 'A',
 
     /* end node name */
-    (char) "B",
+    (char) 'B',
 
     /* edge cost */
     (int) 23,
@@ -629,10 +629,10 @@ boolean flag = (
   pg.deleteEdge(
 
     /* start node */
-    (char) "A",
+    (char) 'A',
 
     /* end node */
-    (char) "B"
+    (char) 'B'
 
   )
 );
@@ -660,10 +660,10 @@ boolean flag = (
   pg.rotateEdge(
 
     /* start node */
-    (char) "A",
+    (char) 'A',
 
     /* end node */
-    (char) "B"
+    (char) 'B'
 
   )
 );                                                   
@@ -676,10 +676,10 @@ boolean flag = (
   pg.rotateEdge(
 
     /* start node */
-    (char) "A",
+    (char) 'A',
 
     /* end node */
-    (char) "B",
+    (char) 'B',
 
     /* edge direction */
     (int) SmartGraphEdgeBase.DIRECTION_FIRST
@@ -729,10 +729,10 @@ boolean flag = (
   pg.splitEdge(
 
     /* start node */
-    (char) "A",
+    (char) 'A',
 
     /* end node */
-    (char) "B"
+    (char) 'B'
 
   )
 );   
@@ -758,10 +758,10 @@ boolean flag = (
   pg.rotateEdge(
 
     /* start node */
-    (char) "A",
+    (char) 'A',
 
     /* end node */
-    (char) "B",
+    (char) 'B',
 
     /* is arrowed edge */
     (boolean) false
@@ -792,10 +792,10 @@ boolean flag = (
   pg.splitEdge(
 
     /* start node */
-    (char) "A",
+    (char) 'A',
 
     /* end node */
-    (char) "B",
+    (char) 'B',
 
     /* edge cost */
     (int) 200
