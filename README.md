@@ -1427,6 +1427,93 @@ pg.toggleUI();
 ## 5. Data Transfer Object <div id="data-transfer-object"/>
 
 
+<details>
+  
+<summary>
+  <strong> Node</strong>
+</summary>
+
+&nbsp;
+
+```java
+public class NodeDTO {
+  public String label;
+}
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> Edge</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+public class EdgeDTO {
+  public String from;
+  public String to;
+  public int cost;
+  public boolean isArrowed;
+}
+```
+
+&nbsp;
+
+</details>
+
+
+
+
+<details>
+  
+<summary>
+  <strong> Connection</strong>
+</summary>
+
+&nbsp;
+
+```java
+public class ConnectionDTO {
+  public String label;
+  public int cost;
+}
+```
+
+&nbsp;
+
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong> Graph</strong>
+</summary>
+
+&nbsp;
+
+
+```java
+public class GraphDTO {
+  public List<NodeDTO> nodes;
+  public List<EdgeDTO> edges;
+  public Map<NodeDTO, List<ConnectionDTO>> connectedNodes = new HashMap<>();
+}
+```
+
+
+&nbsp;
+
+</details>
+
 ## 6. JSON Data Management <div id="json-data-management"/>
 
 ## 7. Licenses <div id="licenses"/>
