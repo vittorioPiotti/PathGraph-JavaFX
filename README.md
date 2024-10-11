@@ -705,24 +705,6 @@ pg.enableGraph();
 
 </details>
 
-<details>
-  
-<summary>
-  <strong>Enable Dynamic <div id="enabledynamic"/></strong>
-</summary>
-
-&nbsp;
-
-```java
-pg.enableDynamic();
-```
-
-
-
-&nbsp;
-
-</details>
-
 
 
 
@@ -746,16 +728,17 @@ pg.disableGraph();
 </details>
 
 
+
 <details>
   
 <summary>
-  <strong>Disable Dynamic <div id="disabledynamic"/></strong>
+  <strong>Set Dynamic Layout <div id="setdynamiclayout"/></strong>
 </summary>
 
 &nbsp;
 
 ```java
-pg.disableDynamic();
+pg.setDynamicLayout();
 ```
 
 
@@ -763,6 +746,7 @@ pg.disableDynamic();
 &nbsp;
 
 </details>
+
 
 
 <details>
