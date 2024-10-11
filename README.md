@@ -268,7 +268,9 @@ PathGraph pg = new PathGraph()
 
 
 
-#### PathGraphUI
+#### PathGraphUI <div id="pathgraphui"/>
+
+
 
 ```java
 PathGraphUI pg = (
@@ -1080,7 +1082,7 @@ int flag = pg.uploadJSON((Scene)scene);
 
 
 > [!NOTE]
-> Features only avaible on `PathGraphUI` class type [(see)](#prepare)
+> Features only avaible on `PathGraphUI` class type [(see)](#pathgraphui)
 > 
 > ```java
 > PathGraphUI pg = (
