@@ -854,6 +854,41 @@ pg.enableListenersPane((boolean) true);
 </details>
 
 
+
+<details>
+  
+<summary>
+  <strong>  Set Graph</strong>
+</summary>
+
+&nbsp;
+
+```java
+pg.setGraph(
+  /* meta data of the graph to upload /*
+  (MetaGraph) mt
+);
+```
+
+```java
+pg.setGraph(
+
+  /* meta data of the graph to upload /*
+  (MetaGraph) mt,
+
+  /* is animated upload of new graph /*
+  (boolean) true
+  
+);
+```
+
+&nbsp;
+   
+</details>
+
+
+
+
 <details>
   
 <summary>
@@ -1156,14 +1191,16 @@ int flag = pg.downloadJSON((Scene) scene);
 
 &nbsp;
 
+
+
 ```java
-/* floating file chooser */
-int flag = pg.uploadJSON();               
+/* fixed or floating file chooser*/
+int flag = pg.uploadJSON((Scene)scene);  
 ```
 
 ```java
-/* fixed file chooser */
-int flag = pg.uploadJSON((Scene)scene);  
+/* whithout file chooser: file alredy chosen */
+int flag = pg.uploadJSON((File) file);  
 ```
 
 &nbsp;
