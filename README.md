@@ -1425,7 +1425,15 @@ pg.toggleUI();
 
 
 ## 5. DTO · Data Transfer Objects <div id="data-transfer-object"/>
+ 
+ 
+Represent the components of the graph.
 
+Providing a simple and serializable structure that allows for:
+
+ * Converting graph data into JSON format
+ * Reconstructing graph data from JSON
+ * Serving as a support structure for graph operations
 
 
 <details>
