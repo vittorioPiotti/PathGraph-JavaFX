@@ -236,7 +236,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 <details>
   
 <summary>
-  <strong>Vanilla</strong>
+  <strong>Vanilla <div id="vanilla"/></strong>
 </summary>
 
 &nbsp;
