@@ -876,7 +876,7 @@ pg.setGraph(
   /* meta data of the graph to upload /*
   (MetaGraph) mt,
 
-  /* is animated upload of new graph /*
+  /* is animated upload of new graph */
   (boolean) true
   
 );
