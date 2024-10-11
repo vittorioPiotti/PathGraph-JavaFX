@@ -6,7 +6,7 @@
 ---
   
 PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) is an adapted library to work with path graphs that uses nodes, edges and associated costs.
-Provided to user-friendly interface in a stable user-experience in witch mange dynamically the path graphs.
+Provided to user-friendly interface in a stable user-experience in which manage dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
 ## Main Index
@@ -29,7 +29,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 &nbsp;
 
-If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated costs, which offers a user-friendly interface to represent, manage, and interact with path graphs, then Path is the right solution for you.
+If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated costs, which offers a user-friendly interface to represent, manage, and interact with path graphs, then PathGraph is the right solution for you.
 
 &nbsp;
 
@@ -68,6 +68,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 * Nodes can be only characters with uppercase alphabet letters to maxium 26 nodes
 * Not provided over limits of two edges with same direction between two same nodes
 * Not provided loops creation
+* Edge cost can be only `int` variable type to rappresent integer numbers
 * Edges can be directed:
 
 
@@ -413,7 +414,8 @@ public class Main extends Application {
                 pg.newNode("C");
                 pg.newEdge("A", "B", 1);
                 pg.newEdge("C", "A", 2, false);
-        });
+
+            });
 
         /* 8. Apply your custom logic */
 
@@ -1437,6 +1439,10 @@ pg.disableUI();
 &nbsp;
 
 </details>
+
+
+
+
 
 
 
