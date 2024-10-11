@@ -238,8 +238,9 @@ PathGraphUI pg = (
     (Scene) scene
   )
 );
-
 ```
+
+```java
 /* only to use default UI features */
 PathGraph pg = (
   new PathGraphUI(
