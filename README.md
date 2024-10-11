@@ -262,6 +262,7 @@ PathGraphUI pg = (
 
 > **UI Settings Customizable** calling `pg.setUI()`  [(see)](#setui)
 
+&nbsp;
 
 _or_
 
