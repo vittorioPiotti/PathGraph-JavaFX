@@ -342,6 +342,8 @@ pg.setup().thenRun(() -> {
 });
 ```
 
+In both of cases
+
 > Setup is required **to enable the use** of library
 
 > To call **only after** called `(Stage) primaryStage.show()`
