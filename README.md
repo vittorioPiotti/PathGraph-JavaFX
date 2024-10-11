@@ -1427,9 +1427,9 @@ pg.toggleUI();
 ## 5. Data Transfer Object <div id="data-transfer-object"/>
 
 
-## 5. JSON Data Management <div id="json-data-management"/>
+## 6. JSON Data Management <div id="json-data-management"/>
 
-## 6. Licenses <div id="licenses"/>
+## 7. Licenses <div id="licenses"/>
 
 
 
