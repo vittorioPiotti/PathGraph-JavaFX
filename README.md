@@ -67,7 +67,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
 
-* Nodes can be only Stringacters with uppercase alphabet letters to maxium 26 nodes
+* Nodes can be only characters with uppercase alphabet letters to maxium 26 nodes
 * Not provided over limits of two edges with same direction between two same nodes
 * Not provided loops creation
 * Edge cost can be only `int` variable type to rappresent integer numbers
@@ -396,7 +396,7 @@ public class Main extends Application {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(char[] args) {
         launch(args);
     }
 }
@@ -453,7 +453,7 @@ public class Main extends Application {
 boolean flag = (
   pg.newNode(
     /* node name to create */
-    (String) "A"
+    (char) "A"
   )
 );
 ```
@@ -476,10 +476,10 @@ boolean flag = (
   pg.renameNode(
 
     /* last node name */
-    (String) "A",
+    (char) "A",
 
     /* new node name */
-    (String) "B"
+    (char) "B"
 
   )
 );
@@ -503,7 +503,7 @@ boolean flag = (
 boolean flag = (
   pg.deleteNode(
     /* name of the node to remove */
-    (String) "A"
+    (char) "A"
   )
 );
 ```
@@ -537,10 +537,10 @@ boolean flag = (
   pg.newEdge(
 
     /* start node name */
-    (String) "A",
+    (char) "A",
 
     /* end node name */
-    (String) "B",
+    (char) "B",
 
     /* edge cost */
     (int) 23
@@ -556,10 +556,10 @@ boolean flag = (
   pg.newEdge(
 
     /* start node name */
-    (String) "A",
+    (char) "A",
 
     /* end node name */
-    (String) "B",
+    (char) "B",
 
     /* edge cost */
     (int) 23,
@@ -578,10 +578,10 @@ boolean flag = (
   pg.newEdge(
 
     /* start node name */
-    (String) "A",
+    (char) "A",
 
     /* end node name */
-    (String) "B",
+    (char) "B",
 
     /* edge cost */
     (int) 23,
@@ -629,10 +629,10 @@ boolean flag = (
   pg.deleteEdge(
 
     /* start node */
-    (String) "A",
+    (char) "A",
 
     /* end node */
-    (String) "B"
+    (char) "B"
 
   )
 );
@@ -660,10 +660,10 @@ boolean flag = (
   pg.rotateEdge(
 
     /* start node */
-    (String) "A",
+    (char) "A",
 
     /* end node */
-    (String) "B"
+    (char) "B"
 
   )
 );                                                   
@@ -676,10 +676,10 @@ boolean flag = (
   pg.rotateEdge(
 
     /* start node */
-    (String) "A",
+    (char) "A",
 
     /* end node */
-    (String) "B",
+    (char) "B",
 
     /* edge direction */
     (int) SmartGraphEdgeBase.DIRECTION_FIRST
@@ -729,10 +729,10 @@ boolean flag = (
   pg.splitEdge(
 
     /* start node */
-    (String) "A",
+    (char) "A",
 
     /* end node */
-    (String) "B"
+    (char) "B"
 
   )
 );   
@@ -758,10 +758,10 @@ boolean flag = (
   pg.rotateEdge(
 
     /* start node */
-    (String) "A",
+    (char) "A",
 
     /* end node */
-    (String) "B",
+    (char) "B",
 
     /* is arrowed edge */
     (boolean) false
@@ -792,10 +792,10 @@ boolean flag = (
   pg.splitEdge(
 
     /* start node */
-    (String) "A",
+    (char) "A",
 
     /* end node */
-    (String) "B",
+    (char) "B",
 
     /* edge cost */
     (int) 200
@@ -1432,7 +1432,7 @@ pg.toggleUI();
 
 ```java
 public class NodeDTO {
-  public String label;
+  public char label;
 }
 ```
 
@@ -1440,8 +1440,8 @@ public class NodeDTO {
 
 ```java
 public class EdgeDTO {
-  public String from;
-  public String to;
+  public char from;
+  public char to;
   public int cost;
   public boolean isArrowed;
 }
@@ -1451,7 +1451,7 @@ public class EdgeDTO {
 
 ```java
 public class ConnectionDTO {
-  public String label;
+  public char label;
   public int cost;
 }
 ```
