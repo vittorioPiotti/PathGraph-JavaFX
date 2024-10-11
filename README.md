@@ -1438,7 +1438,15 @@ pg.toggleUI();
 
 ```java
 public class NodeDTO {
+
   public char label;
+
+  public NodeDTO(
+    char label
+  ) {
+    /* construction */
+  }
+
 }
 ```
 
@@ -1456,10 +1464,30 @@ public class NodeDTO {
 
 ```java
 public class EdgeDTO {
+
   public char from;
   public char to;
   public int cost;
   public boolean isArrowed;
+
+  public EdgeDTO(
+    char from,
+    char to,
+    int cost,
+    boolean isArrowed
+  ) {
+    /* construction */
+  }
+
+  public EdgeDTO(
+    char from,
+    char to,
+    int cost,
+    int dir
+  ) {
+    /* construction */
+  }
+
 }
 ```
 
@@ -1477,8 +1505,17 @@ public class EdgeDTO {
 
 ```java
 public class ConnectionDTO {
+
   public char label;
   public int cost;
+
+  public ConnectionDTO(
+    char label,
+    int cost
+  ) {
+    /* construction */
+  }
+
 }
 ```
 
@@ -1496,9 +1533,20 @@ public class ConnectionDTO {
 
 ```java
 public class GraphDTO {
+
   public List<NodeDTO> nodes;
   public List<EdgeDTO> edges;
-  public Map<NodeDTO, List<ConnectionDTO>> connectedNodes = new HashMap<>();
+
+  /* it derivate from intersection between nodes and edges during construction */
+  public Map<
+    NodeDTO,
+    List<ConnectionDTO>
+  > connectedNodes = new HashMap<>();
+
+  public GraphDTO(List<NodeDTO> nodes, List<EdgeDTO> edges) {
+    /* construction */
+  }
+
 }
 ```
 
