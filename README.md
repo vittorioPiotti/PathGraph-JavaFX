@@ -414,7 +414,7 @@ public class Main extends Application {
                 pg.newEdge("C", "A", 2, false);
         });
 
-        /* 8. Add your custom logic
+        /* 8. Apply your custom logic
 
     }
 
