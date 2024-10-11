@@ -280,6 +280,9 @@ PathGraphUI pg = (
 ```
 
 
+
+> Custom interactions automatically configurated
+
 > Manual UI configurations to enable custom components
 >
 > ```java
