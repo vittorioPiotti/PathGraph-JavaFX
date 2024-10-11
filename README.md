@@ -648,6 +648,38 @@ boolean flag = (
 
 
 
+<details>
+<summary>
+  <strong> Set Arrow <div id="set-arrow"/> </strong>
+</summary>
+
+&nbsp;
+
+```java
+boolean flag = (
+  pg.rotateEdge(
+
+    /* start node */
+    (char) 'Z',
+
+    /* end node */
+    (char) 'C',
+
+    /* is arrowed edge */
+    (boolean) false
+
+  )
+); 
+```
+
+
+
+&nbsp;
+
+</details>
+
+
+
 
 <details>
   
