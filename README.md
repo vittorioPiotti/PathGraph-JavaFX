@@ -305,17 +305,6 @@ pg.setup();
 
 &nbsp;
 
-> Operations are available **only** after calling `pg.setup()`
-
-&nbsp;
-
-</details>
-
-
-
-
-
-## 4. Usage <div id="usage"/>
 
 ```java
 import javafx.application.Application;
@@ -324,8 +313,8 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.scene.layout.BorderPane;
-import org.boostsmartgraph.containers.PathGraphUI;
-import org.boostsmartgraph.graphview.SmartGraphEdgeBase;
+import org.pathGraph.containers.PathGraphUI;
+import org.pathGraph.graphview.SmartGraphEdgeBase;
 
 
 public class Main extends Application {
@@ -383,6 +372,20 @@ public class Main extends Application {
 }
 
 ```
+
+> Operations are available **only** after calling `pg.setup()`
+
+
+&nbsp;
+
+</details>
+
+
+
+
+
+## 4. Usage <div id="usage"/>
+
 
 > [!NOTE]
 > Operations are available **only** after calling `pg.setup()` [(see)](#setup)
