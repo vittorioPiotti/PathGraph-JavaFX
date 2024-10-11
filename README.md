@@ -687,7 +687,42 @@ boolean flag = (
 
 ### 4.3. Graph <div id="graph"/>
 
+<details>
+  
+<summary>
+  <strong>Enable Graph <div id="enablegraph"/></strong>
+</summary>
 
+&nbsp;
+
+```java
+pg.enableGraph();
+```
+
+
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong>Disable Graph <div id="disablegraph"/></strong>
+</summary>
+
+&nbsp;
+
+```java
+pg.disableGraph();
+```
+
+
+
+&nbsp;
+
+</details>
 
 
 <details>
@@ -1001,7 +1036,7 @@ int flag = pg.uploadJSON((Scene)scene);
 
 
 ```java
-pg.gc.setZoom((dooble) 2);
+pg.setZoom((dooble) 2);
 ```
 
 &nbsp;
