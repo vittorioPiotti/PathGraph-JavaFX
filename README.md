@@ -248,31 +248,7 @@ PathGraph pg = new PathGraph()
 
 > **Create your Custom UI** using PathGraph tools
 
-> **Confirue Graph Settings** calling `pg.setCallbacks()`
->
-> ```java
-> pg.setCallbacks(
-> 
->     /* to possibly close an open `ContextMenu` */
->     Runnable closeContextMenu,
-> 
->     /* action to perform on arrow edge event   */              
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
-> 
->     /* action to perform on node event         */
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
-> 
->     /* action to perform on click background   */
->     Consumer<MouseEvent> onClickBackground,
-> 
->     /* action to perform on scroll background  */            
->     Consumer<Double> onChangeZoom,
-> 
->     /* action to perform on drag background    */        
->     Runnable doAdjustPosition
-> 
-> );
-> ```
+> **Confirue Graph Settings** calling `pg.setCallbacks()` [(see)](#setcallbacks)
 
 
 
@@ -309,31 +285,8 @@ PathGraphUI pg = (
 
 > **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#setcallbacks)
 
-> **UI Settings Customizable** calling `pg.setUI()`
->
-> ```java
-> pg.setUI(
-> 
->     /* is enabled top-left menu */
->     (boolean) true,
-> 
->     /* is enabled bot-left menu */              
->    (boolean) true,
-> 
->     /* is enabled bot-mid menu */
->     (boolean) false,
-> 
->      /* is enabled right-mid menu */
->     (boolean) false,
-> 
->     /* is enabled top-right menu */           
->     (boolean) false,
-> 
->     /* is hide UI */        
->     (boolean) true
-> 
-> );
-> ```
+> **UI Settings Customizable** calling `pg.setUI()`  [(see)](#setui)
+
 
 
 
@@ -767,7 +720,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong>Set Callbacks</strong>
+  <strong>Set Callbacks <div id="setcallbacks"/></strong>
 </summary>
 
 &nbsp;
@@ -1078,7 +1031,7 @@ int flag = pg.uploadJSON((Scene)scene);
 <details>
   
 <summary>
-  <strong> Set UI <div id="set-ui"/> </strong>
+  <strong> Set UI <div id="setui"/> </strong>
 </summary>
 
 &nbsp;
