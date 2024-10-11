@@ -229,7 +229,50 @@ _Working on to upload library on maven dipencencies to available the library dis
 &nbsp;
 
 
-Start creating the main object to 
+Start using one of this object configurations:
+
+
+
+<details>
+  
+<summary>
+  <strong>Ready To Use</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+
+</details>
+
+<details>
+  
+<summary>
+  <strong>Basic</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong>Advanced</strong>
+</summary>
+
+&nbsp;
+
+
+&nbsp;
+
+</details>
+
 
 
 ### PathGraph 
