@@ -229,29 +229,103 @@ _Working on to upload library on maven dipencencies to available the library dis
 &nbsp;
 
 
-### UI enabled
+### UI 
 
 
-|
+
+#### PathGraph 
+
 ```java
-/* to apply all new custom UI features */
+/* only graph without interactions */
 PathGraph pg = new PathGraph()                                           
+```
+
+> Manual graph callbacks configuration to enable custom interactions
+>
+> ```java
+> pg.setAllCallbacks(
+> 
+>     /* to possibly close an open `ContextMenu` */
+>     Runnable closeContextMenu,
+> 
+>     /* action to perform on arrow edge event   */              
+>     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+> 
+>     /* action to perform on node event         */
+>     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+> 
+>     /* action to perform on click background   */
+>     Consumer<MouseEvent> onClickBackground,
+> 
+>     /* action to perform on scroll background  */            
+>     Consumer<Double> onChangeZoom,
+> 
+>     /* action to perform on drag background    */        
+>     Runnable doAdjustPosition
+> 
+> );
+> ```
+
+
+
+#### PathGraphUI
+
+```java
+PathGraphUI pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene
+  )
+); 
+```
+
+
+> Manual UI configurations to enable custom components
+>
+> ```java
+> pg.setUI(
+> 
+>     /* is enabled top-left menu */
+>     (boolean) true,
+> 
+>     /* is enabled bot-left menu */              
+>    (boolean) true,
+> 
+>     /* is enabled bot-mid menu */
+>     (boolean) false,
+> 
+>      /* is enabled right-mid menu */
+>     (boolean) false,
+> 
+>     /* is enabled top-right menu */           
+>     C(boolean) false,
+> 
+>     /* is hide UI */        
+>     (boolean) true
+> 
+> );
+> ```
+
+
+
+
+
+
+#### Hybrid
+
+```java
+PathGraph pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene
+  )
+); 
 ```
 
 
 
-| Scenario | Codice |
-| -------- | ------ |
-| **Usare e personalizzare tutte le funzionalità UI e del grafo** | ```java<br>/* to set use and customize UI features */<br>/* all of the UI components are enabled */<br>PathGraphUI pg = (<br> new PathGraphUI(<br> (Stage) primaryStage,<br> (Scene) scene,<br><br> /* configure UI features */<br> (Boolean[]) uiFeatures,<br><br> /* configure graph features */<br> (Boolean[]) graphFeatures,<br><br> /* configure graph styles */<br> (String[]) graphStyles,<br> )<br>);``` |
-| **Usare e personalizzare le funzionalità UI** | ```java<br>/* to use and customize UI features */<br>/* all of the UI components are enabled */<br>PathGraphUI pg = (<br> new PathGraphUI(<br> (Stage) primaryStage,<br> (Scene) scene,<br> )<br>);``` |
-| **Utilizzare solo le funzionalità UI predefinite** | ```java<br>/* only to use default UI features */<br>PathGraph pg = (<br> new PathGraphUI(<br> (Stage) primaryStage,<br> (Scene) scene<br> )<br>);``` |
-| **Applicare tutte le nuove funzionalità UI personalizzate** | ```java<br>/* to apply all new custom UI features */<br>PathGraph pg = new PathGraph();``` |
 
 
-
-||||
-|-|-|-|-|
-|-|-|-|-|
 
 
 ```java
@@ -290,21 +364,6 @@ PathGraphUI pg = (
 
 
 
-```java
-/* only to use default UI features */
-PathGraph pg = (
-  new PathGraphUI(
-    (Stage) primaryStage,
-    (Scene) scene
-  )
-); 
-```
-
-
-```java
-/* to apply all new custom UI features */
-PathGraph pg = new PathGraph()                                           
-```
 
 
 
