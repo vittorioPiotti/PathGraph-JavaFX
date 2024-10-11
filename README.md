@@ -228,10 +228,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-
-Start using one of this object configurations:
-
-
+### Prepare
 
 <details>
   
