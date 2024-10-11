@@ -228,7 +228,39 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-### Configurations 
+### Vanilla 
+
+```java
+/* only graph without interactions */
+PathGraph pg = new PathGraph()                                           
+```
+
+> **Create your Custom UI** using PathGraph tools
+
+> **Confirue Graph Settings** calling `pg.setCallbacks()` [(see)](#setcallbacks)
+
+
+
+### Ready To Use
+
+```java
+PathGraphUI pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene
+  )
+); 
+```
+
+
+> **Graph with Defaul Settings** automatically configurated
+
+> **UI with Default Settings:** all components are enabled
+
+> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#setcallbacks)
+
+> **UI Settings Customizable** calling `pg.setUI()`  [(see)](#setui)
+
 
 
 
