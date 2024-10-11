@@ -1428,7 +1428,13 @@ pg.toggleUI();
 
 
 
-**Node**
+<details>
+  
+<summary>
+  <strong> Node</strong>
+</summary>
+
+&nbsp;
 
 ```java
 public class NodeDTO {
@@ -1436,7 +1442,17 @@ public class NodeDTO {
 }
 ```
 
-**Edge**
+&nbsp;
+
+</details>
+
+<details>
+  
+<summary>
+  <strong> Edge</strong>
+</summary>
+
+&nbsp;
 
 ```java
 public class EdgeDTO {
@@ -1447,7 +1463,17 @@ public class EdgeDTO {
 }
 ```
 
-**Conenction**
+&nbsp;
+
+</details>
+
+<details>
+  
+<summary>
+  <strong> Connection</strong>
+</summary>
+
+&nbsp;
 
 ```java
 public class ConnectionDTO {
@@ -1456,7 +1482,17 @@ public class ConnectionDTO {
 }
 ```
 
-**Graph**
+&nbsp;
+
+</details>
+
+<details>
+  
+<summary>
+  <strong> Graph</strong>
+</summary>
+
+&nbsp;
 
 ```java
 public class GraphDTO {
@@ -1465,6 +1501,13 @@ public class GraphDTO {
   public Map<NodeDTO, List<ConnectionDTO>> connectedNodes = new HashMap<>();
 }
 ```
+
+&nbsp;
+
+</details>
+
+
+
 
 ## 6. JSON Data Management <div id="json-data-management"/>
 
