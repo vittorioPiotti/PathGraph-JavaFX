@@ -230,36 +230,9 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 ### Configurations 
 
-<details>
-  
-<summary>
-  <strong>Ready To Use</strong>
-</summary>
-
-&nbsp;
-
-```java
-PathGraph pg = (
-  new PathGraphUI(
-    (Stage) primaryStage,
-    (Scene) scene
-  )
-); 
-```
-
-> **Graph with Defaul Settings** automatically configurated
-
-> **UI with Default Settings:** all components are enabled
-
-> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#pathgraph)
-
-> **UI settings Not Customizable**
 
 
 
-&nbsp;
-
-</details>
 
 
 <details>
