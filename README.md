@@ -240,9 +240,8 @@ _Working on to upload library on maven dipencencies to available the library dis
 PathGraph pg = new PathGraph()                                           
 ```
 
-> Configure empty callbacks to disable graph interactions
 
-> Manual graph callbacks configuration to enable custom interactions
+> **Graph Settings _to configure on load_** calling `pg.setCallbacks()`
 >
 > ```java
 > pg.setCallbacks(
@@ -282,12 +281,13 @@ PathGraphUI pg = (
 ```
 
 
-> Default interactions automatically configurated
+> **Graph with Defaul Settings** automatically configurated
 
+> **UI with Default Settings:** all components are enabled
 
-> Customize interactions calling `pg.setCallbacks()` [(see)](#pathgraph)
+> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#pathgraph)
 
-> Manual UI configurations to enable custom components
+> **UI Settings Customizable** calling `pg.setUI()`
 >
 > ```java
 > pg.setUI(
@@ -329,46 +329,13 @@ PathGraph pg = (
 ); 
 ```
 
+> **Graph with Defaul Settings** automatically configurated
 
+> **UI with Default Settings:** all components are enabled
 
+> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#pathgraph)
 
-
-
-
-```java
-/* to set use and customize UI features     */
-/* all of the UI components are enabled */
-PathGraphUI pg = (
-  new PathGraphUI(
-    (Stage) primaryStage,
-    (Scene) scene,
-
-    /* configure UI features */
-    (Boolean[]) uiFeatures,
-
-    /* configure graph features */
-    (Boolean[]) graphFeatures,
-
-    /* configure graph styles */
-    (String[]) graphStyles,
-
-  )
-);
-```
-
-
-```java
-/* to use and customize UI features     */
-/* all of the UI components are enabled */
-PathGraphUI pg = (
-  new PathGraphUI(
-    (Stage) primaryStage,
-    (Scene) scene,
-  )
-);
-```
-
-
+> **UI settings Not Customizable**
 
 
 
