@@ -314,7 +314,6 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.scene.layout.BorderPane;
 import org.pathGraph.containers.PathGraphUI;
-import org.pathGraph.graphview.SmartGraphEdgeBase;
 
 
 public class Main extends Application {
@@ -342,28 +341,13 @@ public class Main extends Application {
         /* 4. Setup PathGraph */
             pg.setup();
 
-        /* 4. Configure PathGraph */
-            pg.setUI(true,true,true,true,true,false );
-            pg.showUI();
-            pg.enableListenersGraph(true);
-            pg.enableListenersPane(true);
-            pg.setAutomaticLayout(true);
-
         /* 5. Make Graphs with PathGraph*/
             pg.newNode("A");
             pg.newNode("B");
             pg.newNode("C");
             pg.newEdge("A", "B", 1);
             pg.newEdge("C", "A", 2, false);
-            pg.newEdge("C", "A", 3, SmartGraphEdgeBase.DIRECTION_FIRST);
-            pg.renameNode("A", "K");
-            pg.splitEdge("K", "B");
-            pg.setCost("B", "K", 200);
-            pg.deleteEdge("K","B");
-            pg.rotateEdge("B", "K", SmartGraphEdgeBase.DIRECTION_FIRST);
-            pg.setArrow("K", "B", false);
-            pg.rotateEdge("K","B");
-            
+
     }
 
     public static void main(String[] args) {
