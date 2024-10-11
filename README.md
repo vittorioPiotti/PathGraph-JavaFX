@@ -231,7 +231,6 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 ```java
 /* Vanilla configuration */
-/* Create your custom UI using PathGraph tools */
 PathGraph pg = new PathGraph()                                           
 ```
 
@@ -245,7 +244,6 @@ _or_
 
 ```java
 /* Ready-To-Use configuration */
-/* There are also customizations */
 PathGraphUI pg = (
   new PathGraphUI(
     (Stage) primaryStage,
