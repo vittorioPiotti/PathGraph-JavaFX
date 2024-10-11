@@ -338,7 +338,7 @@ _or_
 pg.setup().thenRun(() -> {
 
   /* action to perform on first load */
-  /* put here components to add onload */
+  /* e.g. put here components to add onload */
 
 });
 ```
