@@ -118,7 +118,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/sp.gif" alt="Icona" width="400"/>
 
-### UI
+### Interface
 
 | Advanced| Edge and Nodes | Graph |
 | ------------ | ------------ | ------------ |
