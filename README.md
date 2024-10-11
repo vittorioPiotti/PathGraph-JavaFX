@@ -732,14 +732,16 @@ pg.disableGraph();
 <details>
   
 <summary>
-  <strong>Set Dynamic Layout <div id="setdynamiclayout"/></strong>
+  <strong>Set Automatic Layout <div id="setdynamiclayout"/></strong>
 </summary>
 
 &nbsp;
 
 ```java
-pg.setDynamicLayout();
+pg.setAutomaticLayout();
 ```
+
+> _Metodo originario di SmartGraph [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#basic-usage)_
 
 
 
