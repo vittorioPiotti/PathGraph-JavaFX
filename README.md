@@ -1123,14 +1123,32 @@ int flag = pg.uploadJSON((Scene)scene);
 <details>
   
 <summary>
-  <strong> Set Zoom <div id="setzoom"/> </strong>
+  <strong> Do Zoom <div id="setzoom"/> </strong>
 </summary>
 
 &nbsp;
 
 
 ```java
-pg.setZoom((dooble) 2);
+pg.doZoom((dooble) 2.0);
+```
+
+&nbsp;
+
+</details>
+
+
+<details>
+  
+<summary>
+  <strong> Do Drag <div id="setzoom"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+pg.doDrag((dooble) 20.0, (double) -10.0);
 ```
 
 &nbsp;
