@@ -228,20 +228,43 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-**Construction first**
-
 ```java
 /* to use and customize UI features     */
 /* all of the UI components are enabled */
 PathGraphUI pg = (
   new PathGraphUI(
     (Stage) primaryStage,
-    (Scene) scene
+    (Scene) scene,
+
+    /* configure UI features */
+    new Boolean[]{
+
+      /* is enabled top-left menu */
+      true,
+
+      /* is enabled bot-left menu */
+      false,
+
+      /* is enabled bot-mid menu */
+      false,
+
+      /* is enabled right-mid menu */
+      false,
+
+      /* is enabled top-right menu */
+      true,
+
+      /* is hide UI features */
+      false,
+
+    },
+
+    /* configure graph features */
+   
   )
 );
 ```
 
-**Construction second**
 
 ```java
 /* only to use default UI features */
@@ -252,8 +275,6 @@ PathGraph pg = (
   )
 ); 
 ```
-
-**Construction third**
 
 ```java
 /* to apply all new custom UI features */
