@@ -307,7 +307,7 @@ PathGraphUI pg = (
 
 > **UI with Default Settings:** all components are enabled
 
-> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#pathgraph)
+> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#vanilla)
 
 > **UI Settings Customizable** calling `pg.setUI()`
 >
