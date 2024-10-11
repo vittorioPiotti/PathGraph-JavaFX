@@ -16,7 +16,8 @@ Ability of find and show the shortest path, make screenshots and upload or downl
  3. [Get Started](#get-started)
  4. [Usage](#usage)
  5. [Data Transfer Object](#data-transfer-object)
- 6. [Licenses](#licenses)
+ 6. [JSON Data Management](#json-data-management)
+ 7. [Licenses](#licenses)
 
 
 ## 1. About <div id="about"/>
@@ -1426,7 +1427,7 @@ pg.toggleUI();
 ## 5. Data Transfer Object <div id="data-transfer-object"/>
 
 
-
+## 5. JSON Data Management <div id="json-data-management"/>
 
 ## 6. Licenses <div id="licenses"/>
 
