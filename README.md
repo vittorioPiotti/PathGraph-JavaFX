@@ -264,67 +264,6 @@ PathGraphUI pg = (
 
 
 
-<details>
-  
-<summary>
-  <strong>Vanilla <div id="vanilla"/></strong>
-</summary>
-
-&nbsp;
-
-```java
-/* only graph without interactions */
-PathGraph pg = new PathGraph()                                           
-```
-
-> **Create your Custom UI** using PathGraph tools
-
-> **Confirue Graph Settings** calling `pg.setCallbacks()` [(see)](#setcallbacks)
-
-
-
-&nbsp;
-
-</details>
-
-
-
-
-
-<details>
-  
-<summary>
-  <strong>Ready to Use</strong>
-</summary>
-
-&nbsp;
-
-
-```java
-PathGraphUI pg = (
-  new PathGraphUI(
-    (Stage) primaryStage,
-    (Scene) scene
-  )
-); 
-```
-
-
-> **Graph with Defaul Settings** automatically configurated
-
-> **UI with Default Settings:** all components are enabled
-
-> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#setcallbacks)
-
-> **UI Settings Customizable** calling `pg.setUI()`  [(see)](#setui)
-
-
-
-
-&nbsp;
-
-</details>
-
 
 &nbsp;
 
