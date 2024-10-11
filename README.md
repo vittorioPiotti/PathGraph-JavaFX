@@ -229,11 +229,10 @@ _Working on to upload library on maven dipencencies to available the library dis
 &nbsp;
 
 
-### UI 
+Start creating the main object to 
 
 
-
-#### PathGraph 
+### PathGraph 
 
 ```java
 /* only graph without interactions */
@@ -269,7 +268,7 @@ PathGraph pg = new PathGraph()
 
 
 
-#### PathGraphUI
+### PathGraphUI
 
 ```java
 PathGraphUI pg = (
@@ -318,7 +317,7 @@ PathGraphUI pg = (
 
 
 
-#### Hybrid
+### Hybrid
 
 ```java
 PathGraph pg = (
@@ -340,37 +339,6 @@ PathGraph pg = (
 
 
 
-
-&nbsp;
-
-> Manual callback configurations if using `PathGraph` instead of `PathGraphUI`
->
-> ```java
-> pg.setCallbacks(
-> 
->     /* to possibly close an open `ContextMenu` */
->     Runnable closeContextMenu,
-> 
->     /* action to perform on arrow edge event   */              
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
-> 
->     /* action to perform on node event         */
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
-> 
->     /* action to perform on click background   */
->     Consumer<MouseEvent> onClickBackground,
-> 
->     /* action to perform on scroll background  */            
->     Consumer<Double> onChangeZoom,
-> 
->     /* action to perform on drag background    */        
->     Runnable doAdjustPosition
-> 
-> );
-> ```
-> > It can be done in any time and in any case
->
-> > Configure empty callbacks to disable graph interactions
 
 
 &nbsp;
