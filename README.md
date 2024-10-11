@@ -342,6 +342,9 @@ pg.setup().thenRun(() -> {
 });
 ```
 
+&nbsp;
+
+
 In both of cases
 
 > Setup is required **to enable the use** of library
