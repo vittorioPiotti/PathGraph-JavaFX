@@ -991,6 +991,22 @@ int flag = pg.uploadJSON((Scene)scene);
 >
 > Only with `PathGraphUI` class type [(see)](#prepare)
 
+<details>
+  
+<summary>
+  <strong> Set Zoom <div id="setzoom"/> </strong>
+</summary>
+
+&nbsp;
+
+
+```java
+pg.gc.setZoom((dooble) 2);
+```
+
+&nbsp;
+
+</details>
 
 <details>
   
