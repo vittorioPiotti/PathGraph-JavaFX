@@ -240,6 +240,8 @@ _Working on to upload library on maven dipencencies to available the library dis
 PathGraph pg = new PathGraph()                                           
 ```
 
+> Configure empty callbacks to disable graph interactions
+
 > Manual graph callbacks configuration to enable custom interactions
 >
 > ```java
@@ -268,9 +270,7 @@ PathGraph pg = new PathGraph()
 
 
 
-#### PathGraphUI <div id="pathgraphui"/>
-
-
+#### PathGraphUI
 
 ```java
 PathGraphUI pg = (
@@ -282,8 +282,10 @@ PathGraphUI pg = (
 ```
 
 
+> Default interactions automatically configurated
 
-> Custom interactions automatically configurated
+
+> Customize interactions calling `pg.setCallbacks()` [(see)](#pathgraph)
 
 > Manual UI configurations to enable custom components
 >
