@@ -328,7 +328,7 @@ public class Main extends Application {
             Scene scene = new Scene(root, 750, 550);
             primaryStage.setScene(scene);
 
-        /* 2. Visualize primary stage */
+        /* 2. Show primary stage */
             primaryStage.show();
 
 
