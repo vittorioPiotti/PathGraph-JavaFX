@@ -269,7 +269,7 @@ _or_
 &nbsp;
 
 ```java
-/* Ready-To-Use configuration */
+/* Ready-To-Use with custom configuration */
 PathGraphUI pg = (
   new PathGraphUI(
     (Stage) primaryStage,
