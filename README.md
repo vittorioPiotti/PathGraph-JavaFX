@@ -331,17 +331,21 @@ public class Main extends Application {
         /* 2. Show primary stage */
             primaryStage.show();
 
-
-        /* 3. Create PathGraph object*/
+        /* 3. Create PathGraph object */
             PathGraphUI pg = new PathGraphUI(primaryStage, scene);
 
         /* 4. Add PathGraph in a container */
             root.setCenter(pg);
 
-        /* 4. Setup PathGraph */
+        /* 5. Custom configurations PathGraph */
+            pg.setUI(false,false,false,false,false,true );
+            pg.enableListenersGraph(true);
+            pg.enableListenersPane(true);
+
+        /* 6. Setup PathGraph */
             pg.setup();
 
-        /* 5. Make Graphs with PathGraph*/
+        /* 7. Make Graphs with PathGraph */
             pg.newNode("A");
             pg.newNode("B");
             pg.newNode("C");
