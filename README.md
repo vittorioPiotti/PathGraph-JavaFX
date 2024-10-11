@@ -252,7 +252,7 @@ PathGraph pg = (
 
 
 ```java
-/* to apply custom UI features */
+/* to apply all new custom UI features */
 PathGraph pg = new PathGraph()                                           
 ```
 
