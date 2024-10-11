@@ -228,7 +228,6 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
-### Vanilla 
 
 ```java
 /* only graph without interactions */
@@ -239,9 +238,9 @@ PathGraph pg = new PathGraph()
 
 > **Confirue Graph Settings** calling `pg.setCallbacks()` [(see)](#setcallbacks)
 
+_or_
 
 
-### Ready To Use
 
 ```java
 PathGraphUI pg = (
