@@ -243,7 +243,7 @@ PathGraph pg = new PathGraph()
 > Manual graph callbacks configuration to enable custom interactions
 >
 > ```java
-> pg.setAllCallbacks(
+> pg.setCallbacks(
 > 
 >     /* to possibly close an open `ContextMenu` */
 >     Runnable closeContextMenu,
@@ -375,7 +375,7 @@ PathGraphUI pg = (
 > Manual callback configurations if using `PathGraph` instead of `PathGraphUI`
 >
 > ```java
-> pg.setAllCallbacks(
+> pg.setCallbacks(
 > 
 >     /* to possibly close an open `ContextMenu` */
 >     Runnable closeContextMenu,
