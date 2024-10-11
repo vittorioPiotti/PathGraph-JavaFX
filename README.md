@@ -845,7 +845,7 @@ boolean flag = (
 <details>
   
 <summary>
-  <strong>enableListenersGraph <div id="enablelistenersgraph"/></strong>
+  <strong>Enable Listeners Graph <div id="enablelistenersgraph"/></strong>
 </summary>
 
 &nbsp;
@@ -863,7 +863,7 @@ pg.enableListenersGraph((boolean) true);
 <details>
   
 <summary>
-  <strong>enableListenersPane <div id="enablelistenerspane"/></strong>
+  <strong>Enable Listeners Pane <div id="enablelistenerspane"/></strong>
 </summary>
 
 &nbsp;
