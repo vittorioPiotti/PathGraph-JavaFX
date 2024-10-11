@@ -687,38 +687,18 @@ boolean flag = (
 
 ### 4.3. Graph <div id="graph"/>
 
-<details>
-  
-<summary>
-  <strong>Enable Graph <div id="enablegraph"/></strong>
-</summary>
-
-&nbsp;
-
-```java
-pg.enableGraph();
-```
-
-
-
-&nbsp;
-
-</details>
-
-
-
 
 
 <details>
   
 <summary>
-  <strong>Disable Graph <div id="disablegraph"/></strong>
+  <strong>enableListenersGraph <div id="enablelistenersgraph"/></strong>
 </summary>
 
 &nbsp;
 
 ```java
-pg.disableGraph();
+pg.enableListenersGraph((boolean) true);
 ```
 
 
