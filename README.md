@@ -860,6 +860,23 @@ pg.enableListenersGraph((boolean) true);
 
 </details>
 
+<details>
+  
+<summary>
+  <strong>enableListenersPane <div id="enablelistenerspane"/></strong>
+</summary>
+
+&nbsp;
+
+```java
+pg.enableListenersPane((boolean) true);
+```
+
+
+
+&nbsp;
+
+</details>
 
 
 <details>
