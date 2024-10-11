@@ -238,9 +238,11 @@ PathGraph pg = new PathGraph()
 
 > **Confirue Graph Settings** calling `pg.setCallbacks()` [(see)](#setcallbacks)
 
+&nbsp;
+
 _or_
 
-
+&nbsp;
 
 ```java
 /* Ready-To-Use configuration */
@@ -986,18 +988,9 @@ int flag = pg.uploadJSON((Scene)scene);
 
 
 > [!NOTE]
-> Features only avaible on `PathGraphUI` class type [(see)](#pathgraphui)
-> 
-> ```java
-> PathGraphUI pg = (
->   new PathGraphUI(
->     primaryStage,
->     scene
->   )
-> );
-> ```
 >
-> > Not is supported using `PathGraph` class type
+> Only with `PathGraphUI` class type [(see)](#prepare)
+
 
 <details>
   
