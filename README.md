@@ -237,6 +237,18 @@ _Working on to upload library on maven dipencencies to available the library dis
 /* to apply all new custom UI features */
 PathGraph pg = new PathGraph()                                           
 ```
+
+
+
+| Scenario | Codice |
+| -------- | ------ |
+| **Usare e personalizzare tutte le funzionalità UI e del grafo** | ```java<br>/* to set use and customize UI features */<br>/* all of the UI components are enabled */<br>PathGraphUI pg = (<br> new PathGraphUI(<br> (Stage) primaryStage,<br> (Scene) scene,<br><br> /* configure UI features */<br> (Boolean[]) uiFeatures,<br><br> /* configure graph features */<br> (Boolean[]) graphFeatures,<br><br> /* configure graph styles */<br> (String[]) graphStyles,<br> )<br>);``` |
+| **Usare e personalizzare le funzionalità UI** | ```java<br>/* to use and customize UI features */<br>/* all of the UI components are enabled */<br>PathGraphUI pg = (<br> new PathGraphUI(<br> (Stage) primaryStage,<br> (Scene) scene,<br> )<br>);``` |
+| **Utilizzare solo le funzionalità UI predefinite** | ```java<br>/* only to use default UI features */<br>PathGraph pg = (<br> new PathGraphUI(<br> (Stage) primaryStage,<br> (Scene) scene<br> )<br>);``` |
+| **Applicare tutte le nuove funzionalità UI personalizzate** | ```java<br>/* to apply all new custom UI features */<br>PathGraph pg = new PathGraph();``` |
+
+
+
 ||||
 |-|-|-|-|
 |-|-|-|-|
