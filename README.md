@@ -228,8 +228,22 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 &nbsp;
 
+
+### UI enabled
+
+
+|
 ```java
-/* to use and customize UI features     */
+/* to apply all new custom UI features */
+PathGraph pg = new PathGraph()                                           
+```
+||||
+|-|-|-|-|
+|-|-|-|-|
+
+
+```java
+/* to set use and customize UI features     */
 /* all of the UI components are enabled */
 PathGraphUI pg = (
   new PathGraphUI(
@@ -237,33 +251,31 @@ PathGraphUI pg = (
     (Scene) scene,
 
     /* configure UI features */
-    new Boolean[]{
-
-      /* is enabled top-left menu */
-      true,
-
-      /* is enabled bot-left menu */
-      false,
-
-      /* is enabled bot-mid menu */
-      false,
-
-      /* is enabled right-mid menu */
-      false,
-
-      /* is enabled top-right menu */
-      true,
-
-      /* is hide UI features */
-      false,
-
-    },
+    (Boolean[]) uiFeatures,
 
     /* configure graph features */
-   
+    (Boolean[]) graphFeatures,
+
+    /* configure graph styles */
+    (String[]) graphStyles,
+
   )
 );
 ```
+
+
+```java
+/* to use and customize UI features     */
+/* all of the UI components are enabled */
+PathGraphUI pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene,
+  )
+);
+```
+
+
 
 
 ```java
@@ -276,10 +288,13 @@ PathGraph pg = (
 ); 
 ```
 
+
 ```java
 /* to apply all new custom UI features */
 PathGraph pg = new PathGraph()                                           
 ```
+
+
 
 &nbsp;
 
