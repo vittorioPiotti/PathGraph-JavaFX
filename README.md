@@ -865,7 +865,7 @@ pg.enableListenersPane((boolean) true);
 
 ```java
 pg.setGraph(
-  /* meta data of the graph to upload /*
+  /* meta data of the graph to upload */
   (MetaGraph) mt
 );
 ```
@@ -873,7 +873,7 @@ pg.setGraph(
 ```java
 pg.setGraph(
 
-  /* meta data of the graph to upload /*
+  /* meta data of the graph to upload */
   (MetaGraph) mt,
 
   /* is animated upload of new graph */
