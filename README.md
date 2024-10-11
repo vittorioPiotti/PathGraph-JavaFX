@@ -29,7 +29,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 &nbsp;
 
-If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated weights, which offers a user-friendly interface to represent, manage, and interact with path graphs, then Path is the right solution for you.
+If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated costs, which offers a user-friendly interface to represent, manage, and interact with path graphs, then Path is the right solution for you.
 
 &nbsp;
 
@@ -246,7 +246,7 @@ _Working on to upload library on maven dipencencies to available the library dis
 PathGraph pg = new PathGraph()                                           
 ```
 
-> **Create your UI** using PtahGraph tools
+> **Create your Custom UI** using PathGraph tools
 
 > **Confirue Graph Settings** calling `pg.setCallbacks()`
 >
@@ -327,7 +327,7 @@ PathGraphUI pg = (
 >     (boolean) false,
 > 
 >     /* is enabled top-right menu */           
->     C(boolean) false,
+>     (boolean) false,
 > 
 >     /* is hide UI */        
 >     (boolean) true
