@@ -307,7 +307,7 @@ PathGraphUI pg = (
 
 > **UI with Default Settings:** all components are enabled
 
-> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#vanilla)
+> **Graph Settings Customizable** calling `pg.setCallbacks()` [(see)](#setcallbacks)
 
 > **UI Settings Customizable** calling `pg.setUI()`
 >
@@ -760,6 +760,48 @@ boolean flag = (
 
 
 ### 4.3. Graph <div id="graph"/>
+
+
+
+
+<details>
+  
+<summary>
+  <strong>Advanced</strong>
+</summary>
+
+&nbsp;
+
+```java
+pg.setCallbacks(
+
+   /* to possibly close an open `ContextMenu` */
+   Runnable closeContextMenu,
+
+   /* action to perform on arrow edge event   */              
+   BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+
+   /* action to perform on node event         */
+   BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+
+   /* action to perform on click background   */
+   Consumer<MouseEvent> onClickBackground,
+
+   /* action to perform on scroll background  */            
+   Consumer<Double> onChangeZoom,
+
+   /* action to perform on drag background    */        
+   Runnable doAdjustPosition
+
+);
+```
+
+
+
+&nbsp;
+
+</details>
+
 
 
 <details>
