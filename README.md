@@ -1156,7 +1156,7 @@ pg.disableUI();
 <details>
   
 <summary>
-  <strong> SmartGrah</strong>
+  <strong> SmartGraph</strong>
 </summary>
 
 &nbsp;
