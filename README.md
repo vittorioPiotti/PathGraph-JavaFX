@@ -15,7 +15,8 @@ Ability of find and show the shortest path, make screenshots and upload or downl
  2. [User Experience](#user-experience)
  3. [Get Started](#get-started)
  4. [Usage](#usage)
- 5. [Licenses](#licenses)
+ 5. [Data Transfer Object](#data-transfer-object)
+ 6. [Licenses](#licenses)
 
 
 ## 1. About <div id="about"/>
@@ -1422,11 +1423,12 @@ pg.toggleUI();
 
 
 
+## 5. Data Transfer Object <div id="data-transfer-object"/>
 
 
 
 
-## 5. Licenses <div id="licenses"/>
+## 6. Licenses <div id="licenses"/>
 
 
 
