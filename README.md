@@ -1427,13 +1427,8 @@ pg.toggleUI();
 ## 5. DTO · Data Transfer Objects <div id="data-transfer-object"/>
 
 
-<details>
-  
-<summary>
-  <strong> Node</strong>
-</summary>
 
-&nbsp;
+**Node**
 
 ```java
 public class NodeDTO {
@@ -1441,19 +1436,7 @@ public class NodeDTO {
 }
 ```
 
-&nbsp;
-
-</details>
-
-
-<details>
-  
-<summary>
-  <strong> Edge</strong>
-</summary>
-
-&nbsp;
-
+**Edge**
 
 ```java
 public class EdgeDTO {
@@ -1464,20 +1447,7 @@ public class EdgeDTO {
 }
 ```
 
-&nbsp;
-
-</details>
-
-
-
-
-<details>
-  
-<summary>
-  <strong> Connection</strong>
-</summary>
-
-&nbsp;
+**Conenction**
 
 ```java
 public class ConnectionDTO {
@@ -1486,20 +1456,7 @@ public class ConnectionDTO {
 }
 ```
 
-&nbsp;
-
-</details>
-
-
-
-<details>
-  
-<summary>
-  <strong> Graph</strong>
-</summary>
-
-&nbsp;
-
+**Graph**
 
 ```java
 public class GraphDTO {
@@ -1508,11 +1465,6 @@ public class GraphDTO {
   public Map<NodeDTO, List<ConnectionDTO>> connectedNodes = new HashMap<>();
 }
 ```
-
-
-&nbsp;
-
-</details>
 
 ## 6. JSON Data Management <div id="json-data-management"/>
 
