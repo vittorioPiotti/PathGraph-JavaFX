@@ -231,7 +231,17 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 
 ```java
-/* To apply default UI features */
+
+/* to use and customize UI features */
+PathGraphUI pg = (
+  new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene
+  )
+); 
+```
+
+/* only to use default UI features */
 PathGraph pg = (
   new PathGraphUI(
     (Stage) primaryStage,
@@ -242,7 +252,7 @@ PathGraph pg = (
 
 
 ```java
-/* To apply custom UI features */
+/* to apply custom UI features */
 PathGraph pg = new PathGraph()                                           
 ```
 
