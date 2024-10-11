@@ -883,7 +883,7 @@ pg.setGraph(
 ```
 
 &nbsp;
-   
+
 </details>
 
 
@@ -1177,6 +1177,8 @@ int flag = pg.downloadJSON((Scene) scene);
 > ```
 
 
+
+
 &nbsp;
    
 </details>
@@ -1222,6 +1224,53 @@ int flag = pg.uploadJSON((File) file);
 > (int) UtilitiesParser.ERROR; 
 > ```
 
+&nbsp;
+
+> Ability to upload json also without atomic method:
+>
+> ```java
+> /* choose json file */
+> File file = new File("path/of/file.json");       
+>
+> /* parse json file */
+> MetaGraph mt = (
+>   pg.parseJson(
+>   (File) file
+>   )
+> );
+> 
+> /* set new graph */
+> pg.setGraph(
+>   (MetaGraph) mt,
+>   (boolean) true
+> );
+> ```
+
+
+
+&nbsp;
+   
+</details>
+
+
+
+
+
+<details>
+  
+<summary>
+  <strong>  Parse JSON <div id="parseJSON"/> </strong>
+</summary>
+
+&nbsp;
+
+```java
+MetaGraph mt = (
+  pg.parseJson(
+    (File) file
+  )
+);
+```
 
 &nbsp;
    
@@ -1446,6 +1495,23 @@ pg.toggleUI();
 &nbsp;
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
