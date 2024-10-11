@@ -233,12 +233,61 @@ _Working on to upload library on maven dipencencies to available the library dis
 
 
 
+<details>
+  
+<summary>
+  <strong>Vanilla</strong>
+</summary>
+
+&nbsp;
+
+```java
+/* only graph without interactions */
+PathGraph pg = new PathGraph()                                           
+```
+
+> **Create your UI** using PtahGraph tools
+
+> **Confirue Graph Settings** calling `pg.setCallbacks()`
+>
+> ```java
+> pg.setCallbacks(
+> 
+>     /* to possibly close an open `ContextMenu` */
+>     Runnable closeContextMenu,
+> 
+>     /* action to perform on arrow edge event   */              
+>     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
+> 
+>     /* action to perform on node event         */
+>     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
+> 
+>     /* action to perform on click background   */
+>     Consumer<MouseEvent> onClickBackground,
+> 
+>     /* action to perform on scroll background  */            
+>     Consumer<Double> onChangeZoom,
+> 
+>     /* action to perform on drag background    */        
+>     Runnable doAdjustPosition
+> 
+> );
+> ```
+
+
+
+&nbsp;
+
+</details>
+
+
+
 
 
 <details>
   
 <summary>
-  <strong>Basic</strong>
+  <strong>Ready to Use</strong>
 </summary>
 
 &nbsp;
@@ -292,53 +341,6 @@ PathGraphUI pg = (
 
 </details>
 
-
-<details>
-  
-<summary>
-  <strong>Advanced</strong>
-</summary>
-
-&nbsp;
-
-```java
-/* only graph without interactions */
-PathGraph pg = new PathGraph()                                           
-```
-
-> **Create your UI** using PtahGraph tools
-
-> **Confirue Graph Settings** calling `pg.setCallbacks()`
->
-> ```java
-> pg.setCallbacks(
-> 
->     /* to possibly close an open `ContextMenu` */
->     Runnable closeContextMenu,
-> 
->     /* action to perform on arrow edge event   */              
->     BiConsumer<MouseEvent, Edge<E, V>> onClickArrow,
-> 
->     /* action to perform on node event         */
->     BiConsumer<MouseEvent, Vertex<V>> onClickNode,
-> 
->     /* action to perform on click background   */
->     Consumer<MouseEvent> onClickBackground,
-> 
->     /* action to perform on scroll background  */            
->     Consumer<Double> onChangeZoom,
-> 
->     /* action to perform on drag background    */        
->     Runnable doAdjustPosition
-> 
-> );
-> ```
-
-
-
-&nbsp;
-
-</details>
 
 &nbsp;
 
