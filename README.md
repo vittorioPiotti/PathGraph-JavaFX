@@ -1209,31 +1209,16 @@ int flag = pg.uploadJSON((File) file);
 
 &nbsp;
 
-> Ability to upload json also without standard methods:
+> Ability to upload json also without standard methods using DTO [(see)](#data-transfer-object)
 >
 > ```java       
 > /* set new graph */
 > pg.setGraph(
 > 
->   /* automatically DTO creation from json file during construction */
->   (GraphDTO) new GraphDTO(new File("path/to/file.json")),
+>   /* DTO created from json content or json file */
+>   (GraphDTO) dto,
 > 
 >    /* is animated grah setting */
->   (boolean) true
-> 
-> );
-> ```
->
-> _or_
->
-> ```java       
-> /* set new graph */
-> pg.setGraph(
-> 
->   /* automatically DTO creation from json content during construction */
->   (GraphDTO) new GraphDTO((String) jsonContent),
->
->   /* is animated grah setting */
 >   (boolean) true
 > 
 > );
