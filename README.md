@@ -1116,11 +1116,9 @@ int flag = pg.downloadJSON(
   /* file chooser dialog owner window */
   (Window) window,
 
-  /* nodes data transfer structor */
-  (List<NodeDTO>) pg.getGraph().nodes,
+  /* data transfer object */
+  (GraphDTO) dto
 
-  /* edges data transfer structor */
-  (List<EdgeDTO>) pg.getGraph().edges
 
 );             
 ```
@@ -1134,11 +1132,8 @@ int flag = pg.downloadJSON(
   /* file in which save json graph */
   new File("path/to/file.json"),
 
-  /* nodes data transfer structor */
-  (List<NodeDTO>) pg.getGraph().nodes,
-
-  /* edges data transfer structor */
-  (List<EdgeDTO>) pg.getGraph().edges,
+  /* data transfer object */
+  (GraphDTO) dto
 
 );             
 ```
