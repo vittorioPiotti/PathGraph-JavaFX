@@ -1097,6 +1097,8 @@ CompletableFuture<Integer> future = (
 
 &nbsp;
 
+
+**Without DTO**
 ```java
 /* fixed or floating file chooser */
 int flag = pg.downloadJSON((Window) window); 
@@ -1107,6 +1109,13 @@ int flag = pg.downloadJSON((Window) window);
 int flag = pg.downloadJSON((File) file);             
 ```
 
+&nbsp;
+
+_or_
+
+&nbsp;
+
+**With Data Transfer Object**
 
 ```java
 /* using data transfer objects */
