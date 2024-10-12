@@ -1209,20 +1209,22 @@ int flag = pg.uploadJSON((File) file);
 
 &nbsp;
 
-> Ability to upload json also without atomic method:
+> Ability to upload json also without standard methods:
 >
 > ```java       
->
-> /* parse json file */
-> GraphDTO mt = (
->   pg.parseJson(
->   new File("path/to/file.json")
->   )
-> );
-> 
 > /* set new graph */
 > pg.setGraph(
->   (GraphDTO) mt,
+>   (GraphDTO) new GraphDTO(new File("path/to/file.json")),
+>   (boolean) true
+> );
+> ```
+>
+> _or_
+>
+> ```java       
+> /* set new graph */
+> pg.setGraph(
+>   (GraphDTO) new GraphDTO((String) jsonContent),
 >   (boolean) true
 > );
 > ```
@@ -1237,25 +1239,6 @@ int flag = pg.uploadJSON((File) file);
 
 
 
-<details>
-  
-<summary>
-  <strong>  Parse JSON <div id="parseJSON"/> </strong>
-</summary>
-
-&nbsp;
-
-```java
-GraphDTO mt = (
-  pg.parseJson(
-    (File) file
-  )
-);
-```
-
-&nbsp;
-   
-</details>
 
 
 ### 4.4. UI <div id="ui"/>
