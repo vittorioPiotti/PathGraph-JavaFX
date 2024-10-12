@@ -954,47 +954,6 @@ pg.setCallbacks(
 
 
 <details>
-
-<summary>
-  <strong>  Get Nodes</strong>
-</summary>
-
-&nbsp;
-
-
-&nbsp;
-   
-</details>
-
-
-<details>
-
-<summary>
-  <strong>  Get Edges</strong>
-</summary>
-
-&nbsp;
-
-
-&nbsp;
-   
-</details>
-
-<details>
-
-<summary>
-  <strong>  Get Connections</strong>
-</summary>
-
-&nbsp;
-
-
-&nbsp;
-   
-</details>
-
-
-<details>
   
 <summary>
   <strong>  Get Graph</strong>
@@ -1002,27 +961,13 @@ pg.setCallbacks(
 
 &nbsp;
 
+```java
+pg.getGraph();
+```
 
 &nbsp;
    
 </details>
-
-
-
-<details>
-
-<summary>
-  <strong>  Get Path</strong>
-</summary>
-
-&nbsp;
-
-
-&nbsp;
-   
-</details>
-
-
 
 <details>
   
@@ -1032,6 +977,9 @@ pg.setCallbacks(
 
 &nbsp;
 
+```java
+pg.showPath((List<NodeDTO>) lpn);
+```
 
 &nbsp;
    
