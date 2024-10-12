@@ -868,7 +868,7 @@ pg.enableListenersPane((boolean) true);
 ```java
 pg.setGraph(
   /* meta data of the graph to upload */
-  (MetaGraph) mt
+  (GraphDTO) mt
 );
 ```
 
@@ -876,7 +876,7 @@ pg.setGraph(
 pg.setGraph(
 
   /* meta data of the graph to upload */
-  (MetaGraph) mt,
+  (GraphDTO) mt,
 
   /* is animated upload of new graph */
   (boolean) true
@@ -956,13 +956,13 @@ pg.setCallbacks(
 <details>
   
 <summary>
-  <strong>  Get Graph</strong>
+  <strong>  Get Graph <div id="getgraph"/></strong>
 </summary>
 
 &nbsp;
 
 ```java
-pg.getGraph();
+GraphDTO gto = pg.getGraph();
 ```
 
 &nbsp;
@@ -1098,14 +1098,52 @@ CompletableFuture<Integer> future = (
 &nbsp;
 
 ```java
-/* floating file chooser */
-int flag = pg.downloadJSON();             
+/* fixed or floating file chooser */
+int flag = pg.downloadJSON((Window) window); 
 ```
 
 ```java
-/* fixed file chooser */
-int flag = pg.downloadJSON((Scene) scene); 
+/* whithout file chooser: file alredy chosen */
+int flag = pg.downloadJSON((File) file);             
 ```
+
+
+```java
+/* using data transfer objects */
+/* whithout file chooser: file alredy chosen */
+int flag = pg.downloadJSON(
+
+  /* file in which save json graph */
+  new File("path/to/file.json"),
+
+  /* nodes data transfer structor */
+  (List<NodeDTO>) pg.getGraph().nodes,
+
+  /* edges data transfer structor */
+  (List<EdgeDTO>) pg.getGraph().edges,
+
+);             
+```
+
+
+```java
+/* using data transfer objects */
+/* fixed or floating file chooser */
+int flag = pg.downloadJSON(
+
+  /* file chooser dialog owner window */
+  (Window) window,
+
+  /* nodes data transfer structor */
+  (List<NodeDTO>) pg.getGraph().nodes,
+
+  /* edges data transfer structor */
+  (List<EdgeDTO>) pg.getGraph().edges
+
+);             
+```
+
+
 
 &nbsp;
 
@@ -1147,7 +1185,7 @@ int flag = pg.downloadJSON((Scene) scene);
 
 ```java
 /* fixed or floating file chooser*/
-int flag = pg.uploadJSON((Scene)scene);  
+int flag = pg.uploadJSON((Window) window);  
 ```
 
 ```java
@@ -1178,20 +1216,18 @@ int flag = pg.uploadJSON((File) file);
 
 > Ability to upload json also without atomic method:
 >
-> ```java
-> /* choose json file */
-> File file = new File("path/of/file.json");       
+> ```java       
 >
 > /* parse json file */
-> MetaGraph mt = (
+> GraphDTO mt = (
 >   pg.parseJson(
->   (File) file
+>   new File("path/to/file.json")
 >   )
 > );
 > 
 > /* set new graph */
 > pg.setGraph(
->   (MetaGraph) mt,
+>   (GraphDTO) mt,
 >   (boolean) true
 > );
 > ```
@@ -1215,7 +1251,7 @@ int flag = pg.uploadJSON((File) file);
 &nbsp;
 
 ```java
-MetaGraph mt = (
+GraphDTO mt = (
   pg.parseJson(
     (File) file
   )
