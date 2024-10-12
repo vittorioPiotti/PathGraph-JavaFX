@@ -1110,24 +1110,6 @@ int flag = pg.downloadJSON((File) file);
 
 ```java
 /* using data transfer objects */
-/* whithout file chooser: file alredy chosen */
-int flag = pg.downloadJSON(
-
-  /* file in which save json graph */
-  new File("path/to/file.json"),
-
-  /* nodes data transfer structor */
-  (List<NodeDTO>) pg.getGraph().nodes,
-
-  /* edges data transfer structor */
-  (List<EdgeDTO>) pg.getGraph().edges,
-
-);             
-```
-
-
-```java
-/* using data transfer objects */
 /* fixed or floating file chooser */
 int flag = pg.downloadJSON(
 
@@ -1139,6 +1121,24 @@ int flag = pg.downloadJSON(
 
   /* edges data transfer structor */
   (List<EdgeDTO>) pg.getGraph().edges
+
+);             
+```
+
+
+```java
+/* using data transfer objects */
+/* whithout file chooser: file alredy chosen */
+int flag = pg.downloadJSON(
+
+  /* file in which save json graph */
+  new File("path/to/file.json"),
+
+  /* nodes data transfer structor */
+  (List<NodeDTO>) pg.getGraph().nodes,
+
+  /* edges data transfer structor */
+  (List<EdgeDTO>) pg.getGraph().edges,
 
 );             
 ```
