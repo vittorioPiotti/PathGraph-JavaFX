@@ -1214,8 +1214,13 @@ int flag = pg.uploadJSON((File) file);
 > ```java       
 > /* set new graph */
 > pg.setGraph(
+> 
+>   /* automatically DTO creation from json file during construction */
 >   (GraphDTO) new GraphDTO(new File("path/to/file.json")),
+> 
+>    /* is animated grah setting */
 >   (boolean) true
+> 
 > );
 > ```
 >
@@ -1224,8 +1229,13 @@ int flag = pg.uploadJSON((File) file);
 > ```java       
 > /* set new graph */
 > pg.setGraph(
+> 
+>   /* automatically DTO creation from json content during construction */
 >   (GraphDTO) new GraphDTO((String) jsonContent),
+>
+>   /* is animated grah setting */
 >   (boolean) true
+> 
 > );
 > ```
 
