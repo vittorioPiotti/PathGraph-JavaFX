@@ -1764,7 +1764,7 @@ List<ConnectionDTO> lcdto = (
 ---
 
 
-### PathGraph is Fork-Based On SmartGraph
+### Fork-Based On SmartGraph
 
 
 **Copyright** 2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/) 
