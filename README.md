@@ -1391,7 +1391,14 @@ Represent the components of the graph providing a simple and serializable struct
  * Support structure for graph operations
 
 
-### Node
+
+<details>
+  
+<summary>
+  <strong>Node</strong>
+</summary>
+
+&nbsp;
 
 **Constructor**
 
@@ -1410,7 +1417,20 @@ NodeDTO ndto = (
 char res = ndto.getLabel();
 ```
 
-### Edge
+&nbsp;
+
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong>Edge</strong>
+</summary>
+
+&nbsp;
+
 
 
 **Constructors**
@@ -1481,8 +1501,19 @@ boolean isArrowed = edto.isArrowed();
 ```
 
 
-### Connection
+&nbsp;
 
+</details>
+
+
+
+<details>
+  
+<summary>
+  <strong>Connection</strong>
+</summary>
+
+&nbsp;
 
 **Constructor**
 
@@ -1515,7 +1546,24 @@ int cost = edto.getCost();
 ```
 
 
-### Graph
+&nbsp;
+
+</details>
+
+
+
+
+
+
+
+
+<details>
+  
+<summary>
+  <strong>Graph</strong>
+</summary>
+
+&nbsp;
 
 
 **Constructors**
@@ -1570,6 +1618,15 @@ List<NodeDTO> path = (
   )
 );
 ```
+
+
+
+&nbsp;
+
+</details>
+
+
+
 
 
 
