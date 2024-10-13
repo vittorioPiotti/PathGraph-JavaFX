@@ -16,7 +16,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
  3. [Get Started](#get-started)
  4. [Usage](#usage)
  5. [DTO · Data Transfer Objects](#data-transfer-object)
- 6. [JSON Data Management](#json-data-management)
+ 6. [JSON · Data Management](#json-data-management)
  7. [Licenses](#licenses)
 
 
@@ -1619,6 +1619,12 @@ List<NodeDTO> path = (
 );
 ```
 
+```java
+String json = gdto.getJson();
+```
+
+
+
 
 
 &nbsp;
@@ -1633,7 +1639,7 @@ List<NodeDTO> path = (
 
 
 
-## 6. JSON Data Management <div id="json-data-management"/>
+## 6. JSON · Data Management <div id="json-data-management"/>
 
 ## 7. Licenses <div id="licenses"/>
 
