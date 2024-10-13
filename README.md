@@ -1414,7 +1414,7 @@ NodeDTO ndto = (
 **Method**
 
 ```java
-char res = ndto.getLabel();
+char label = ndto.getLabel();
 ```
 
 &nbsp;
@@ -1640,6 +1640,27 @@ String json = gdto.getJson();
 
 
 ## 6. JSON · Data Management <div id="json-data-management"/>
+
+
+```json
+{
+  "nodes": ["A", "B"],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "cost": 1,
+      "isArrowed": true
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "cost": 2,
+      "isArrowed": true
+    },
+  ]
+}
+```
 
 ## 7. Licenses <div id="licenses"/>
 
