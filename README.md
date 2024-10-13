@@ -1624,16 +1624,22 @@ String json = gdto.getJson();
 ```
 
 ```java
-List<NodesDTO> lndto= gdto.getNodes();
+List<NodesDTO> lndto = (
+  gdto.getNodes())
+);
 ```
 
 ```java
-List<EdgeDTO> ledto = gdto.getEdges();
+List<EdgeDTO> ledto = (
+  gdto.getEdges()
+);
 ```
 
 
 ```java
-List<ConnectionDTO> lcdto = gdto.getConnections();
+List<ConnectionDTO> lcdto = (
+  gdto.getConnections()
+);
 ```
 
 
