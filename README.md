@@ -1644,7 +1644,7 @@ String json = gdto.getJson();
 
 ```json
 {
-  "nodes": ["A", "B"],
+  "nodes": ["A", "B","C"],
   "edges": [
     {
       "from": "A",
@@ -1654,9 +1654,15 @@ String json = gdto.getJson();
     },
     {
       "from": "B",
+      "to": "A",
+      "cost": 10,
+      "isArrowed": true
+    },
+    {
+      "from": "B",
       "to": "C",
       "cost": 2,
-      "isArrowed": true
+      "isArrowed": false
     },
   ]
 }
