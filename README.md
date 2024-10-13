@@ -1393,7 +1393,7 @@ Represent the components of the graph providing a simple and serializable struct
 
 ### Node
 
-&nbsp;
+**Constructor**
 
 ```java
 NodeDTO ndto = (
@@ -1404,11 +1404,17 @@ NodeDTO ndto = (
 );
 ```
 
+**Method**
+
 ```java
 char res = ndto.getLabel();
 ```
 
 ### Edge
+
+
+**Constructors**
+
 
 
 ```java
@@ -1455,6 +1461,8 @@ EdgeDTO edto = (
 ```
 
 
+**Methods**
+
 
 ```java
 char from = edto.getFrom();
@@ -1476,6 +1484,8 @@ boolean isArrowed = edto.isArrowed();
 ### Connection
 
 
+**Constructor**
+
 
 ```java
 ConnectionDTO ndto = (
@@ -1493,6 +1503,8 @@ ConnectionDTO ndto = (
 
 
 
+**Methods**
+
 
 ```java
 char label = edto.getLabel();
@@ -1502,7 +1514,11 @@ char label = edto.getLabel();
 int cost = edto.getCost();
 ```
 
+
 ### Graph
+
+
+**Constructors**
 
 ```java
 GraphDTO gdto = (
@@ -1538,6 +1554,7 @@ GraphDTO gdto = (
 );
 ```
 
+**Methods**
 
 
 ```java
@@ -1555,9 +1572,6 @@ List<NodeDTO> path = (
 ```
 
 
-&nbsp;
-
-</details>
 
 
 
