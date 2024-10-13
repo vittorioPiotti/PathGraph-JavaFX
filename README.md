@@ -1399,7 +1399,11 @@ pg.toggleUI();
 
 ## 5. DTO · Data Transfer Objects <div id="data-transfer-object"/>
  
- 
+ > [!IMPORTANT]
+> Read the **Javadoc** for more technicals details: [(see)]()
+
+
+
 Represent the components of the graph providing a simple and serializable structure that allows for:
 
  * Converting graph data into JSON format
