@@ -9,15 +9,24 @@ PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart
 Provided to user-friendly interface in a stable user-experience in which manage dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
+
+> [!IMPORTANT]
+> Read the **Javadoc** for more technicals details: [(see)]()
+
+
+
+
 ## Main Index
 
  1. [About](#about)
- 2. [User Experience](#user-experience)
+ 2. [Features](#features)
  3. [Get Started](#get-started)
  4. [Usage](#usage)
  5. [DTO · Data Transfer Objects](#data-transfer-object)
  6. [JSON · Data Management](#json-data-management)
  7. [Licenses](#licenses)
+
+[Fork-Based On SmartGraph](#fork-based-on-smartgraph)
 
 
 ## 1. About <div id="about"/>
@@ -116,7 +125,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-## 2. User Experience <div id="user-experience"/>
+## 2. Features <div id="features"/>
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/sp.gif" alt="Icona" width="400"/>
 
@@ -417,8 +426,15 @@ public class Main extends Application {
 ## 4. Usage <div id="usage"/>
 
 
+> [!IMPORTANT]
+> Read the **Javadoc** for more technicals details: [(see)]()
+
+
+
 > [!NOTE]
 > Operations are available **only** after calling `pg.setup()` [(see)](#setup)
+
+
 
 
 ### Usage Index
@@ -1744,12 +1760,12 @@ List<ConnectionDTO> lcdto = (
 ---
 
 
-### Fork-Based On SmartGraph
+## Fork-Based On SmartGraph <div id="fork-based-on-smartgraph"/>
 
 
+This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to specific path graphs features in a stable user interface.
 
-
-
+[(See SmartGraph)](https://github.com/brunomnsilva/JavaFXSmartGraph)
 
 
 
