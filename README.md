@@ -1767,16 +1767,6 @@ List<ConnectionDTO> lcdto = (
 ### Fork-Based On SmartGraph
 
 
-**Copyright** 2019 - 2024 Bruno Silva [(GitHub page)](https://github.com/brunomnsilva) [(Personal page)](https://www.brunomnsilva.com/) 
-
-**Version** [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0)
-
-**License** [MIT](https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt)
-
-
-
-
-
 
 
 
