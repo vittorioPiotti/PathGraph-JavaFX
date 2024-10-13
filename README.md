@@ -1391,127 +1391,169 @@ Represent the components of the graph providing a simple and serializable struct
  * Support structure for graph operations
 
 
-<details>
-  
-<summary>
-  <strong> Node</strong>
-</summary>
+### Node
 
 &nbsp;
 
 ```java
-public class NodeDTO {
-
-  public char label;
-
-  public NodeDTO(
-    char label
-  ) {
-    /* construction */
-  }
-
-}
+NodeDTO ndto = (
+  new NodeDTO(
+    /* node name */
+    (char) 'A'
+  )
+);
 ```
-
-&nbsp;
-
-</details>
-
-<details>
-  
-<summary>
-  <strong> Edge</strong>
-</summary>
-
-&nbsp;
 
 ```java
-public class EdgeDTO {
-
-  public char from;
-  public char to;
-  public int cost;
-  public boolean isArrowed;
-
-  public EdgeDTO(
-    char from,
-    char to,
-    int cost,
-    boolean isArrowed
-  ) {
-    /* construction */
-  }
-
-  public EdgeDTO(
-    char from,
-    char to,
-    int cost,
-    int dir
-  ) {
-    /* construction */
-  }
-
-}
+char res = ndto.getLabel();
 ```
 
-&nbsp;
+### Edge
 
-</details>
-
-<details>
-  
-<summary>
-  <strong> Connection</strong>
-</summary>
-
-&nbsp;
 
 ```java
-public class ConnectionDTO {
+EdgeDTO edto = (
+  new EdgeDTO(
 
-  public char label;
-  public int cost;
+    /* start node */
+    (char) 'A',
 
-  public ConnectionDTO(
-    char label,
-    int cost
-  ) {
-    /* construction */
-  }
+    /* end node */
+    (char) 'B',
 
-}
+    /* edge cost */
+    (int) 3,
+
+    /* is arrowed edge */
+    (boolean) false
+
+  )
+);
 ```
 
-&nbsp;
 
-</details>
 
-<details>
-  
-<summary>
-  <strong> Graph</strong>
-</summary>
-
-&nbsp;
 
 ```java
-public class GraphDTO {
+EdgeDTO edto = (
+  new EdgeDTO(
 
-  public List<NodeDTO> nodes;
-  public List<EdgeDTO> edges;
+    /* start node */
+    (char) 'A',
 
-  /* it derivate from intersection between nodes and edges during construction */
-  public Map<
-    NodeDTO,
-    List<ConnectionDTO>
-  > connectedNodes = new HashMap<>();
+    /* end node */
+    (char) 'B',
 
-  public GraphDTO(List<NodeDTO> nodes, List<EdgeDTO> edges) {
-    /* construction */
-  }
+    /* edge cost */
+    (int) 3,
 
-}
+    /* edge direction */
+    (int) SmartGraphEdgeBase.BIDIRECTIONAL
+
+  )
+);
 ```
+
+
+
+```java
+char from = edto.getFrom();
+```
+
+```java
+char to = edto.getTo();
+```
+
+```java
+int cost = edto.getCost();
+```
+
+```java
+boolean isArrowed = edto.isArrowed();
+```
+
+
+### Connection
+
+
+
+```java
+ConnectionDTO ndto = (
+  new ConnectionDTO(
+
+    /* connected node */
+    (char) 'A',
+
+    /* edge cost */
+    (int) 3,
+
+  )
+);
+```
+
+
+
+
+```java
+char label = edto.getLabel();
+```
+
+```java
+int cost = edto.getCost();
+```
+
+### Graph
+
+```java
+GraphDTO gdto = (
+  new GraphDTO(
+    /* file with json */
+    (File) new File("path/to/file.json")
+  )
+);
+```
+
+
+```java
+GraphDTO gdto = (
+  new GraphDTO(
+    /* String with json content */
+    (String) jsonContent
+  )
+);
+```
+
+
+```java
+GraphDTO gdto = (
+  new GraphDTO(
+
+    /* nodes DTO */
+    List<NodeDTO> nodes, 
+
+    /* edges DTO */
+    List<EdgeDTO> edges
+
+  )
+);
+```
+
+
+
+```java
+List<NodeDTO> path = (
+  gdto.findPath(
+    
+    /* start node */
+    (char) 'A',
+
+    /* end node */
+    (char) 'B',
+
+  )
+);
+```
+
 
 &nbsp;
 
