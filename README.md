@@ -1623,6 +1623,22 @@ List<NodeDTO> path = (
 String json = gdto.getJson();
 ```
 
+```java
+List<NodesDTO> lndto= gdto.getNodes();
+```
+
+```java
+List<EdgeDTO> ledto = gdto.getEdges();
+```
+
+
+```java
+List<ConnectionDTO> lcdto = gdto.getConnections();
+```
+
+
+
+
 
 
 
