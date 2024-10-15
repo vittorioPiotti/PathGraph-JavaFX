@@ -354,60 +354,62 @@ In both of cases:
 ```java
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.*;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import javafx.scene.layout.BorderPane;
-import org.pathGraph.containers.PathGraphUI;
+import java.io.IOException;
 
+/* PathGraph import */
+import com.vittoriopiotti.pathgraph.containers.PathGraphUI;
 
 public class Main extends Application {
 
-
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage) throws IOException {
 
         /* 1. Create javafx window */
-            BorderPane root = new BorderPane();
-            root.setBackground(Background.fill(Color.web("#dee2e6")));
-            Scene scene = new Scene(root, 750, 550);
-            primaryStage.setScene(scene);
+        BorderPane root = new BorderPane();
+        root.setBackground(Background.fill(Color.web("#dee2e6")));
+        Scene scene = new Scene(root, 750, 550);
+        primaryStage.setScene(scene);
 
         /* 2. Show primary stage */
-            primaryStage.show();
+        primaryStage.show();
 
         /* 3. Create PathGraph object */
-            PathGraphUI pg = new PathGraphUI(
-              primaryStage,
-              scene);
+        PathGraphUI pg = new PathGraphUI(
+                primaryStage,
+                scene
+        );
 
         /* 4. Add PathGraph in a container */
-            root.setCenter(pg);
+        root.setCenter(pg);
 
         /* 5. Custom configurations PathGraph    */
-            pg.enableListenersGraph(true);
-            pg.enableListenersPane(true);
-            pg.setAutomaticLayout(true);
+        pg.enableListenersGraph(true);
+        pg.enableListenersPane(true);
+        pg.setAutomaticLayout(true);
 
         /* 6. Setup PathGraph */
-            pg.setup().thenRun(() -> {
+        pg.setup().thenRun(() -> {
 
-        /* 7. Make Graphs with PathGraph */
-                pg.newNode('A');
-                pg.newNode('B');
-                pg.newNode('C');
-                pg.newEdge('A', 'B', 1);
-                pg.newEdge('C', 'A', 2, false);
+            /* 7. Make Graphs with PathGraph */
+            pg.newNode('A');
+            pg.newNode('B');
+            pg.newNode('C');
+            pg.newEdge('A', 'B', 1);
+            pg.newEdge('C', 'A', 2, false);
 
-            });
-
-        /* 8. Apply your custom logic */
+        });
 
     }
 
-    public static void main(char[] args) {
-        launch(args);
+
+    public static void main(String[] args) {
+        launch();
     }
+    
 }
 
 ```
