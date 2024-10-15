@@ -513,56 +513,13 @@ public class Main extends Application {
 </details>
 
 
-<details>
-  
-<summary>
-  <strong> 6. Configuration and Styling</strong>
-</summary>
 
-&nbsp;
 
-### Configuration
 
-:warning: The `smartgraph.properties` file must exist in you project folder.
 
-You can set the graph visualization properties in the `smartgraph.properties` file:
 
-```properties
-# Vertex related configurations
-#
-vertex.allow-user-move = true
-vertex.radius = 15
-vertex.shape = circle
-vertex.tooltip = true
-vertex.label = false
 
-# Edge related configurations
-#
-edge.tooltip = true
-edge.label = false
-# only makes sense if displaying an oriented graph 
-edge.arrow = false
 
-# (automatic) Force-directed layout related configurations
-#
-# Notice: deprecated since version 1.1. Force directed layout strategies are now
-# instantiated and can be swapped at runtime, per the Strategy design pattern.
-# The parameters are passed as arguments or one can use the default ones described
-# in the javadoc documentation.
-#   -- You should experiment with different values for your 
-#   -- particular problem, knowing that not all will achieve 
-#   -- a stable state
-layout.repulsive-force = 25000
-layout.attraction-force = 30
-layout.attraction-scale = 10
-
-> Info from original repository of SmartGraph [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling)
-
-### Styling
-
-&nbsp;
-
-</details>
 
 
 
