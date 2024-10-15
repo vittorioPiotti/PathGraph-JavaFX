@@ -1822,7 +1822,7 @@ List<ConnectionDTO> lcdto = (
 
 **Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/) 
 
-**Version** Not released
+**Version** [v1.0.0](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.0)
 
 **License** [GPL-3.0](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
 
