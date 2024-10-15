@@ -526,7 +526,7 @@ public class Main extends Application {
 &nbsp;
 
 
-In future versions of the library, we aim to optimize the management of configurations and styles similar to the original project of the fork [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling).
+In future versions will be optimized the management of configurations and styles similar to the original project of the fork [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling).
 
 Currently, the styles and configurations are preset and cannot be modified.
 
