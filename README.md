@@ -178,8 +178,8 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 &nbsp;
 
- * Java from: `v.21` [(link)](https://www.oracle.com/java/technologies/downloads/#java21)
- * JavaFX from: `v.22` [(link)](https://gluonhq.com/products/javafx/)
+ * Java from: `v.21` _or higher_  [(link)](https://www.oracle.com/java/technologies/downloads/#java21)
+ * JavaFX from: `v.22` _or higher_  [(link)](https://gluonhq.com/products/javafx/)
 
 &nbsp;
 
@@ -195,7 +195,97 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 &nbsp;
 
-_Working on to upload library on maven dipencencies to available the library distribution_
+**Internal**
+
+> Is suggested import [PathGraph.jar]() using intellij and adding it in module dependencies
+
+
+> Working on to upload library on maven dipencencies to available the library distribution
+
+**External**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId> <!-- Replace with your group ID -->
+    <artifactId>your-artifact-id</artifactId> <!-- Replace with your artifact ID -->
+    <version>1.0-SNAPSHOT</version>
+    <name>Your Project Name</name> <!-- Replace with your project name -->
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.10.2</junit.version>
+        <javafx.version>22</javafx.version> <!-- Define JavaFX version here -->
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version> <!-- Use property for version -->
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version> <!-- Use property for version -->
+        </dependency>
+        <dependency>
+            <groupId>org.controlsfx</groupId>
+            <artifactId>controlsfx</artifactId>
+            <version>11.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Updated version -->
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+                <executions>
+                    <execution>
+                        <id>default-cli</id>
+                        <configuration>
+                            <mainClass>com.example.yourpath.YourMainClass</mainClass> <!-- Replace with your main class path -->
+                            <launcher>app</launcher>
+                            <jlinkZipName>app</jlinkZipName>
+                            <jlinkImageName>app</jlinkImageName>
+                            <noManPages>true</noManPages>
+                            <stripDebug>true</stripDebug>
+                            <noHeaderFiles>true</noHeaderFiles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+```
 
 
 &nbsp;
