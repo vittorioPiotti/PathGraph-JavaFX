@@ -560,6 +560,8 @@ layout.repulsive-force = 25000
 layout.attraction-force = 30
 layout.attraction-scale = 10
 
+```
+
 > Info from original repository of SmartGraph [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling)
 
 ### Styling
