@@ -1,5 +1,13 @@
 # (Java FX) PathGraph
 
+
+> [!IMPORTANT]
+>
+> **`PathGraph.jar`:** Library to be added to the project that contains only internal dependencies.
+> 
+> **`PathGraphPreview.jar`:** Preview version of PathGraph that is ready to run by double-clicking.
+
+
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/socialpreview26.png" alt="Icona" width="100%"/>
 
 
