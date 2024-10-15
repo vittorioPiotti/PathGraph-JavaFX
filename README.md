@@ -199,8 +199,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 **Import PathGraph**
 
-> Is suggested import [PathGraph.jar](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.0) using intellij and adding it in module dependencies
-
+> It's recommended to import the [PathGraph.jar](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.0) into your IntelliJ project by adding it to your module dependencies.
 
 > Working on to upload library on maven dipencencies to available the library distribution
 
