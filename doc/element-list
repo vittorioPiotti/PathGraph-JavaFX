@@ -1,0 +1,9 @@
+module:com.vittoriopiotti.pathgraph
+com.vittoriopiotti.pathgraph
+com.vittoriopiotti.pathgraph.constants
+com.vittoriopiotti.pathgraph.containers
+com.vittoriopiotti.pathgraph.dto
+com.vittoriopiotti.pathgraph.example
+com.vittoriopiotti.pathgraph.graph
+com.vittoriopiotti.pathgraph.graphview
+com.vittoriopiotti.pathgraph.utilities
