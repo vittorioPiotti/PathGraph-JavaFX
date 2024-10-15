@@ -532,8 +532,8 @@ Currently, the styles and configurations are preset and cannot be modified.
 
 Future developments will focus on:
 
-Managing configurations as seen in [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling)
-Optimizing the original style handling by implementing Java functionality to allow for user experience customization
+ * Managing configurations as seen in [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling)
+ * Optimizing the original style handling by implementing Java functionality to allow for user experience customization
 
 
 &nbsp;
