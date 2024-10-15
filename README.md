@@ -195,14 +195,14 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 &nbsp;
 
-**Internal**
+**Import PathGraph**
 
 > Is suggested import [PathGraph.jar]() using intellij and adding it in module dependencies
 
 
 > Working on to upload library on maven dipencencies to available the library distribution
 
-**External**
+**Pom Configuration**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
