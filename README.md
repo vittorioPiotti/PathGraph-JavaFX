@@ -513,6 +513,22 @@ public class Main extends Application {
 </details>
 
 
+<details>
+  
+<summary>
+  <strong> 6. Configuration and Styling</strong>
+</summary>
+
+&nbsp;
+
+### Configuration
+
+
+### Styling
+
+&nbsp;
+
+</details>
 
 
 
