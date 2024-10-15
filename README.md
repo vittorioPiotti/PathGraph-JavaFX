@@ -178,8 +178,8 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 &nbsp;
 
- * Java from: `v.21` _or higher_  [(link)](https://www.oracle.com/java/technologies/downloads/#java21)
- * JavaFX from: `v.22` _or higher_  [(link)](https://gluonhq.com/products/javafx/)
+**Java** from: `v.21` _or higher_  [(link)](https://www.oracle.com/java/technologies/downloads/#java21)
+**JavaFX** from: `v.22` _or higher_  [(link)](https://gluonhq.com/products/javafx/)
 
 &nbsp;
 
