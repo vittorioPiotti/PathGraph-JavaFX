@@ -222,12 +222,12 @@ Manually library import [(download jar)]()
 >        <dependency>
 >            <groupId>org.openjfx</groupId>
 >            <artifactId>javafx-controls</artifactId>
->            <version>${javafx.version}</version> <!-- Use property for version -->
+>            <version>${javafx.version}</version> 
 >        </dependency>
 >        <dependency>
 >            <groupId>org.openjfx</groupId>
 >            <artifactId>javafx-fxml</artifactId>
->            <version>${javafx.version}</version> <!-- Use property for version -->
+>            <version>${javafx.version}</version> 
 >        </dependency>
 >        <dependency>
 >            <groupId>org.controlsfx</groupId>
@@ -252,7 +252,7 @@ Manually library import [(download jar)]()
 &nbsp;
 
 
-**Your Pom Configuration**
+**Example of Pom Configuration**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -276,12 +276,12 @@ Manually library import [(download jar)]()
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>${javafx.version}</version> <!-- Use property for version -->
+            <version>${javafx.version}</version> 
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>${javafx.version}</version> <!-- Use property for version -->
+            <version>${javafx.version}</version> 
         </dependency>
         <dependency>
             <groupId>org.controlsfx</groupId>
