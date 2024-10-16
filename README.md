@@ -7,7 +7,7 @@
 >  * **Cannot** to know during on click callback on element the selected edge or node
 >  * **Cannot** to use the selcted edge or node to make custom callbacks  
 > 
-> Will be fixed bugs with new callbacks managing system in the next updates
+> Will be fixed bugs with new callbacks managing system in the next update
 
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/socialpreview26.png" alt="Icona" width="100%"/>
