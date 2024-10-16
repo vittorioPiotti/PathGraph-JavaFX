@@ -200,6 +200,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 **Import PathGraph**
 
 ```xml
+<!-- Import using Maven Central -->
 <dependency>
     <groupId>io.github.vittoriopiotti</groupId>
     <artifactId>PathGraph-JavaFX</artifactId>
