@@ -14,7 +14,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 > [!IMPORTANT]
 > Read the **Javadoc** for more technicals details: [(see)]()
 
-> [!INFO]
+> [!NOTE]
 > Library available on Maven Central [(see)]()
 
 
