@@ -360,6 +360,9 @@ Manually library import [(download jar)]()
 
 &nbsp;
 
+
+
+
 <details>
 
 
@@ -409,6 +412,9 @@ Manually library import [(download jar)]()
 </summary>
 
 &nbsp;
+
+
+> Major details on [Data Transfer Objects](#data-transfer-object)
 
  ```java
  import com.vittoriopiotti.pathgraph.dto.NodeDTO;
