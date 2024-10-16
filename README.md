@@ -360,8 +360,14 @@ Manually library import [(download jar)]()
 
 &nbsp;
 
-**Containers**
+<details>
 
+
+<summary>
+  <strong> Containers</strong>
+</summary>
+
+&nbsp;
 
  ```java
  import com.vittoriopiotti.pathgraph.containers.PathGraphUI;
@@ -371,18 +377,39 @@ Manually library import [(download jar)]()
  import com.vittoriopiotti.pathgraph.containers.PathGraph;
  ```
 
-**Constants**
+&nbsp;
+
+</details>
+
+
+
+<details>
+
+
+<summary>
+  <strong> Constants</strong>
+</summary>
+
+&nbsp;
 
  ```java
  import com.vittoriopiotti.pathgraph.constants.AppConstants;
  ```
+&nbsp;
+
+</details>
 
 
-**Data Transfer Object**
+
+<details>
 
 
+<summary>
+  <strong> Data Transfer Objects</strong>
+</summary>
 
- 
+&nbsp;
+
  ```java
  import com.vittoriopiotti.pathgraph.dto.NodeDTO;
  ```
@@ -399,7 +426,18 @@ Manually library import [(download jar)]()
  import com.vittoriopiotti.pathgraph.dto.GraphDTO;
  ```
 
+
 &nbsp;
+
+</details>
+
+
+
+
+
+ 
+
+
 
 
 
