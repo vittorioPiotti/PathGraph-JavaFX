@@ -14,6 +14,8 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 > [!IMPORTANT]
 > Read the **Javadoc** for more technicals details: [(see)]()
 
+> [!INFO]
+> Library available on Maven Central [(see)]()
 
 
 
@@ -206,7 +208,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 <dependency>
     <groupId>io.github.vittoriopiotti</groupId>
     <artifactId>PathGraph-JavaFX</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
@@ -398,6 +400,11 @@ Manually library import [(download jar)]()
  ```java
  import com.vittoriopiotti.pathgraph.constants.AppConstants;
  ```
+
+ ```java
+ import com.vittoriopiotti.pathgraph.constants.SvgConstants;
+ ```
+
 &nbsp;
 
 </details>
