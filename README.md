@@ -199,9 +199,25 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 **Import PathGraph**
 
-> It's recommended to import the [PathGraph.jar](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.0) into your IntelliJ project by adding it to your module dependencies.
+```xml
+<dependency>
+    <groupId>io.github.vittoriopiotti</groupId>
+    <artifactId>PathGraph-JavaFX</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 
-> Working on to upload library on maven dipencencies to available the library distribution
+&nbsp;
+
+_or_
+
+&nbsp;
+
+Manually import
+
+
+&nbsp;
+
 
 **Pom Configuration**
 
