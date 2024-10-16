@@ -16,7 +16,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 
 > [!NOTE]
-> Library available on Maven Central [(see)](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX)
+> Library available on **Maven Central** [(see)](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX)
 > ```xml
 > <!-- Import using Maven Central -->
 > <dependency>
