@@ -5,7 +5,7 @@
 > [!CAUTION]
 > Bug on custom callbacks settings in `PathGraph` but `PathGraphUI` work
 > 
-> Will be fix it in next updates
+> Will be fixed it with new callbacks managing in next updates
 
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/socialpreview26.png" alt="Icona" width="100%"/>
