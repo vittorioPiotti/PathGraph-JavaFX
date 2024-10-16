@@ -217,6 +217,37 @@ Manually library import [(download jar)]()
 
 
 > In both of cases is necessary to configure external dependencies
+> ```xml
+>   <dependencies>
+>        <dependency>
+>            <groupId>org.openjfx</groupId>
+>            <artifactId>javafx-controls</artifactId>
+>            <version>${javafx.version}</version> <!-- Use property for version -->
+>        </dependency>
+>        <dependency>
+>            <groupId>org.openjfx</groupId>
+>            <artifactId>javafx-fxml</artifactId>
+>            <version>${javafx.version}</version> <!-- Use property for version -->
+>        </dependency>
+>        <dependency>
+>            <groupId>org.controlsfx</groupId>
+>            <artifactId>controlsfx</artifactId>
+>            <version>11.2.1</version>
+>        </dependency>
+>        <dependency>
+>            <groupId>org.junit.jupiter</groupId>
+>            <artifactId>junit-jupiter-api</artifactId>
+>            <version>${junit.version}</version>
+>            <scope>test</scope>
+>        </dependency>
+>        <dependency>
+>            <groupId>org.junit.jupiter</groupId>
+>            <artifactId>junit-jupiter-engine</artifactId>
+>            <version>${junit.version}</version>
+>            <scope>test</scope>
+>        </dependency>
+>    </dependencies>
+> ```
 
 &nbsp;
 
