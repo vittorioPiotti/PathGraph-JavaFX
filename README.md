@@ -8,6 +8,7 @@
 >  * **Cannot** to use the selcted edge or node to make custom callbacks  
 > 
 > Bugs wil be fixed with new callbacks managing system in next update
+> 
 > _Working on 1.0.3_
 
 
