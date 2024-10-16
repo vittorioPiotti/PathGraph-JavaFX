@@ -354,6 +354,53 @@ Manually library import [(download jar)]()
 
 &nbsp;
 
+### Available Imports
+
+**Containers**
+
+
+ ```java
+ import com.vittoriopiotti.pathgraph.containers.PathGraphUI;
+ ```
+
+ ```java
+ import com.vittoriopiotti.pathgraph.containers.PathGraph;
+ ```
+
+**Constants**
+
+ ```java
+ import com.vittoriopiotti.pathgraph.constants.AppConstants;
+ ```
+
+
+**Data Transfer Object**
+
+
+
+ 
+ ```java
+ import com.vittoriopiotti.pathgraph.dto.NodeDTO;
+ ```
+ 
+ ```java
+ import com.vittoriopiotti.pathgraph.dto.EdgeDTO;
+ ```
+ 
+ ```java
+ import com.vittoriopiotti.pathgraph.dto.ConnectionDTO;
+ ```
+ 
+ ```java
+ import com.vittoriopiotti.pathgraph.dto.GraphDTO;
+ ```
+
+&nbsp;
+
+
+
+### PathGraph Creation
+
 
 ```java
 /* Vanilla configuration */
@@ -434,6 +481,8 @@ PathGraphUI pg = (
 
 
 
+
+
 &nbsp;
 
 </details>
@@ -503,6 +552,7 @@ import java.io.IOException;
 
 /* PathGraph import */
 import com.vittoriopiotti.pathgraph.containers.PathGraphUI;
+
 
 public class Main extends Application {
 
