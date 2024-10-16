@@ -213,13 +213,13 @@ _or_
 
 
 
-Manually import
+Manually jar library import [(download)]()
 
 
 &nbsp;
 
 
-**Pom Configuration**
+**Your Pom Configuration**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
