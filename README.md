@@ -414,7 +414,6 @@ Manually library import [(download jar)]()
 &nbsp;
 
 
-> Major details on [Data Transfer Objects](#data-transfer-object)
 
  ```java
  import com.vittoriopiotti.pathgraph.dto.NodeDTO;
@@ -431,6 +430,8 @@ Manually library import [(download jar)]()
  ```java
  import com.vittoriopiotti.pathgraph.dto.GraphDTO;
  ```
+
+_Major details on [Data Transfer Objects](#data-transfer-object)_
 
 
 &nbsp;
