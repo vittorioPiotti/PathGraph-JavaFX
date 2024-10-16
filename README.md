@@ -4,7 +4,6 @@
 
 > [!CAUTION]
 > Bug on custom callbacks settings in `PathGraph` but `PathGraphUI` work
-> ---
 > Will be fix it in next updates
 
 
