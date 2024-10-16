@@ -15,8 +15,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.10.2</junit.version>
         <javafx.version>22</javafx.version>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <licenses>
@@ -57,7 +57,6 @@
         <developerConnection>scm:git:ssh://github.com:vittorioPiotti/PathGraph-JavaFX.git</developerConnection>
         <url>https://github.com/vittorioPiotti/PathGraph-JavaFX</url>
     </scm>
-
 
 
     <dependencies>
@@ -136,4 +135,6 @@
 
 
 </project>
+
+
 
