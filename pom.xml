@@ -6,7 +6,7 @@
 
 <groupId>io.github.vittoriopiotti</groupId>
 <artifactId>PathGraph-JavaFX</artifactId>
-<version>1.0.0</version>
+<version>1.0.2</version>
 
 
 
@@ -178,6 +178,8 @@
     </plugins>
 </build>
 </project>
+
+
 
 
 
