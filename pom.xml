@@ -4,16 +4,61 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.vittoriopiotti</groupId>
+    <groupId>io.github.vittoriopiotti</groupId>
     <artifactId>PathGraph</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>PathGraph</name>
+    <description>Customized adaptation of SmartGraph for path graphs and walk graphs with nodes, edges, and associated costs</description>
+    <url>https://github.com/vittorioPiotti/PathGraph-JavaFX</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.10.2</junit.version>
         <javafx.version>22</javafx.version>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
     </properties>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License, Version 3.0</name>
+            <url>https://github.com/vittorioPiotti/PathGraph-JavaFX/blob/main/LICENSE.txt</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/brunomnsilva/JavaFXSmartGraph/blob/master/LICENSE.txt</url>
+            <distribution>repo</distribution>
+            <comments>This license applies to the original SmartGraph code.</comments>
+        </license>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/twbs/icons/blob/main/LICENSE</url>
+            <distribution>repo</distribution>
+            <comments>This license applies to the Bootstrap SVG icons.</comments>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>vittorioPiotti</id>
+            <name>Vittorio Piotti</name>
+            <email>vittoriopiotti.it@gmail.com</email>
+        </developer>
+        <developer>
+            <id>brunomnsilva</id>
+            <name>Bruno Silva</name>
+            <email>brunomnsilva@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/vittorioPiotti/PathGraph-JavaFX.git</connection>
+        <developerConnection>scm:git:ssh://github.com:vittorioPiotti/PathGraph-JavaFX.git</developerConnection>
+        <url>https://github.com/vittorioPiotti/PathGraph-JavaFX</url>
+    </scm>
+
+
 
     <dependencies>
         <!-- JavaFX dependencies -->
@@ -55,21 +100,21 @@
         </dependency>
     </dependencies>
 
+
     <build>
         <plugins>
-            <!-- Compiler plugin to target Java 21 -->
+            <!-- Compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <source>22</source>
-                    <target>22</target>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
 
-
-            <!-- JavaFX Maven plugin for managing JavaFX-specific tasks -->
+            <!-- JavaFX Maven plugin -->
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
@@ -80,11 +125,15 @@
                             <goal>run</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.vittoriopiotti.pathgraph.Main</mainClass>
+                            <mainClass>io.github.vittoriopiotti.pathgraph.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
+
+
 </project>
+
