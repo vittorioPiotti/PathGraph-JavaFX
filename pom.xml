@@ -59,6 +59,14 @@
     </scm>
 
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>vittorioPiotti</name>
+            <url>https://maven.pkg.github.com/vittorioPiotti/PathGraph-JavaFX</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <!-- JavaFX dependencies -->
         <dependency>
@@ -135,6 +143,5 @@
 
 
 </project>
-
 
 
