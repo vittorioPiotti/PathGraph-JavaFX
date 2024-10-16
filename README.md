@@ -10,6 +10,7 @@ PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart
 Provided to user-friendly interface in a stable user-experience in which manage dynamically the path graphs.
 Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
 
+[![javadoc](https://javadoc.io/badge2/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core/javadoc.svg)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 > [!IMPORTANT]
 > Read the **Javadoc** for more technicals details: [(see)]()
