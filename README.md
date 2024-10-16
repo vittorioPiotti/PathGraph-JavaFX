@@ -12,7 +12,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 
 > [!IMPORTANT]
-> Read the **Javadoc** for more technicals details: [![javadoc](https://javadoc.io/badge2/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core/javadoc.svg)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
+> Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 
 > [!NOTE]
