@@ -199,6 +199,8 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 
 **Import PathGraph**
 
+&nbsp;
+
 ```xml
 <!-- Import using Maven Central -->
 <dependency>
@@ -208,11 +210,11 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 </dependency>
 ```
 
-
+&nbsp;
 
 _or_
 
-
+&nbsp;
 
 Manually library import [(download jar)]()
 
@@ -356,6 +358,8 @@ Manually library import [(download jar)]()
 
 ### Available Imports
 
+&nbsp;
+
 **Containers**
 
 
@@ -401,6 +405,8 @@ Manually library import [(download jar)]()
 
 ### PathGraph Creation
 
+
+&nbsp;
 
 ```java
 /* Vanilla configuration */
