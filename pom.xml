@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.vittoriopiotti</groupId>
-    <artifactId>PathGraph</artifactId>
+    <artifactId>PathGraph-JavaFX</artifactId>
     <version>1.0.0</version>
-    <name>PathGraph</name>
+    <name>PathGraph-JavaFX</name>
     <description>Customized adaptation of SmartGraph for path graphs and walk graphs with nodes, edges, and associated costs</description>
     <url>https://github.com/vittorioPiotti/PathGraph-JavaFX</url> 
 
