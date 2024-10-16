@@ -213,8 +213,10 @@ _or_
 
 
 
-Manually jar library import [(download)]()
+Manually library import [(download jar)]()
 
+
+> In both of cases is necessary to configure external dependencies
 
 &nbsp;
 
