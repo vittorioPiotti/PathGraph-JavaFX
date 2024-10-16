@@ -4,7 +4,7 @@
 
 > [!CAUTION]
 > Bugs in custom callbacks settings in `PathGraph` but `PathGraphUI` work:
->  * **Cannot** to know during on click callback on element the selected edge or node
+>  * **Cannot** to know the selected edge or node during on click callback on element 
 >  * **Cannot** to use the selcted edge or node to make custom callbacks  
 > 
 > Bugs will be fixed with new callbacks managing system in next update
