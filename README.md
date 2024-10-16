@@ -7,7 +7,7 @@
 >  * **Cannot** to know during on click callback on element the selected edge or node
 >  * **Cannot** to use the selcted edge or node to make custom callbacks  
 > 
-> Bugs wil be fixed with new callbacks managing system in next update
+> Bugs will be fixed with new callbacks managing system in next update
 > 
 > _Working on 1.0.3_
 
