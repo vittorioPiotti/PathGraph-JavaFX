@@ -294,9 +294,9 @@ PathGraphUI pg = new PathGraphUI(
 
 
 
-In both cases are customizable the visibility of UI and its components only with an instance of `PathGraph`:
+In both cases are customizable the visibility of the UI and its components only with an instance of `PathGraph`:
 
-[`Hide UI`](#), [`Show UI`](#), [`Toggle UI`](#), [`Set UI`](#
+[`Hide UI`](#), [`Show UI`](#), [`Toggle UI`](#), [`Set UI`](#)
 
 
 
