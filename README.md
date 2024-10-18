@@ -275,20 +275,20 @@ PathGraphUI pg = new PathGraphUI(
 
 
 
-### Configure Custom Callbacks
+### Callbacks Setters
+
+In both cases the calls are the same and each provides the data on which to structure your own customized processing logic:
 
 
-In both of cases to set callbacks:
+1. Import package to use callback objects:
 
- 1. Import package to use callback objects:
-
-       ```java
-       import com.vittoriopiotti.pathgraph.callbacks.*;
-       ```
-       
- 3. Call methods using an istance of `PathGraph` or `PathGraphUI`  to set new callbacks passing callback objects:
-    
-      [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
+      ```java
+      import com.vittoriopiotti.pathgraph.callbacks.*;
+      ```
+      
+3. Call methods using an istance of `PathGraph` or `PathGraphUI`  to set new callbacks passing callback objects:
+   
+     [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
 
 
