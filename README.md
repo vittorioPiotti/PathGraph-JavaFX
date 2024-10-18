@@ -105,10 +105,10 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 ## 3. Graph Logic <div id="graph-logic"/>
 
-* Create nodes using only characters with uppercase alphabet letters to maxium 26 nodes
-* Create max two edges with opposite directions beetween both nodes
-* Does not allaw to create loop
-* Edge costs can be only integer numbers
+*Limit of 26 Nodes nameable only with uppercase characters
+* Limit of two edges with opposite directions beetween two nodes
+* Loop creation is not allowed
+* Edge cost is an integer number
 * Edges can be directed:
 
     ```java
