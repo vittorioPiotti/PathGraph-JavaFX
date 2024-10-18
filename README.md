@@ -129,7 +129,41 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 ### Dependencies
 
-[`JavaFX-Swing-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-swing/22), ​[`JavaFX-Controls-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-controls/22), ​ [`JavaFX-FXML-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-fxml/22), ​ [`Junit-Jupiter-Api-5.10.2`](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.10.2), ​ [`Junit-Jupiter-Engine-5.10.2`](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.10.2)
+[`JavaFX-Swing-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-swing/22), ​[`JavaFX-Controls-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-controls/22), ​ [`JavaFX-FXML-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-fxml/22)
+
+<details>
+  
+<summary>
+  <strong> 1. Requirements</strong>
+</summary>
+
+&nbsp;
+
+```xml
+
+ <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+
+
+```
+
+
+&nbsp;
+
+</details>
 
 JavaFX Controls 22.0.1​
 MAVEN REPOSITORY
