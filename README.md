@@ -108,22 +108,9 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 * Limit of two edges with opposite directions beetween two nodes
 * Loop creation is not allowed
 * Edge cost is an integer number
-* Edges can be directed:
-
-    ```java
-    Constants.BIDIRECTIONAL;      /* edge without arrow */
-    ```
+* Edge directions can be: `Bidirected`, `Natural Direction`, `Opposite Direction`
 
 
-    ```java
-    Constants.DIRECTION_FIRST;    /* edge in natural direction */
-    ```
-
-
-
-    ```java
-    Constants.DIRECTION_SECOND;    /* edge in opposite direction */
-    ```
 
 
 
