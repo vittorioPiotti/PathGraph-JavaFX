@@ -226,6 +226,21 @@ PathGraph pg = new PathGraph(
 
 > With callbacks
 
+>[!NOTE]
+> Customizable callbacks **only with an instance of `PathGraph`** _(`PathGraphUI`is a ready-to-use configuration)._
+
+> 1. **Import package** to use callback objects:
+> 
+>       ```java
+>       import com.vittoriopiotti.pathgraph.callbacks.*;
+>       ```
+>     
+> 2. **Call setter methods** to apply new callbacks passing callback objects:
+>   
+>    [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
+
+
+
 
 **PathGraphUI**
 
