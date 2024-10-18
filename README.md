@@ -75,7 +75,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
    
  * **Edges:** [`New Edge`](#new-edge), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost)
    
- * **Graph:** [`Upload JSON`](#upload), [`Download JSON`](#download), [Clear Graph](#clear-graph), [`Show Path`](#show-path), [`Take Screenshot`](#take-screenshot), [`Drag`](#drag), [`Zoom`](#zoom)
+ * **Graph:** [`Upload JSON`](#upload), [`Download JSON`](#download), [`Clear Graph`](#clear-graph), [`Show Path`](#show-path), [`Take Screenshot`](#take-screenshot), [`Drag`](#drag), [`Zoom`](#zoom)
  
  
 
