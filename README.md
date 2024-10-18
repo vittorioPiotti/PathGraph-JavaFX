@@ -75,17 +75,17 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 | ------------ | ------------ | ------------ |
 | 4 | 5 | 6 |
 
- 1. **On Background:** [`New Node`](#new-node)
+ 1. **Event On Background:** [`New Node`](#new-node)
     
- 2. **On Node:** [`New Edge`](#new-edge), [`Delete Node`](#delete-node), 
+ 2. **Event On Node:** [`New Edge`](#new-edge), [`Delete Node`](#delete-node), 
 
- 3. **On Edge:** [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost)
+ 3. **Event On Edge:** [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost)
 
  4. **Work with Json:** [`Upload`](#upload), [`Download`](#download)
 
  5. **Create Graphs:** [`New Node`](#new-node),  [`Delete Node`](#delete-node), [`Rename Node`](#rename-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Set Cost`](#set-cost), [`Split Edge`](#split-edge) , [`Show Path`](#show-path)
  
- 6. **Graph controls:** [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
+ 6. **Graph Controls:** [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
  
 
 
