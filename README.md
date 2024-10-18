@@ -141,13 +141,14 @@ _Able to:_
 
  * POM configuration:
 
-        ```xml
-        <dependency>
-            <groupId>io.github.vittoriopiotti</groupId>
-            <artifactId>PathGraph-JavaFX</artifactId>
-            <version>1.0.5</version>
-        </dependency>
-        ```
+       ```xml
+       <dependency>
+           <groupId>io.github.vittoriopiotti</groupId>
+           <artifactId>PathGraph-JavaFX</artifactId>
+           <version>1.0.5</version>
+       </dependency>
+       ```
+
         
  * Manual configuration:
    
