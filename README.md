@@ -59,7 +59,7 @@ Path Graph is a library with all the tools necessary to create and work both pat
 
 &nbsp;
 
-If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated costs, which offers a user-friendly interface to represent, manage, and interact graphs, then this it's the right solution. 
+If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated costs, which offers a user-friendly  to represent, manage, and interact graphs, then this it's the right solution. 
 
 &nbsp;
 
@@ -74,7 +74,7 @@ If you need a ready-to-use library for user-side representing path graphs in whi
 
 &nbsp;
 
-This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to specific path graphs features in a stable user interface.
+This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to specific path graphs features in a stable user .
 
 
 &nbsp;
@@ -148,7 +148,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/sp.gif" alt="Icona" width="400"/>
 
-### Interface
+### On Interface · PathGraphUI
 
 
 
@@ -166,7 +166,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 
 
-### Graph
+### On Graph · PathGraph
 
 The user make **Douple Click** or **Right Click** on one of this components of the  to do:
 | Background| Node | Edge |
