@@ -45,8 +45,8 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  2. [Graph Logic](#graph-logic)
  3. [Get Started](#get-started)
  4. [Usage](#usage)
- 5. [DTO · Data Transfer Objects](#data-transfer-object)
- 6. [JSON · Data Management](#json-data-management)
+ 5. [DTO](#data-transfer-object)
+ 6. [JSON](#json-data-management)
  7. [Licenses](#licenses)
 
 [Fork-Based On SmartGraph](#fork-based-on-smartgraph)
