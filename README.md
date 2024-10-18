@@ -118,13 +118,27 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
-
-
-
-
-
-
 ## 3. Get Started <div id="get-started"/>
+
+### Requirements
+
+
+**Java** from: `v.21` _or higher_  [(link)](https://www.oracle.com/java/technologies/downloads/#java21)
+
+**JavaFX** from: `v.22` _or higher_  [(link)](https://gluonhq.com/products/javafx/)
+
+### Dependencies
+
+[`JavaFX-Swing-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-swing/22), ​[`JavaFX-Controls-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-controls/22), ​ [`JavaFX-FXML-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-fxml/22), ​ [`Junit-Jupiter-Api-5.10.2`](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.10.2), ​ [`Junit-Jupiter-Engine-5.10.2`](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.10.2)
+
+JavaFX Controls 22.0.1​
+MAVEN REPOSITORY
+JavaFX FXML 22.0.1​
+MAVEN REPOSITORY
+JUnit Jupiter API 5.10.2
+JUnit Jupiter Engine 5.10.2
+
+## 3. Get Started <div id="get-started2"/>
 
 
 
