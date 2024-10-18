@@ -140,12 +140,14 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 Able to:
 
  * POM configuration:
-   
+
+        ```xml
         <dependency>
             <groupId>io.github.vittoriopiotti</groupId>
             <artifactId>PathGraph-JavaFX</artifactId>
             <version>1.0.5</version>
         </dependency>
+        ```
         
  * Manual configuration:
    
