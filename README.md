@@ -129,48 +129,21 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 ### Dependencies
 
+**External Dipendencies Import**
+
 [`JavaFX-Swing-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-swing/22), ​[`JavaFX-Controls-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-controls/22), ​ [`JavaFX-FXML-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-fxml/22)
 
-<details>
-  
-<summary>
-   Show POM snippet to copy it
-</summary>
+**Library Import**
 
-&nbsp;
-
-```xml
-
+ ```xml
 <dependency>
-    <groupId>org.openjfx</groupId>
-    <artifactId>javafx-swing</artifactId>
-    <version>${javafx.version}</version>
+    <groupId>io.github.vittoriopiotti</groupId>
+    <artifactId>PathGraph-JavaFX</artifactId>
+    <version>1.0.5</version>
 </dependency>
-<dependency>
-    <groupId>org.openjfx</groupId>
-    <artifactId>javafx-controls</artifactId>
-    <version>${javafx.version}</version>
-</dependency>
-<dependency>
-    <groupId>org.openjfx</groupId>
-    <artifactId>javafx-fxml</artifactId>
-    <version>${javafx.version}</version>
-</dependency>
+ ```
 
 
-```
-
-
-&nbsp;
-
-</details>
-
-JavaFX Controls 22.0.1​
-MAVEN REPOSITORY
-JavaFX FXML 22.0.1​
-MAVEN REPOSITORY
-JUnit Jupiter API 5.10.2
-JUnit Jupiter Engine 5.10.2
 
 ## 3. Get Started <div id="get-started2"/>
 
