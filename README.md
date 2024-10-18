@@ -156,13 +156,17 @@ Able to:
 <details>
   
 <summary>
-   <strong>Show POM dipendencies to copy</strong>
+   <strong>Show POM.xml dipendencies</strong>
 </summary>
 
 &nbsp;
 
 ```xml
-
+<dependency>
+    <groupId>io.github.vittoriopiotti</groupId>
+    <artifactId>PathGraph-JavaFX</artifactId>
+    <version>1.0.5</version>
+</dependency>
 <dependency>
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-swing</artifactId>
