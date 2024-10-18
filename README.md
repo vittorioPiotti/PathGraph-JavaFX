@@ -153,6 +153,40 @@ Able to:
 
 
 
+<details>
+  
+<summary>
+   <strong>Show POM dipendencies to copy</strong>
+</summary>
+
+&nbsp;
+
+```xml
+
+<dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-swing</artifactId>
+    <version>22</version>
+</dependency>
+<dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-controls</artifactId>
+    <version>22</version>
+</dependency>
+<dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-fxml</artifactId>
+    <version>22</version>
+</dependency>
+
+
+```
+
+
+&nbsp;
+
+</details>
+
 
 
 ## 3. Get Started <div id="get-started2"/>
