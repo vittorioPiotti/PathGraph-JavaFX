@@ -148,23 +148,6 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/sp.gif" alt="Icona" width="400"/>
 
-### On Interface · PathGraphUI
-
-
-
-| <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test5ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
-| ------------ | ------------ | ------------ |
-| 1 | 2 | 3 |
-
- 1. **Work with Json:** [`Upload`](#upload), [`Download`](#download)
-
- 2. **Create Graph:** [`New Node`](#new-node),  [`Delete Node`](#delete-node), [`Rename Node`](#rename-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Set Cost`](#set-cost), [`Split Edge`](#split-edge) , [`Show Path`](#show-path)
- 
- 3. **Graph control:** [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
- 
-
-
-
 
 ### On Graph · PathGraph
 
@@ -186,6 +169,27 @@ The user **make event on** one of this components of the  to do:
 > Empty callbacks to disable interactions on graph
 
 > Ability to create and use custom callbacks of the graph interactions 
+
+
+
+### On Interface · PathGraphUI
+
+
+
+| <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test5ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
+| ------------ | ------------ | ------------ |
+| 1 | 2 | 3 |
+
+ 1. **Work with Json:** [`Upload`](#upload), [`Download`](#download)
+
+ 2. **Create Graph:** [`New Node`](#new-node),  [`Delete Node`](#delete-node), [`Rename Node`](#rename-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Set Cost`](#set-cost), [`Split Edge`](#split-edge) , [`Show Path`](#show-path)
+ 
+ 3. **Graph control:** [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
+ 
+
+
+
+
 
 
 
