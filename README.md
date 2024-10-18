@@ -186,12 +186,12 @@ _Able to:_
 ### Import Component
 
  ```java
- import com.vittoriopiotti.pathgraph.containers*;
+ import com.vittoriopiotti.pathgraph.containers.*;
  ```
 
 ### Instance Object
 
-  <strong>PathGraph>  </strong> 
+  <strong>PathGraph</strong> 
 
 **PathGraph no UI and empty callbacks**
 
@@ -201,7 +201,7 @@ PathGraph pg = new PathGraph();
 
 **PathGraph no UI with callbacks**
 
-```java`
+```java
 PathGraph pg = new PathGraph(
     (()->{}) ContextMenuCallback,
     (()->{}) EdgeCallback,
