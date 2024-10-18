@@ -193,12 +193,12 @@ _Able to:_
 
 > [!NOTE]
 > [**PathGraph**](#)
-> 
-> handles the graph's display and logic independently of the user interface, acting as a standalone component without any user interface restrictions, provifind all necessary features.
+>  * Vanilla configurations to use in your project in which create your custom UI
+>  * Handles the graph's display and logic independently of the user interface, acting as a standalone component without any user interface restrictions, provifind all necessary features.
 > 
 > [**PathGraphUI**](#)
-> 
->  extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
+>  * Ready-to-use configuration with default UI
+>  * Extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
 
 **PathGraph with empty callbacks**
 
