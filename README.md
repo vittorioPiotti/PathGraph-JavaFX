@@ -299,10 +299,14 @@ In both cases are customizable the visibility of the UI and its components only 
 [`Hide UI`](#), [`Show UI`](#), [`Toggle UI`](#), [`Set UI`](#)
 
 
-## 5. Setup  <div id="setup"/>
+### Setup  <div id="setup"/>
 
 
-   
+> [!NOTE]
+> The call to `setup` is required **to enable the use** of library
+>
+> It can be called `setup` **only after** making the stage visible with `(Stage) stage.show()`
+
 ```java
 pg.setup();
 ```
@@ -324,11 +328,6 @@ pg.setup().thenRun(() -> {
 
 
 
-In both cases:
-
-> Setup is required **to enable the use** of library
-
-> To call **only after** called `(Stage) primaryStage.show()`
 
 
 
