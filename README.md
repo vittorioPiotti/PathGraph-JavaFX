@@ -69,65 +69,6 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
-<details>
-
-
-<summary>
-  <strong> How Work </strong>
-</summary>
-
-&nbsp;
-
-
-
-Provided to represent path graphs through nodes, edges, and associated costs with the following logic:
-
-* Nodes can be only characters with uppercase alphabet letters to maxium 26 nodes
-* Not provided over limits of two edges with same direction between two same nodes
-* Not provided loops creation
-* Edge cost can be only `int` variable type to rappresent integer numbers
-* Edges can be directed:
-
-
-
-    
-  
-    ```java
-    /* Edge without direction */
-    (int) SmartEdgeBase.DIRECTION_BIDIRECTIONAL;
-    ```
-
-   
-    
-    ```java
-    */ Edge in natural direction */
-    (int) SmartEdgeBase.DIRECTION_FIRST;
-    ```
-    
-     
-    
-    ```java
-    */ Edge in opposite direction */
-    (int) SmartEdgeBase.DIRECTION_SECOND;
-    ```
-
-
-
-
-> Adding new edge to nodes with one bidirectional edge implies the automatic adjustment of the bidirectional edge to redirect it at the opposite direction of the new edge
-
-> Adding new bidirectional edge to nodes with one bidirectional edge implies the automatic adjustment of both edges to redirect them at the preferred direction to make them in opposite direction from each other
-
-
-
-&nbsp;
-
-</details>
-
-
-
-
-
 
 
 
@@ -172,6 +113,25 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
  
 
 
+### Ability to
+
+* Create nodes using only characters with uppercase alphabet letters to maxium 26 nodes
+* Create max two edges with opposite directions beetween both nodes
+* Does not allaw to create loop
+* Edge costs can be only integer numbers
+* Edges can be directed:
+
+    ```java
+    Constants.BIDIRECTIONAL;      /* edge without arrow */
+    Constants.DIRECTION_FIRST;    /* edge in natural direction */
+    Constants.DIRECTION_SECOND;    /* edge in opposite direction */
+    ```
+
+
+
+&nbsp;
+
+</details>
 
 
 
