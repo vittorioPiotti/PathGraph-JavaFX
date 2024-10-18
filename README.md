@@ -123,7 +123,16 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
     ```java
     Constants.BIDIRECTIONAL;      /* edge without arrow */
+    ```
+
+
+    ```java
     Constants.DIRECTION_FIRST;    /* edge in natural direction */
+    ```
+
+
+
+    ```java
     Constants.DIRECTION_SECOND;    /* edge in opposite direction */
     ```
 
