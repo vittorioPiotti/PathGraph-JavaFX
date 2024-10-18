@@ -29,9 +29,8 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 > [!NOTE]
-> Library available on **Maven Central** [(see)](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX)
+> Library available on **Maven Central:** [(PathGraph-JavaFX-1.0.5)](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.5/overview)
 > ```xml
-> <!-- Import using Maven Central -->
 > <dependency>
 >   <groupId>io.github.vittoriopiotti</groupId>
 >   <artifactId>PathGraph-JavaFX</artifactId>
@@ -134,16 +133,25 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 [`JavaFX-Swing-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-swing/22), ​[`JavaFX-Controls-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-controls/22), ​ [`JavaFX-FXML-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-fxml/22)
 
 **Import Library**
-[`PathGraph-JavaFX-1.0.5`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.5/versions)
+
+[`PathGraph-JavaFX-1.0.5`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.5/overview)
 
 
- ```xml
-<dependency>
-    <groupId>io.github.vittoriopiotti</groupId>
-    <artifactId>PathGraph-JavaFX</artifactId>
-    <version>1.0.5</version>
-</dependency>
- ```
+Able to:
+
+ * **POM configuration**:
+   
+        <dependency>
+            <groupId>io.github.vittoriopiotti</groupId>
+            <artifactId>PathGraph-JavaFX</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        
+ * **Manual configuration**:
+   
+        **Download and import** jar in your **module dipendencies**: [`PathGraph-JavaFX-1.0.5`](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.5)
+
+
 
 
 
