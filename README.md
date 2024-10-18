@@ -303,9 +303,8 @@ In both cases are customizable the visibility of the UI and its components only 
 
 
 > [!NOTE]
-> The call to `setup` is required **to enable the use** of library
->
-> It can be called `setup` **only after** making the stage visible with `(Stage) stage.show()`
+> **To enable the use of library** `setup` must be called **only one time after making stage visible** with `(Stage) stage.show()` 
+
 
 ```java
 pg.setup();
