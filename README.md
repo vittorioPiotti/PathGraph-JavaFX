@@ -200,13 +200,17 @@ _Able to:_
 >  * Ready-to-use configuration with default UI
 >  * Extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
 
-**PathGraph with empty callbacks**
+**PathGraph**
+
+With empty callbacks
 
 ```java
 PathGraph pg = new PathGraph();
 ```
 
-**PathGraph with callbacks**
+_or_
+
+with callbacks
 
 ```java
 PathGraph pg = new PathGraph(
