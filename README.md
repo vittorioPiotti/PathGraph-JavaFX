@@ -230,6 +230,7 @@ PathGraph pg = new PathGraph(
 In both of cases:
 
 > Set your custom callbacks in every time using callbacks setters:
+> 
 > [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
 **PathGraphUI**
