@@ -142,19 +142,19 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 ```xml
 
 <dependency>
- <groupId>org.openjfx</groupId>
- <artifactId>javafx-swing</artifactId>
- <version>22</version>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-swing</artifactId>
+    <version>${javafx.version}</version>
 </dependency>
 <dependency>
- <groupId>org.openjfx</groupId>
- <artifactId>javafx-controls</artifactId>
- <version>22</version>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-controls</artifactId>
+    <version>${javafx.version}</version>
 </dependency>
 <dependency>
- <groupId>org.openjfx</groupId>
- <artifactId>javafx-fxml</artifactId>
- <version>22</version>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-fxml</artifactId>
+    <version>${javafx.version}</version>
 </dependency>
 
 
