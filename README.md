@@ -151,7 +151,7 @@ _Able to:_
         
  * Manual configuration:
    
-   Download and import jar in your module dipendencies: [`PathGraph-JavaFX-1.0.5`](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.5)
+   Download and import jar in your module dipendencies: [`PathGraph-JavaFX-1.0.5.jar`](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.5)
 
 
 
