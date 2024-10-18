@@ -56,19 +56,6 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
----
-
-## 1. About <div id="about"/>
-
-
-
-
-
-
-
-
-
-
 
 
 
