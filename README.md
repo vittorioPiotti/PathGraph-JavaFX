@@ -191,19 +191,10 @@ _Able to:_
 
 ### Instance Object
 
-> [!NOTE]
-> [**PathGraph**](#)
->  * Vanilla configurations to use in your project in which create your custom UI
->  * Handles the graph's display and logic independently of the user interface, acting as a standalone component without any user interface restrictions, provifind all necessary features.
-> 
-> [**PathGraphUI**](#)
->  * Ready-to-use configuration with default UI
->  * Extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
-
 **PathGraph**
 
 
-Vanilla configurations to use in your project in which create your custom UI
+Vanilla configurations to use in your project in which create your custom UI.
 
 
 Handles the graph's display and logic independently of the user interface, acting as a standalone component without any user interface restrictions, provifind all necessary features.
@@ -232,7 +223,13 @@ PathGraph pg = new PathGraph(
 > With callbacks
 
 
-**PathGraphUI with default UI**
+**PathGraphUI**
+
+Ready-to-use configuration with default UI.
+
+Extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
+
+**Path
 
 ```java
 PathGraphUI pg = new PathGraphUI(
@@ -241,9 +238,9 @@ PathGraphUI pg = new PathGraphUI(
 );
 ```
 
+> With default UI
 
 
-**PathGraphUI with custom UI**
 
 ```java
 PathGraphUI pg = new PathGraphUI(
@@ -271,6 +268,7 @@ PathGraphUI pg = new PathGraphUI(
 );
 ```
 
+> With custom UI
 
 
 
