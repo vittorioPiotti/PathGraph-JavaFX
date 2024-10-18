@@ -202,15 +202,19 @@ _Able to:_
 
 **PathGraph**
 
-With empty callbacks
+> [!NOTE]
+>  * Vanilla configurations to use in your project in which create your custom UI
+>  * Handles the graph's display and logic independently of the user interface, acting as a standalone component without any user interface restrictions, provifind all necessary features.
 
 ```java
 PathGraph pg = new PathGraph();
 ```
 
+> Empty callbacks
+
 _or_
 
-with callbacks
+
 
 ```java
 PathGraph pg = new PathGraph(
@@ -222,6 +226,8 @@ PathGraph pg = new PathGraph(
     (AdjustPositionCallback) ()->{}
 );
 ```
+
+> With callbacks
 
 
 **PathGraphUI with default UI**
