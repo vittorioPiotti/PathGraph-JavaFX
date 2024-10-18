@@ -19,7 +19,7 @@ If you need a ready-to-use library for user-side representing path graphs in whi
 
 **Fork-Based Project**
 
-This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to specific path graphs features in a stable user .
+This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0). It is modified to suite in specific path graphs features in a stable interface.
 
 ---
 
@@ -39,7 +39,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 > </dependency>
 > ```
 
-
+---
 
 ## Main Index
 
@@ -53,6 +53,9 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 [Fork-Based On SmartGraph](#fork-based-on-smartgraph)
 
+
+
+---
 
 ## 1. About <div id="about"/>
 
