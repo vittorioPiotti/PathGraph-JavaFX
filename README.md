@@ -150,18 +150,17 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 ### Interface
 
-| Advanced| Edge and Nodes | Graph |
-| ------------ | ------------ | ------------ |
+
+
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test5ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
-| [Upload](#upload) | [New Node](#new-node)  |  [Clear Graph](#cleargraph) |
-| [Download](#download)| [Delete Node](#delete-node) |  [Do Drag](#dodrag)  |
-| | [Rename Node](#rename-node) |   [Do Zoom](#dozoom)  |
-| |[New Edge](#new-edge) |  [Take Screenshot](#screenshot) |
-| | [Delete Edge](#delete-edge)  | [Adjust Position](#adjustposition)  | 
-| | [Rotate Edge](#rotate-edge) |   |
-| | [Set Cost](#set-cost) |  |
-| | [Split Edge](#split-edge) |  |
-| | [Show Path](#show-path)  |  |
+| ------------ | ------------ | ------------ |
+| 1 | 2 | 3 |
+
+ 1. **Work with Json:** `[Upload](#upload)`, [Download](#download)
+ 2. **Create Graph:** `[New Node](#new-node)`,  `[Delete Node](#delete-node)`, `[Rename Node](#rename-node)`, `[Delete Edge](#delete-edge)`, `[Rotate Edge](#rotate-edge)`, `[Set Cost](#set-cost)`, `[Split Edge](#split-edge) `, `[Show Path](#show-path)`
+ 3. `[Clear Graph](#cleargraph)`, ` [Do Drag](#dodrag)`, `[Do Zoom](#dozoom)`, `[Take Screenshot](#screenshot)`, `[Adjust Position](#adjustposition)`
+ 
+
 
 
 
