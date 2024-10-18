@@ -129,11 +129,13 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 ### Dependencies
 
-**External Dipendencies Import**
+**Import External Dipendencies**
 
 [`JavaFX-Swing-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-swing/22), ​[`JavaFX-Controls-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-controls/22), ​ [`JavaFX-FXML-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-fxml/22)
 
-**Library Import**
+**Import Library**
+[`PathGraph-JavaFX-1.0.5`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.5/versions)
+
 
  ```xml
 <dependency>
