@@ -35,7 +35,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 > <dependency>
 >   <groupId>io.github.vittoriopiotti</groupId>
 >   <artifactId>PathGraph-JavaFX</artifactId>
->   <version>1.0.4</version>
+>   <version>1.0.5</version>
 > </dependency>
 > ```
 
