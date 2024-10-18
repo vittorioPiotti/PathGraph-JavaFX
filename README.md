@@ -229,7 +229,6 @@ Ready-to-use configuration with default UI.
 
 Extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
 
-**Path
 
 ```java
 PathGraphUI pg = new PathGraphUI(
