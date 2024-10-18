@@ -191,7 +191,7 @@ _Able to:_
 
 ### Instance Object
 
-> [|NOTE]
+> [!NOTE]
 >  * `PathGraph` to customize your interface
 >  * Choise `PathGraphUI`for ready-to-use interface
 
