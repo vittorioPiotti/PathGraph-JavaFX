@@ -226,9 +226,12 @@ PathGraph pg = new PathGraph(
 
 > With callbacks
 
->[!NOTE]
-> Customizable callbacks **only with an instance of `PathGraph`** _(`PathGraphUI`is a ready-to-use configuration)._
 
+&nbsp;
+
+
+> Customizable callbacks **only with an instance of `PathGraph`** _(`PathGraphUI`is a ready-to-use configuration)._
+>
 > 1. **Import package** to use callback objects:
 > 
 >       ```java
