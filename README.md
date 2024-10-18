@@ -151,7 +151,7 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 ### On Graph · PathGraph
 
-The user **make event on** one of this components of the  to do:
+**Make event on** one of this components of the  to do:
 
 
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test7ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test8ui.gif" alt="Icona" width="100%"/>|
@@ -166,9 +166,6 @@ The user **make event on** one of this components of the  to do:
 
 
 
-> Empty callbacks to disable interactions on graph
-
-> Ability to create and use custom callbacks of the graph interactions 
 
 
 
