@@ -65,40 +65,32 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/sp.gif" alt="Icona" width="400"/>
 
 
-### On Graph · PathGraph
-
-**Make event on** one of this components of the  to do:
 
 
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test7ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test8ui.gif" alt="Icona" width="100%"/>|
 | ------------ | ------------ | ------------ |
 | 1| 2 | 3 |
+| <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test5ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
+| 4 | 5 | 6 |
 
  1. **On Background:** [`New Node`](#new-node)
     
- 3. **On Node:** [`New Edge`](#new-edge), [`Delete Node`](#delete-node), 
+ 2. **On Node:** [`New Edge`](#new-edge), [`Delete Node`](#delete-node), 
 
- 4. **On Edge:** [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost)
+ 3. **On Edge:** [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost)
 
+ 4. **Work with Json:** [`Upload`](#upload), [`Download`](#download)
 
-
-
-
-
-### On Interface · PathGraphUI
-
-
-
-| <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test5ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
-| ------------ | ------------ | ------------ |
-| 1 | 2 | 3 |
-
- 1. **Work with Json:** [`Upload`](#upload), [`Download`](#download)
-
- 2. **Create Graphs:** [`New Node`](#new-node),  [`Delete Node`](#delete-node), [`Rename Node`](#rename-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Set Cost`](#set-cost), [`Split Edge`](#split-edge) , [`Show Path`](#show-path)
+ 5. **Create Graphs:** [`New Node`](#new-node),  [`Delete Node`](#delete-node), [`Rename Node`](#rename-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Set Cost`](#set-cost), [`Split Edge`](#split-edge) , [`Show Path`](#show-path)
  
- 3. **Graph controls:** [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
+ 6. **Graph controls:** [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
  
+
+
+
+
+
+
 
 
 ## 2. Graph Logic <div id="graph-logic"/>
