@@ -25,7 +25,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 > [!NOTE]
-> Read the **Javadoc** for more technicals details: [(`PathGraph-JavaFX-1.0.5-javadoc`)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
+> Read the **Javadoc** for more technicals details: [`PathGraph-JavaFX-1.0.5-javadoc`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 
 > [!NOTE]
