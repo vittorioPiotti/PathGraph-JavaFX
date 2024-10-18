@@ -62,7 +62,6 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 ## 1. Features <div id="features"/>
 
-<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/sp.gif" alt="Icona" width="400"/>
 
 
 
