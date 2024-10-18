@@ -229,12 +229,13 @@ PathGraph pg = new PathGraph(
 
 In both of cases to set callbacks:
 
->  1. Import package:
+>  1. Import package to use callback objects:
+>  2. 
 >        ```java
 >        import com.vittoriopiotti.pathgraph.callbacks.*;
 >        ```
 >        
-> 2. Call methods:
+> 3. Call methods to set new callbacks:
 >    
 >    [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
