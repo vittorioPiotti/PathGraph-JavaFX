@@ -229,9 +229,13 @@ PathGraph pg = new PathGraph(
 
 In both of cases:
 
-> Set your custom callbacks in every time using callbacks setters:
-> 
-> [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
+> To set callbacks:
+>  1. Import package:
+>        ```java
+>        import com.vittoriopiotti.pathgraph.callbacks.*;
+>        ```
+> 2. Call methods:
+>    [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
 **PathGraphUI**
 
