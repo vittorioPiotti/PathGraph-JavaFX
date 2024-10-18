@@ -1,4 +1,4 @@
-# (Java FX) PathGraph
+1# (Java FX) PathGraph
 
 
 
@@ -283,7 +283,7 @@ PathGraphUI pg = new PathGraphUI(
 
 
 >[!NOTE]
-> Customizable callbacks only with an instance of `PathGraph` because `PathGraphUI`is a ready-to-use configuration.
+> Customizable callbacks **only with an instance of `PathGraph`** because `PathGraphUI`is a ready-to-use configuration.
 
 1. Import package to use callback objects:
 
