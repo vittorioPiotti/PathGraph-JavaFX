@@ -147,7 +147,7 @@ _Able to:_
        <artifactId>PathGraph-JavaFX</artifactId>
        <version>1.0.5</version>
    </dependency>
-
+  ```
 
         
  * Manual configuration:
