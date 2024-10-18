@@ -44,12 +44,13 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  1. [Features](#features)
  2. [Graph Logic](#graph-logic)
  3. [Get Started](#get-started)
- 4. [Usage](#usage)
- 5. [DTO · Data Transfer Object](#data-transfer-object)
- 6. [JSON · Data Management](#json-data-management)
- 7. [Licenses](#licenses)
+ 4. [Ready to Code](#ready-to-code)
+ 5. [Usage](#usage)
+ 6. [DTO · Data Transfer Object](#data-transfer-object)
+ 7. [JSON · Data Management](#json-data-management)
+ 8. [Licenses](#licenses)
 
-[Fork-Based On SmartGraph](#fork-based-on-smartgraph)
+[_Fork-Based On SmartGraph_](#fork-based-on-smartgraph)
 
 
 
@@ -178,6 +179,40 @@ _Able to:_
 &nbsp;
 
 </details>
+
+
+## 3. Ready to Code <div id="ready-to-code"/>
+
+### Import Component
+
+ ```java
+ import com.vittoriopiotti.pathgraph.containers*;
+ ```
+
+### Instance Object
+
+  <strong>PathGraph>  </strong> 
+
+**PathGraph no UI and empty callbacks**
+
+```java
+PathGraph pg = new PathGraph();
+```
+
+**PathGraph no UI with callbacks**
+
+```java`
+PathGraph pg = new PathGraph(
+    (()->{}) ContextMenuCallback,
+    (()->{}) EdgeCallback,
+    ((MouseEvent, Character, Character)->{}) NodeCallback,
+    ((MouseEvent, Character)->{}) BackgroundCallback,
+    (()->{}) AdjustPositionCallback,
+);
+```
+
+
+
 
 
 
