@@ -299,6 +299,36 @@ In both cases are customizable the visibility of the UI and its components only 
 [`Hide UI`](#), [`Show UI`](#), [`Toggle UI`](#), [`Set UI`](#)
 
 
+## 5. Setup  <div id="setup"/>
+
+
+   
+```java
+pg.setup();
+```
+
+
+
+_or_
+
+
+
+```java
+pg.setup().thenRun(() -> {
+
+  /* action to perform on first load */
+  /* e.g. put here components to add onload */
+
+});
+```
+
+
+
+In both cases:
+
+> Setup is required **to enable the use** of library
+
+> To call **only after** called `(Stage) primaryStage.show()`
 
 
 
