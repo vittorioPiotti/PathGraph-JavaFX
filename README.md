@@ -230,7 +230,7 @@ PathGraph pg = new PathGraph(
 In both of cases to set callbacks:
 
 >  1. Import package to use callback objects:
->  2. 
+> 
 >        ```java
 >        import com.vittoriopiotti.pathgraph.callbacks.*;
 >        ```
