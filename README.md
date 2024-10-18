@@ -45,11 +45,12 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
  1. [About](#about)
  2. [Features](#features)
- 3. [Get Started](#get-started)
- 4. [Usage](#usage)
- 5. [DTO · Data Transfer Objects](#data-transfer-object)
- 6. [JSON · Data Management](#json-data-management)
- 7. [Licenses](#licenses)
+ 3. [Graph Logic](#graph-logic)
+ 4. [Get Started](#get-started)
+ 5. [Usage](#usage)
+ 6. [DTO · Data Transfer Objects](#data-transfer-object)
+ 7. [JSON · Data Management](#json-data-management)
+ 8. [Licenses](#licenses)
 
 [Fork-Based On SmartGraph](#fork-based-on-smartgraph)
 
@@ -113,7 +114,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  
 
 
-### Ability to
+## 3. Graph Logic <div id="graph-logic"/>
 
 * Create nodes using only characters with uppercase alphabet letters to maxium 26 nodes
 * Create max two edges with opposite directions beetween both nodes
