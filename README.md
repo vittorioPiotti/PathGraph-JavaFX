@@ -192,8 +192,8 @@ _Able to:_
 ### Instance Object
 
 > [!NOTE]
->  * `PathGraph` to customize your interface
->  * Choise `PathGraphUI`for ready-to-use interface
+>  * `PathGraph` to create your custom interface
+>  * `PathGraphUI`for ready-to-use interface
 
 **PathGraph**
 
