@@ -134,7 +134,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 <details>
   
 <summary>
-  <strong> 1. Requirements</strong>
+   Show XML to copy
 </summary>
 
 &nbsp;
