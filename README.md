@@ -71,10 +71,9 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test5ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
 
-
-
-[`New Node`](#new-node), [`New Edge`](#new-edge), [`Delete Node`](#delete-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost),  [`Upload`](#upload), [`Download`](#download), [`New Node`](#new-node),  [`Delete Node`](#delete-node), [`Rename Node`](#rename-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Set Cost`](#set-cost), [`Split Edge`](#split-edge) , [`Show Path`](#show-path), [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
-    
+[`New Node`](#new-node), [`New Edge`](#new-edge), [`Delete Node`](#delete-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost), [`Upload`](#upload), [`Download`](#download), [`Show Path`](#show-path)
+ 
+ 
 
 
 
