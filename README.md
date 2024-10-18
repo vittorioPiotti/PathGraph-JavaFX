@@ -2,27 +2,18 @@
 
 
 
-> [!CAUTION]
-> Bugs in custom callbacks settings in `PathGraph` but `PathGraphUI` work:
->  * **Cannot** to know the selected edge or node during on-click callback on element 
->  * **Cannot** to use the selcted edge or node to make custom callbacks  
-> 
-> Bugs will be fixed with new callbacks managing system in next update
-> 
-> _Working on 1.0.3_
 
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/socialpreview26.png" alt="Icona" width="100%"/>
 
 
 ---
-  
-PathGraph fork based on [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) is an adapted library to work with path graphs that uses nodes, edges and associated costs.
-Provided to user-friendly interface in a stable user-experience in which manage dynamically the path graphs.
-Ability of find and show the shortest path, make screenshots and upload or download json of the graphs.
+
+Path Graph is a library with all the tools necessary to create and work both path and walk graphs in a stable and simple way.
 
 
-> [!IMPORTANT]
+
+> [!NOTE]
 > Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 
@@ -33,7 +24,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 > <dependency>
 >   <groupId>io.github.vittoriopiotti</groupId>
 >   <artifactId>PathGraph-JavaFX</artifactId>
->   <version>1.0.2</version>
+>   <version>1.0.4</version>
 > </dependency>
 > ```
 
@@ -55,6 +46,11 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 ## 1. About <div id="about"/>
 
 
+
+
+
+
+
 <details>
   
 <summary>
@@ -63,7 +59,7 @@ Ability of find and show the shortest path, make screenshots and upload or downl
 
 &nbsp;
 
-If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated costs, which offers a user-friendly interface to represent, manage, and interact with path graphs, then PathGraph is the right solution for you.
+If you need a ready-to-use library for user-side representing path graphs in which there are nodes, edges, and associated costs, which offers a user-friendly interface to represent, manage, and interact graphs, then this it's the right solution. 
 
 &nbsp;
 
@@ -228,7 +224,7 @@ The user make **Douple Click** or **Right Click** on one of this components of t
 <dependency>
     <groupId>io.github.vittoriopiotti</groupId>
     <artifactId>PathGraph-JavaFX</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.4</version>
 </dependency>
 ```
 
@@ -722,7 +718,7 @@ Currently, the styles and configurations are preset and cannot be modified.
 ## 4. Usage <div id="usage"/>
 
 
-> [!IMPORTANT]
+> [!NOTE]
 > Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 
@@ -1695,7 +1691,7 @@ pg.toggleUI();
 
 ## 5. DTO · Data Transfer Objects <div id="data-transfer-object"/>
  
-> [!IMPORTANT]
+> [!NOTE]
 > Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 
@@ -2025,7 +2021,7 @@ List<ConnectionDTO> lcdto = (
 
 **Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/) 
 
-**Version** [v1.0.0](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.0)
+**Version** [v1.0.4](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.4)
 
 **License** [GPL-3.0](https://github.com/vittorioPiotti/JavaFXPathGraph/blob/master/LICENSE.txt)
 
@@ -2066,20 +2062,6 @@ List<ConnectionDTO> lcdto = (
 This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to specific path graphs features in a stable user interface.
 
 [(See SmartGraph)](https://github.com/brunomnsilva/JavaFXSmartGraph)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
