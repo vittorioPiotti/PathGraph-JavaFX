@@ -280,8 +280,10 @@ PathGraphUI pg = new PathGraphUI(
 
 ### Customize Callbacks
 
-In both cases the calls are the same and each provides the data on which to structure your own customized processing logic:
 
+
+>[!NOTE]
+> Customizable callbacks only with an instance of `PathGraph` because `PathGraphUI`is a ready-to-use configuration.
 
 1. Import package to use callback objects:
 
