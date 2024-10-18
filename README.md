@@ -192,10 +192,12 @@ _Able to:_
 ### Instance Object
 
 > [!NOTE]
-> [**PathGraph`**](#)
+> [**PathGraph**](#)
+> 
 > handles the graph's display and logic independently of the user interface, acting as a standalone component without any user interface restrictions, provifind all necessary features.
 > 
 > [**PathGraphUI**](#)
+> 
 >  extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
 
 **PathGraph with empty callbacks**
