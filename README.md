@@ -194,7 +194,7 @@ _Able to:_
 > [!NOTE]
 > [`PathGraph`](#)  handles the graph's display and logic independently of the user interface, acting as a standalone component without any user interface restrictions, provifind all necessary features.
 > 
-> [`PathGraphUI](#) extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
+> [`PathGraphUI`](#) extends PathGraph to provide a layer on top of the graph management functionalities. It allows for the interaction with the graph through a visual interface over the underlying graph logic.
 
 **PathGraph with empty callbacks**
 
@@ -206,11 +206,52 @@ PathGraph pg = new PathGraph();
 
 ```java
 PathGraph pg = new PathGraph(
-    (()->{}) ContextMenuCallback,
-    (()->{}) EdgeCallback,
-    ((MouseEvent, Character, Character)->{}) NodeCallback,
-    ((MouseEvent, Character)->{}) BackgroundCallback,
-    (()->{}) AdjustPositionCallback,
+    (ContextMenuCallback) ()->{},
+    (EdgeCallback), (MouseEvent e, Character c1, Character c2)->{},
+    (NodeCallback), (MouseEvent e, Character c1, Character c2)->{},
+    (BackgroundCallback) (MouseEvent e)->{}, 
+    (ZoomCallback), (Double n)->{},
+    (AdjustPositionCallback) ()->{}
+);
+```
+
+
+**PathGraphUI with default UI**
+
+```java
+PathGraphUI pg = new PathGraphUI(
+    (Stage) stage,
+    (Scene) scene
+);
+```
+
+
+
+**PathGraphUI with custom UI**
+
+```java
+PathGraphUI pg = new PathGraphUI(
+    (Stage) primaryStage,
+    (Scene) scene,
+    
+    /* is enabled top-left menu */
+    true,
+    
+    /* is enabled bot-left menu */
+    true,
+    
+    /* is enabled bot-mid menu */
+    true,
+    
+    /* is enabled right-mid menu */
+    true,
+    
+    /* is enabled top-right menu */
+    true,
+    
+    /* is hide UI */
+    false
+
 );
 ```
 
