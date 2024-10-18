@@ -303,7 +303,9 @@ In both cases are customizable the visibility of the UI and its components only 
 
 
 > [!NOTE]
-> **To enable the use of library** `setup` must be called **only one time after making stage visible** with `(Stage) stage.show()` 
+> **To enable the use of library** `setup` must be called **only one time after making stage visible** with `(Stage) stage.show()`
+>
+> _Before calling setup, no operations of any kind can be performed on the graph_
 
 
 ```java
