@@ -235,7 +235,7 @@ In both of cases to set callbacks:
 >        import com.vittoriopiotti.pathgraph.callbacks.*;
 >        ```
 >        
-> 3. Call methods to set new callbacks:
+> 3. Call methods from `PathGraph` to set new callbacks passing callback objects:
 >    
 >    [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
