@@ -278,7 +278,7 @@ PathGraphUI pg = new PathGraphUI(
 
 
 
-### Callbacks Setters
+### Customize Callbacks
 
 In both cases the calls are the same and each provides the data on which to structure your own customized processing logic:
 
