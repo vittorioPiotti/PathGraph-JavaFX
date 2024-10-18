@@ -41,14 +41,13 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 ## Index
 
- 1. [About](#about)
- 2. [Features](#features)
- 3. [Graph Logic](#graph-logic)
- 4. [Get Started](#get-started)
- 5. [Usage](#usage)
- 6. [DTO · Data Transfer Objects](#data-transfer-object)
- 7. [JSON · Data Management](#json-data-management)
- 8. [Licenses](#licenses)
+ 1. [Features](#features)
+ 2. [Graph Logic](#graph-logic)
+ 3. [Get Started](#get-started)
+ 4. [Usage](#usage)
+ 5. [DTO · Data Transfer Objects](#data-transfer-object)
+ 6. [JSON · Data Management](#json-data-management)
+ 7. [Licenses](#licenses)
 
 [Fork-Based On SmartGraph](#fork-based-on-smartgraph)
 
@@ -62,7 +61,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 
-## 2. Features <div id="features"/>
+## 1. Features <div id="features"/>
 
 <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/sp.gif" alt="Icona" width="400"/>
 
@@ -103,9 +102,9 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  
 
 
-## 3. Graph Logic <div id="graph-logic"/>
+## 2. Graph Logic <div id="graph-logic"/>
 
-*Limit of 26 Nodes nameable only with uppercase characters
+* Limit of 26 Nodes nameable only with uppercase characters
 * Limit of two edges with opposite directions beetween two nodes
 * Loop creation is not allowed
 * Edge cost is an integer number
@@ -130,7 +129,6 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 &nbsp;
 
-</details>
 
 
 
