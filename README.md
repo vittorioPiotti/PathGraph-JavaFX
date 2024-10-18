@@ -168,14 +168,20 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 
 ### On Graph · PathGraph
 
-The user make **Douple Click** or **Right Click** on one of this components of the  to do:
-| Background| Node | Edge |
-| ------------ | ------------ | ------------ |
+The user **make event on** one of this components of the  to do:
+
+
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/clickBackground.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test7ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test8ui.gif" alt="Icona" width="100%"/>|
-| [New Node](#new-node) | [New Edge](#new-edge) | [Delete Edge](#delete-edge) |
-|  | [Delete Node](#delete-node) | [Rotate Edge](#rotate-edge) |
-|  |  | [Split Edge](#split-edge) |
-|  |  | [Set Cost](#set-cost) |
+| ------------ | ------------ | ------------ |
+| 1| 2 | 3 |
+
+ 1. **On Background:** [`New Node`](#new-node)
+    
+ 3. **On Node:** [`New Edge`](#new-edge), [`Delete Node`](#delete-node), 
+
+ 4. **On Edge:** [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost)
+
+
 
 > Empty callbacks to disable interactions on graph
 
