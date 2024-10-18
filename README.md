@@ -156,8 +156,16 @@ Provided to represent path graphs through nodes, edges, and associated costs wit
 | ------------ | ------------ | ------------ |
 | 1 | 2 | 3 |
 
+ &nbsp;
+
  1. **Work with Json:** [`Upload`](#upload), [`Download`](#download)
+
+ &nbsp;
+ 
  2. **Create Graph:** [`New Node`](#new-node),  [`Delete Node`](#delete-node), [`Rename Node`](#rename-node), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Set Cost`](#set-cost), [`Split Edge`](#split-edge) , [`Show Path`](#show-path)
+
+ &nbsp;
+ 
  3. [`Clear Grap`](#cleargraph),  [`Do Drag`](#dodrag), [`Do Zoom`](#dozoom), [`Take Screenshot`](#screenshot), [`Adjust Position`](#adjustposition)
  
 
