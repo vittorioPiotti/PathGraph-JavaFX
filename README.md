@@ -231,7 +231,7 @@ PathGraphUI pg = new PathGraphUI(
 
 ```java
 PathGraphUI pg = new PathGraphUI(
-    (Stage) primaryStage,
+    (Stage) stage,
     (Scene) scene,
     
     /* is enabled top-left menu */
