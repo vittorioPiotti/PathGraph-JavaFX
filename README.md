@@ -137,7 +137,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 [`PathGraph-JavaFX-1.0.5`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.5/overview)
 
 
-Able to:
+_Able to:_
 
  * POM configuration:
 
