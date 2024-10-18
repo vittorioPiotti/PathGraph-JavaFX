@@ -124,7 +124,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 [`Java-21`](https://www.oracle.com/java/technologies/downloads/#java21), [`JavaFX-22`](https://gluonhq.com/products/javafx/), 
 
-_forward-compatible_
+_Forward-compatible_
 
 ### Dependencies
 
