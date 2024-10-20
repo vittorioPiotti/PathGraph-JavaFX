@@ -26,16 +26,16 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 
 
 > [!NOTE]
-> Read the **Javadoc** for more technicals details: [`PathGraph-JavaFX-1.0.5-javadoc`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
+> Read the **Javadoc** for more technicals details: [`PathGraph-JavaFX-1.0.9-javadoc`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 
 > [!NOTE]
-> Library available on **Maven Central:** [`PathGraph-JavaFX-1.0.5`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.5/overview)
+> Library available on **Maven Central:** [`PathGraph-JavaFX-1.0.9`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.9/overview)
 > ```xml
 > <dependency>
 >   <groupId>io.github.vittoriopiotti</groupId>
 >   <artifactId>PathGraph-JavaFX</artifactId>
->   <version>1.0.5</version>
+>   <version>1.0.9</version>
 > </dependency>
 > ```
 
@@ -122,7 +122,7 @@ _Forward-compatible_
 
 **Import Library**
 
-[`PathGraph-JavaFX-1.0.5`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.5/overview)
+[`PathGraph-JavaFX-1.0.9`](https://central.sonatype.com/artifact/io.github.vittoriopiotti/PathGraph-JavaFX/1.0.9/overview)
 
 
 _Able to:_
@@ -133,14 +133,14 @@ _Able to:_
    <dependency>
        <groupId>io.github.vittoriopiotti</groupId>
        <artifactId>PathGraph-JavaFX</artifactId>
-       <version>1.0.5</version>
+       <version>1.0.9</version>
    </dependency>
    ```
 
         
  * Manual configuration:
    
-   Download and import jar in your module dependencies: [`PathGraph-JavaFX-1.0.5.jar`](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.5)
+   Download and import jar in your module dependencies: [`PathGraph-JavaFX-1.0.9.jar`](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.9)
 
 
 
@@ -156,7 +156,7 @@ _Able to:_
 <dependency>
     <groupId>io.github.vittoriopiotti</groupId>
     <artifactId>PathGraph-JavaFX</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.9</version>
 </dependency>
 <dependency>
     <groupId>org.openjfx</groupId>
