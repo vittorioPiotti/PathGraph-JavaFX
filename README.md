@@ -377,10 +377,10 @@ Graph operations are limited to these contexts:
  * **JavaFX Timers:** Use for delayed, thread-safe execution.
 
 
-### Examples
+## Examples
 
 
-#### PathGraph
+### PathGraph
 
 
 ```java
@@ -451,7 +451,7 @@ public class ExampleOfPathGraph extends Application {
 ```
 
 
-#### PathGraphUI
+### PathGraphUI
 
 ```java
 import javafx.application.Application;
