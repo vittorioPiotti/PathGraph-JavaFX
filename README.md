@@ -2206,6 +2206,8 @@ List<ConnectionDTO> lcdto = (
 
 ### PathGraph
 
+<img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/socialpreview26.png" width="100%"/>
+
 **Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/) 
 
 **Version** [v1.0.4](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.4)
