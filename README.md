@@ -45,7 +45,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  2. [Graph Logic](#graph-logic)
  3. [Get Started](#get-started)
  4. [Ready to Code](#ready-to-code)
- 5. [Examples](#usage)
+ 5. [Examples](#examples)
  6. [DTO · Data Transfer Object](#data-transfer-object)
  7. [JSON · Data Management](#json-data-management)
  8. [Licenses](#licenses)
@@ -374,7 +374,7 @@ Graph operations are limited to these contexts:
  * **JavaFX Timers:** Use for delayed, thread-safe execution.
 
 
-## 5. Examples
+## 5. Examples <div id="examples"/>
 
 
 ### PathGraph
