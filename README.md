@@ -497,12 +497,13 @@ EdgeCallback ec = (event,start,end) ->{
 ```
 
 
+
 >[!TIP]
 > * Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
 >    
 > * Use `event.consume()` to prevent the propagation of the event
-
-
+>
+> * Use the `return status` to feedback errors with a `Modal Dialog` 
 
 
 
