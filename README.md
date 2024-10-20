@@ -471,12 +471,6 @@ public class ExampleOfPathGraphUI extends Application {
    
      [`Set All Callbacks`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Set Context Menu Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setContextMenuCallback(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback)), [`Set Edge Callback`](), [`Set Node Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setNodeCallback(com.vittoriopiotti.pathgraph.callbacks.NodeCallback)), [`Set Background Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setBackgroundCallback(com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback)), [`Set Zoom Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setZoomCallback(com.vittoriopiotti.pathgraph.callbacks.ZoomCallback)), [`Set Adjust Position Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAdjustPositionCallback(com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback))
 
-**Suggestions:**
-
- 1. Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
-
- 2. Use `event.consume()` to prevent the propagation of the event
-
 
 >[!TIP]
 > 1. Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
