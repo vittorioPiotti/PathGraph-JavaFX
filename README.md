@@ -531,9 +531,9 @@ EdgeCallback ec = (event,start,end) ->{
 
 Represent the components of the graph providing a simple and serializable structure that allows for:
 
- * Converting graph data into JSON format
- * Reconstructing graph data from JSON
- * Support structure for graph operations
+ * **Converting graph** data into JSON format
+ * **Reconstructing graph** data from JSON
+ * **Support structure** for graph operations
 
 
 
