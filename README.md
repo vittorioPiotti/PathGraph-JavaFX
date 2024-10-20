@@ -356,8 +356,8 @@ _or_
 ```java
 pg.setup().thenRun(() -> {
 
-  /* action to perform on first load */
-  /* e.g. put here components to add onload, callbacks settings, graph configurations */
+  /* actions to perform on first load */
+  /* e.g. put here components, callbacks settings, graph configurations */
 
 });
 ```
