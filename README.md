@@ -587,7 +587,15 @@ import com.vittoriopiotti.pathgraph.dto.*;
    <strong>Nodes</strong>
 </summary>
 
-
+```json
+{
+  "nodes": [
+    "A",
+    "C",
+    "B"
+  ]
+}
+```
 
 </details>
 
@@ -598,7 +606,24 @@ import com.vittoriopiotti.pathgraph.dto.*;
    <strong>Edges</strong>
 </summary>
 
-
+```json
+{
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "cost": "1",
+      "isArrowed": true
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "cost": "2",
+      "isArrowed": false
+    }
+  ]
+}
+```
 
 </details>
 
@@ -609,7 +634,39 @@ import com.vittoriopiotti.pathgraph.dto.*;
    <strong>Connections</strong>
 </summary>
 
-
+```json
+{
+  "connections": [
+    {
+      "node": "B",
+      "edges": [
+      ]
+    },
+    {
+      "node": "A",
+      "edges": [
+        {
+          "to": "B",
+          "cost": 1
+        },
+        {
+          "to": "C",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "node": "C",
+      "edges": [
+        {
+          "to": "A",
+          "cost": 2
+        }
+      ]
+    }
+  ]
+}
+```
 
 </details>
 
