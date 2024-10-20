@@ -360,6 +360,8 @@ pg.setup().thenRun(() -> {
 });
 ```
 
+### Operational context
+
 
 Graph operations are limited to these contexts:
 
