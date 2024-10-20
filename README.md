@@ -537,9 +537,9 @@ import com.vittoriopiotti.pathgraph.dto.*;
 
 **Usage:**
 
- * **Converting graph** data into JSON format
- * **Reconstructing graph** data from JSON
- * **Support structure** for graph operations
+ * Converting graph data into JSON format
+ * Reconstructing graph data from JSON
+ * Support structure for graph operations
 
 
 
@@ -547,6 +547,11 @@ import com.vittoriopiotti.pathgraph.dto.*;
 
 ## 8. JSON · Data Management <div id="json-data-management"/>
 
+Available operations with json:
+
+[`Get Nodes Json`](#), [`Get Edges Json`](#), [`Get Connections Json`](#), [`Get Graph Json`](#), [`Upload Json`](#), [`Download Json`](#)
+
+Json structure:
 
 ```json
 {
@@ -569,7 +574,7 @@ import com.vittoriopiotti.pathgraph.dto.*;
       "to": "C",
       "cost": 2,
       "isArrowed": false
-    },
+    }
   ]
 }
 ```
