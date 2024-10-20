@@ -114,7 +114,7 @@ _Forward-compatible_
 
 ### Dependencies
 
-**Import External Dipendencies**
+**Import External Dependencies**
 
 [`JavaFX-Swing-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-swing/22), ​[`JavaFX-Controls-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-controls/22), ​ [`JavaFX-FXML-22`](https://mvnrepository.com/artifact/org.openjfx/javafx-fxml/22)
 
@@ -138,14 +138,14 @@ _Able to:_
         
  * Manual configuration:
    
-   Download and import jar in your module dipendencies: [`PathGraph-JavaFX-1.0.5.jar`](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.5)
+   Download and import jar in your module dependencies: [`PathGraph-JavaFX-1.0.5.jar`](https://github.com/vittorioPiotti/PathGraph-JavaFX/releases/tag/1.0.5)
 
 
 
 <details>
   
 <summary>
-   <strong>Show POM.xml dipendencies</strong>
+   <strong>Show POM.xml dependencies</strong>
 </summary>
 
 &nbsp;
