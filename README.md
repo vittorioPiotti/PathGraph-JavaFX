@@ -235,9 +235,12 @@ In both cases customizable callbacks only with an instance of `PathGraph` _(`Pat
       import com.vittoriopiotti.pathgraph.callbacks.*;
       ```
       
-3. Call setter methods to apply new callbacks passing callback objects:
+2. Call setter methods to apply new callbacks passing callback objects:
    
      [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
+
+_During the interactions on graph it's suggested the use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions_
+
 
 <details>
   
@@ -257,7 +260,6 @@ EdgeCallback ec = (event,start,end) ->{
         );
     }else if (event.getButton() == MouseButton.PRIMARY) {
         if (event.getClickCount() == 2) {
-
             System.out.println(
                     pg.deleteEdge(start,end) ?
                             "delete edge successfully" :
