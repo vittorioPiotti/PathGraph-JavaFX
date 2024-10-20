@@ -186,7 +186,7 @@ _Able to:_
 ### Import Component
 
  ```java
- import com.vittoriopiotti.pathgraph.containers.*;
+ import com.vittoriopiotti.pathgraph.app.*;
  ```
 
 ### Instance Object
@@ -226,59 +226,6 @@ PathGraph pg = new PathGraph(
 
 > With callbacks
 
-
-In both cases customizable callbacks only with an instance of `PathGraph` _(`PathGraphUI`is a ready-to-use configuration)._
-
-1. Import package to use callback objects:
-
-      ```java
-      import com.vittoriopiotti.pathgraph.callbacks.*;
-      ```
-      
-2. Call setter methods to apply new callbacks passing callback objects:
-   
-     [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
-
-During the interactions on graph it's suggested:
-
- 1. Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
-
- 2. Use `event.consume()` to prevent the propagation of the event
-
-
-
-
-<details>
-  
-<summary>
-   Show an example of callback usage
-</summary>
-
-
-
-```java
-EdgeCallback ec = (event,start,end) ->{
-    if (event.getButton() == MouseButton.SECONDARY) {
-        System.out.println(
-                pg.rotateEdge(start,end) ?
-                        "rotate edge successfully" :
-                        "rotate edge  error"
-        );
-    }else if (event.getButton() == MouseButton.PRIMARY) {
-        System.out.println(
-                pg.deleteEdge(start,end) ?
-                        "delete edge successfully" :
-                        "delete edge error"
-        );
-    }
-    event.consume();
-};
-
-(PathGraph) pg.setEdgeCallback(ec);
-```
-
-
-</details>
 
 
 
@@ -514,7 +461,62 @@ In future versions will be optimized the management of configurations and styles
 Currently, the styles and configurations are preset and cannot be modified.
 
 
+### 5 Callbacks <div id="callbacks"/>
 
+
+
+In both cases customizable callbacks only with an instance of `PathGraph` _(`PathGraphUI`is a ready-to-use configuration)._
+
+1. Import package to use callback objects:
+
+      ```java
+      import com.vittoriopiotti.pathgraph.callbacks.*;
+      ```
+      
+2. Call setter methods to apply new callbacks passing callback objects:
+   
+     [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
+
+During the interactions on graph it's suggested:
+
+ 1. Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
+
+ 2. Use `event.consume()` to prevent the propagation of the event
+
+
+
+
+<details>
+  
+<summary>
+   Show an example of callback usage
+</summary>
+
+
+
+```java
+EdgeCallback ec = (event,start,end) ->{
+    if (event.getButton() == MouseButton.SECONDARY) {
+        System.out.println(
+                pg.rotateEdge(start,end) ?
+                        "rotate edge successfully" :
+                        "rotate edge  error"
+        );
+    }else if (event.getButton() == MouseButton.PRIMARY) {
+        System.out.println(
+                pg.deleteEdge(start,end) ?
+                        "delete edge successfully" :
+                        "delete edge error"
+        );
+    }
+    event.consume();
+};
+
+(PathGraph) pg.setEdgeCallback(ec);
+```
+
+
+</details>
 
 
 ## 5. DTO · Data Transfer Objects <div id="data-transfer-object"/>
