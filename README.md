@@ -239,7 +239,13 @@ In both cases customizable callbacks only with an instance of `PathGraph` _(`Pat
    
      [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
-_During the interactions on graph it's suggested the use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions_
+During the interactions on graph it's suggested:
+
+ 1. Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
+
+ 2. Use `event.consume()`to prevent the propagation of the event
+
+
 
 
 <details>
@@ -265,6 +271,7 @@ EdgeCallback ec = (event,start,end) ->{
                         "delete edge error"
         );
     }
+    event.consume();
 };
 
 (PathGraph) pg.setEdgeCallback(ec);
