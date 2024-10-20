@@ -512,7 +512,7 @@ EdgeCallback ec = (event,start,end) ->{
 ## 7. DTO · Data Transfer Objects <div id="data-transfer-object"/>
  
 > [!NOTE]
-> Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
+> Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/dto/package-summary.html)
 
 
 Providing to rappresent graph components in a simple and serializable structure.
