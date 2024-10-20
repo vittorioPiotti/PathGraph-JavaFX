@@ -259,13 +259,11 @@ EdgeCallback ec = (event,start,end) ->{
                         "rotate edge  error"
         );
     }else if (event.getButton() == MouseButton.PRIMARY) {
-        if (event.getClickCount() == 2) {
-            System.out.println(
-                    pg.deleteEdge(start,end) ?
-                            "delete edge successfully" :
-                            "delete edge error"
-            );
-        }
+        System.out.println(
+                pg.deleteEdge(start,end) ?
+                        "delete edge successfully" :
+                        "delete edge error"
+        );
     }
 };
 
