@@ -527,12 +527,15 @@ EdgeCallback ec = (event,start,end) ->{
 > Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
 
 
+Providing to rappresent graph components in a simple and serializable structure.
+
+**Import package:**
 
 ```java
 import com.vittoriopiotti.pathgraph.dto.*;
 ```
 
-Represent the components of the graph providing a simple and serializable structure that allows for:
+**Usage:**
 
  * **Converting graph** data into JSON format
  * **Reconstructing graph** data from JSON
