@@ -360,7 +360,13 @@ pg.setup().thenRun(() -> {
 });
 ```
 
+**Operations Context**
 
+Graph operations are limited to these contexts:
+
+ * pg.setup().thenRun(): Ensures execution post-initialization.
+ * Event Handlers: Safe within JavaFX event actions.
+ * JavaFX Timers: Use for delayed, thread-safe execution.
 
 
 
