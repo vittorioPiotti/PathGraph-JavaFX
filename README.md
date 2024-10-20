@@ -20,7 +20,7 @@ If you need a ready-to-use library for user-side representing path graphs in whi
 
 **Fork-Based Project**
 
-This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmart) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmart/releases/tag/v2.0.0). It is modified to suite in specific path graphs features in a stable interface.
+This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0). It is modified to suite in specific path graphs features in a stable interface.
 
 ---
 
@@ -49,7 +49,8 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  6. [Callbacks](#callbacks)
  7. [DTO · Data Transfer Object](#data-transfer-object)
  8. [JSON · Data Management](#json-data-management)
- 9. [Licenses](#licenses)
+ 9. [Configuration and Styling](#configurations-and-styling)
+ 10. [Licenses](#licenses)
 
 [_Fork-Based On SmartGraph_](#fork-based-on-smartgraph)
 
@@ -72,11 +73,11 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 | ------------ | ------------ | ------------ |
 | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test5ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test1ui.gif" alt="Icona" width="100%"/> | <img src="https://github.com/vittorioPiotti/PathGraph-ForkBased/blob/master/github/test4ui.gif" alt="Icona" width="100%"/>|
 
- * **Nodes:** [`New Node`](#new-node), [`Rename Node`](#rename-node), [`Delete Node`](#delete-node)
+ * **Nodes:** [`New Node`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#newNode()), [`Rename Node`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#renameNode(char,char)), [`Delete Node`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#deleteNode(char))
    
- * **Edges:** [`New Edge`](#new-edge), [`Delete Edge`](#delete-edge), [`Rotate Edge`](#rotate-edge), [`Split Edge`](#split-edge), [`Set Cost`](#set-cost)
+ * **Edges:** [`New Edge`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#newEdge()), [`Delete Edge`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#deleteEdge(char)), [`Rotate Edge`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#rotateEdge(char,char)), [`Split Edge`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#splitEdge(char,char)), [`Set Cost`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setCost(char,char,int))
    
- * **Graph:** [`Upload JSON`](#upload), [`Download JSON`](#download), [`Clear Graph`](#clear-graph), [`Show Path`](#show-path), [`Take Screenshot`](#take-screenshot), [`Drag`](#drag), [`Zoom`](#zoom)
+ * **Graph:** [`Upload JSON`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#uploadJSON(java.io.File)), [`Download JSON`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#downloadJSON(java.io.File)), [`Clear Graph`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#clearGraph()), [`Show Path`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraphUI.html#showUI()), [`Take Screenshot`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#takeScreenshot()), [`Drag`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#takeScreenshot()), [`Zoom`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#takeScreenshot())
  
  
 
@@ -94,7 +95,7 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
 * Limit of two edges with opposite directions beetween two nodes
 * Loop creation is not allowed
 * Edge cost is an integer number
-* Edge directions can be: [`Bidirected`](#), [`Natural Direction`](#), [`Opposite Direction`](#)
+* Edge directions can be: [`Bidirectional`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/Constants.html#BIDIRECTIONAL), [`Natural Direction`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/Constants.html#BIDIRECTIONAL), [`Opposite Direction`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/Constants.html#BIDIRECTIONAL)
 
 
 
@@ -217,10 +218,10 @@ _or_
 ```java
 PathGraph pg = new PathGraph(
     (ContextMenuCallback) ()->{},
-    (EdgeCallback), (MouseEvent e, Character c1, Character c2)->{},
-    (NodeCallback), (MouseEvent e, Character c1, Character c2)->{},
+    (EdgeCallback) (MouseEvent e, Character c1, Character c2)->{},
+    (NodeCallback) (MouseEvent e, Character c1, Character c2)->{},
     (BackgroundCallback) (MouseEvent e)->{}, 
-    (ZoomCallback), (Double n)->{},
+    (ZoomCallback) (Double n)->{},
     (AdjustPositionCallback) ()->{}
 );
 ```
@@ -284,7 +285,7 @@ PathGraphUI pg = new PathGraphUI(
 
 In both cases are customizable the visibility of the UI and its components only with an instance of `PathGraphUI`:
 
-[`Hide UI`](#), [`Show UI`](#), [`Toggle UI`](#), [`Set UI`](#)
+[`Hide UI`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraphUI.html#hideUI()), [`Show UI`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraphUI.html#hideUI()), [`Toggle UI`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraphUI.html#hideUI()), [`Set UI`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraphUI.html#hideUI())
 
 
 ### Setup  <div id="setup"/>
@@ -453,15 +454,6 @@ public class ExampleOfPathGraphUI extends Application {
 ```
 
 
-
- Configuration and Styling
-
-
-In future versions will be optimized the management of configurations and styles similar to the original project of the fork [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling).
-
-Currently, the styles and configurations are preset and cannot be modified.
-
-
 ## 6. Callbacks <div id="callbacks"/>
 
 >[!NOTE]
@@ -477,7 +469,7 @@ Currently, the styles and configurations are preset and cannot be modified.
       
 2. Call setter methods to apply new callbacks passing callback objects:
    
-     [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
+     [`Set All Callbacks`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Set Context Menu Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Set Edge Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Set Node Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Set Background Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Set Zoom Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Set Adjust Position Callback`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback))
 
 **Suggestions:**
 
@@ -549,7 +541,7 @@ import com.vittoriopiotti.pathgraph.dto.*;
 
 ### Methods
 
-[`Get Nodes Json`](#), [`Get Edges Json`](#), [`Get Connections Json`](#), [`Get Graph Json`](#), [`Upload Json`](#), [`Download Json`](#)
+[`Get Nodes Json`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Get Edges Json`](), [`Get Connections Json`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Get Graph Json`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Upload Json`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback)), [`Download Json`](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/latest/com.vittoriopiotti.pathgraph/com/vittoriopiotti/pathgraph/app/PathGraph.html#setAllCallbacks(com.vittoriopiotti.pathgraph.callbacks.ContextMenuCallback,com.vittoriopiotti.pathgraph.callbacks.EdgeCallback,com.vittoriopiotti.pathgraph.callbacks.NodeCallback,com.vittoriopiotti.pathgraph.callbacks.BackgroundCallback,com.vittoriopiotti.pathgraph.callbacks.ZoomCallback,com.vittoriopiotti.pathgraph.callbacks.AdjustPositionCallback))
 
 ### Structure
 
@@ -670,7 +662,19 @@ import com.vittoriopiotti.pathgraph.dto.*;
 
 </details>
 
-## 9. Licenses <div id="licenses"/>
+
+
+
+## 9. Configuration and Styling <div id="configurations-and-styling"/>
+
+
+In future versions will be optimized the management of configurations and styles similar to the original project of the fork [(see)](https://github.com/brunomnsilva/JavaFXSmartGraph#configuration-and-styling).
+
+Currently, the styles and configurations are preset and cannot be modified.
+
+
+
+## 10. Licenses <div id="licenses"/>
 
 
 > [!NOTE]
