@@ -239,6 +239,39 @@ In both cases customizable callbacks only with an instance of `PathGraph` _(`Pat
    
      [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
+<details>
+  
+<summary>
+   Show an example of Callbacks Usage
+</summary>
+
+
+
+```java
+EdgeCallback ec = (event,start,end) ->{
+    if (event.getButton() == MouseButton.SECONDARY) {
+        System.out.println(
+                pg.rotateEdge(start,end) ?
+                        "rotate edge successfully" :
+                        "rotate edge  error"
+        );
+    }else if (event.getButton() == MouseButton.PRIMARY) {
+        if (event.getClickCount() == 2) {
+
+            System.out.println(
+                    pg.deleteEdge(start,end) ?
+                            "delete edge successfully" :
+                            "delete edge error"
+            );
+        }
+    }
+};
+
+(PathGraph) pg.setEdgeCallback(ec);
+```
+
+
+</details>
 
 
 
@@ -294,7 +327,7 @@ PathGraphUI pg = new PathGraphUI(
 
 
 
-In both cases are customizable the visibility of the UI and its components only with an instance of `PathGraph`:
+In both cases are customizable the visibility of the UI and its components only with an instance of `PathGraphUI`:
 
 [`Hide UI`](#), [`Show UI`](#), [`Toggle UI`](#), [`Set UI`](#)
 
