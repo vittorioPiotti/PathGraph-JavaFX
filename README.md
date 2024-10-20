@@ -149,7 +149,7 @@ _Able to:_
    <strong>Show POM.xml dependencies</strong>
 </summary>
 
-&nbsp;
+
 
 ```xml
 <dependency>
@@ -177,7 +177,7 @@ _Able to:_
 ```
 
 
-&nbsp;
+
 
 </details>
 
@@ -547,11 +547,13 @@ import com.vittoriopiotti.pathgraph.dto.*;
 
 ## 8. JSON · Data Management <div id="json-data-management"/>
 
-Available operations with json:
+### Methods
 
 [`Get Nodes Json`](#), [`Get Edges Json`](#), [`Get Connections Json`](#), [`Get Graph Json`](#), [`Upload Json`](#), [`Download Json`](#)
 
-Json structure:
+### Structure
+
+**Graph**
 
 ```json
 {
@@ -578,6 +580,38 @@ Json structure:
   ]
 }
 ```
+
+<details>
+  
+<summary>
+   <strong>Nodes</strong>
+</summary>
+
+
+
+</details>
+
+
+<details>
+  
+<summary>
+   <strong>Edges</strong>
+</summary>
+
+
+
+</details>
+
+
+<details>
+  
+<summary>
+   <strong>Connections</strong>
+</summary>
+
+
+
+</details>
 
 ## 9. Licenses <div id="licenses"/>
 
