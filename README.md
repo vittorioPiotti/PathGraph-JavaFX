@@ -242,7 +242,7 @@ In both cases customizable callbacks only with an instance of `PathGraph` _(`Pat
 <details>
   
 <summary>
-   Show an example of Callbacks Usage
+   Show an example of callback usage
 </summary>
 
 
