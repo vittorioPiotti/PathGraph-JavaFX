@@ -733,7 +733,7 @@ Currently, the styles and configurations are preset and cannot be modified.
 
 This library is a fork based on the source code of the [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph) [v2.0.0](https://github.com/brunomnsilva/JavaFXSmartGraph/releases/tag/v2.0.0) library on which existing classes have been modified and new ones have been added. PathGraph is therefore the adaptation of SmartGraph to specific path graphs features in a stable user interface.
 
-[(See SmartGraph)](https://github.com/brunomnsilva/JavaFXSmartGraph)
+[_See SmartGraph_](https://github.com/brunomnsilva/JavaFXSmartGraph)
 
 
 
