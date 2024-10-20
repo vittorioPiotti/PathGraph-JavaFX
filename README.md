@@ -528,6 +528,9 @@ EdgeCallback ec = (event,start,end) ->{
 
 
 
+```java
+import com.vittoriopiotti.pathgraph.dto.*;
+```
 
 Represent the components of the graph providing a simple and serializable structure that allows for:
 
