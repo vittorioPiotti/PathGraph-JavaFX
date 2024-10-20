@@ -459,7 +459,7 @@ public class ExampleOfPathGraphUI extends Application {
 >[!NOTE]
 > Customizable callbacks only with an instance of `PathGraph` _(`PathGraphUI`is a ready-to-use configuration)._
 
-**Configuration:**
+**Usage:**
 
 1. Import package to use callback objects:
 
