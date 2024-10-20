@@ -45,10 +45,11 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  2. [Graph Logic](#graph-logic)
  3. [Get Started](#get-started)
  4. [Ready to Code](#ready-to-code)
- 5. [Examples](#examples)
- 6. [DTO · Data Transfer Object](#data-transfer-object)
- 7. [JSON · Data Management](#json-data-management)
- 8. [Licenses](#licenses)
+ 6. [Examples](#examples)
+ 7. [Callbacks](#callbacks)
+ 8. [DTO · Data Transfer Object](#data-transfer-object)
+ 9. [JSON · Data Management](#json-data-management)
+ 10. [Licenses](#licenses)
 
 [_Fork-Based On SmartGraph_](#fork-based-on-smartgraph)
 
@@ -461,11 +462,12 @@ In future versions will be optimized the management of configurations and styles
 Currently, the styles and configurations are preset and cannot be modified.
 
 
-### 5 Callbacks <div id="callbacks"/>
+## 5. Callbacks <div id="callbacks"/>
 
+>[!NOTE]
+> Customizable callbacks only with an instance of `PathGraph` _(`PathGraphUI`is a ready-to-use configuration)._
 
-
-In both cases customizable callbacks only with an instance of `PathGraph` _(`PathGraphUI`is a ready-to-use configuration)._
+**Configuration:**
 
 1. Import package to use callback objects:
 
@@ -477,7 +479,7 @@ In both cases customizable callbacks only with an instance of `PathGraph` _(`Pat
    
      [`Set All Callbacks`](#), [`Set Context Menu Callback`](#), [`Set Edge Callback`](#), [`Set Node Callback`](#), [`Set Background Callback`](#), [`Set Zoom Callback`](#), [`Set Adjust Position Callback`](#)
 
-During the interactions on graph it's suggested:
+**Suggestions:**
 
  1. Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
 
@@ -489,7 +491,7 @@ During the interactions on graph it's suggested:
 <details>
   
 <summary>
-   Show an example of callback usage
+   <strong>Show an example of callback usage</strong>
 </summary>
 
 
