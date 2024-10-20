@@ -367,9 +367,6 @@ pg.setup().thenRun(() -> {
 });
 ```
 
-### Operational context
-
-
 Graph operations are limited to these contexts:
 
  * **Setup:** ensures execution post-initialization in `pg.setup().thenRun(()->{})`.
@@ -377,7 +374,7 @@ Graph operations are limited to these contexts:
  * **JavaFX Timers:** Use for delayed, thread-safe execution.
 
 
-## Examples
+## 5. Examples
 
 
 ### PathGraph
@@ -455,6 +452,9 @@ public class ExampleOfPathGraph extends Application {
 
 
 ### PathGraphUI
+
+Ready-to-use configuration with default UI.
+
 
 ```java
 import javafx.application.Application;
