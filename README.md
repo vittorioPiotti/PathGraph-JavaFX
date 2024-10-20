@@ -498,9 +498,9 @@ EdgeCallback ec = (event,start,end) ->{
 
 
 >[!TIP]
-> 1. Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
+> * Use of a `ContextMenu` with custom `MenuItem` or `Button` to perform the actions
 >    
-> 2. Use `event.consume()` to prevent the propagation of the event
+> * Use `event.consume()` to prevent the propagation of the event
 
 
 
