@@ -382,6 +382,9 @@ Graph operations are limited to these contexts:
 
 ### PathGraph
 
+Vanilla configurations to use in your project in which create your custom UI.
+
+
 
 ```java
 import javafx.application.Application;
