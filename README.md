@@ -45,11 +45,11 @@ This library is a fork based on the source code of the [SmartGraph](https://gith
  2. [Graph Logic](#graph-logic)
  3. [Get Started](#get-started)
  4. [Ready to Code](#ready-to-code)
- 6. [Examples](#examples)
- 7. [Callbacks](#callbacks)
- 8. [DTO · Data Transfer Object](#data-transfer-object)
- 9. [JSON · Data Management](#json-data-management)
- 10. [Licenses](#licenses)
+ 5. [Examples](#examples)
+ 6. [Callbacks](#callbacks)
+ 7. [DTO · Data Transfer Object](#data-transfer-object)
+ 8. [JSON · Data Management](#json-data-management)
+ 9. [Licenses](#licenses)
 
 [_Fork-Based On SmartGraph_](#fork-based-on-smartgraph)
 
@@ -462,7 +462,7 @@ In future versions will be optimized the management of configurations and styles
 Currently, the styles and configurations are preset and cannot be modified.
 
 
-## 5. Callbacks <div id="callbacks"/>
+## 6. Callbacks <div id="callbacks"/>
 
 >[!NOTE]
 > Customizable callbacks only with an instance of `PathGraph` _(`PathGraphUI`is a ready-to-use configuration)._
@@ -521,7 +521,7 @@ EdgeCallback ec = (event,start,end) ->{
 </details>
 
 
-## 5. DTO · Data Transfer Objects <div id="data-transfer-object"/>
+## 7. DTO · Data Transfer Objects <div id="data-transfer-object"/>
  
 > [!NOTE]
 > Read the **Javadoc** for more technicals details: [(see)](https://javadoc.io/doc/io.github.vittoriopiotti/PathGraph-JavaFX/spring-core)
@@ -539,7 +539,7 @@ Represent the components of the graph providing a simple and serializable struct
 
 
 
-## 6. JSON · Data Management <div id="json-data-management"/>
+## 8. JSON · Data Management <div id="json-data-management"/>
 
 
 ```json
@@ -568,7 +568,7 @@ Represent the components of the graph providing a simple and serializable struct
 }
 ```
 
-## 7. Licenses <div id="licenses"/>
+## 9. Licenses <div id="licenses"/>
 
 
 > [!NOTE]
