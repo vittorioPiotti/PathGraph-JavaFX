@@ -355,7 +355,7 @@ _or_
 pg.setup().thenRun(() -> {
 
   /* actions to perform on first load */
-  /* e.g. put here components, callbacks settings, graph configurations */
+  /* e.g. put here components, callbacks setting, graph configurations */
 
 });
 ```
