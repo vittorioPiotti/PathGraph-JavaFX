@@ -377,7 +377,129 @@ Graph operations are limited to these contexts:
  * **JavaFX Timers:** Use for delayed, thread-safe execution.
 
 
+### Examples
 
+
+#### PathGraph
+
+
+```java
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scene.layout.BorderPane;
+import com.vittoriopiotti.pathgraph.app.PathGraph;
+
+public class ExampleOfPathGraph extends Application {
+
+    @Override
+    public void start(Stage primaryStage) {
+
+        /* 1. Create javafx window */
+        BorderPane root = new BorderPane();
+        Scene scene = new Scene(root,500,300);
+        primaryStage.setScene(scene);
+
+        /* 2. Show primary stage */
+        primaryStage.show();
+
+        /* 3. Instance object */
+        PathGraph pg = new PathGraph();
+
+        /* 4. Add PathGraph in a container */
+        root.setCenter(pg);
+
+        /* 6. Setup */
+        pg.setup().thenRun(() -> {
+
+            /* 5. Custom configurations  */
+            pg.enableListenersGraph(true);
+            pg.enableListenersPane(true);
+            pg.setAutomaticLayout(true);
+
+            /* Set callbacks */
+            pg.setBackgroundCallback(event -> {
+                pg.newNode();
+                event.consume();
+            });
+            pg.setNodeCallback((event,label) -> {
+                pg.newEdge(label);
+                event.consume();
+            });
+            pg.setEdgeCallback((event,start,end) -> {
+                pg.deleteEdge(start,end);
+                event.consume();
+            });
+            
+            /* 7. Make Graphs */
+            pg.newNode('A');
+            pg.newNode('B');
+            pg.newNode('C');
+            pg.newEdge('A', 'B', 1);
+            pg.newEdge('C', 'A', 2, false);
+
+        });
+
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+
+}
+
+```
+
+
+#### PathGraphUI
+
+```java
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scene.layout.BorderPane;
+import com.vittoriopiotti.pathgraph.app.PathGraphUI;
+
+public class ExampleOfPathGraphUI extends Application {
+
+    @Override
+    public void start(Stage primaryStage) {
+
+        /* 1. Create javafx window */
+        BorderPane root = new BorderPane();
+        Scene scene = new Scene(root,500,300);
+        primaryStage.setScene(scene);
+
+        /* 2. Show primary stage */
+        primaryStage.show();
+
+        /* 3. Instance object */
+        PathGraphUI pg = new PathGraphUI(primaryStage,scene);
+
+        /* 4. Add PathGraph in a container */
+        root.setCenter(pg);
+
+        /* 5. Setup */
+        pg.setup().thenRun(() -> {
+
+            /* 6. Make Graphs */
+            pg.newNode('A');
+            pg.newNode('B');
+            pg.newNode('C');
+            pg.newEdge('A', 'B', 1);
+            pg.newEdge('C', 'A', 2, false);
+
+        });
+
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+
+}
+
+```
 
 ## 3. Get Started <div id="get-started2"/>
 
