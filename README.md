@@ -612,13 +612,13 @@ import com.vittoriopiotti.pathgraph.dto.*;
     {
       "from": "A",
       "to": "B",
-      "cost": "1",
+      "cost": 1,
       "isArrowed": true
     },
     {
       "from": "C",
       "to": "A",
-      "cost": "2",
+      "cost": 2,
       "isArrowed": false
     }
   ]
